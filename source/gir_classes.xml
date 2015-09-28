@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<classes>
+	<class name="pres_1">
+		u0A95
+		u0A97
+		u0AA4
+		u0AA4
+		u0AA6
+		u0AA6
+		u0AA6
+		0AB7
+		0AB7
+	</class>
+	<class name="pres_2">
+		u0A95
+		u0AA8
+		u0AA4
+		u0AA8
+		u0AA8
+		u0AAE
+		u0AAF
+		0A9F
+		0AA0
+	</class>
+	<class name="pres_out">
+		u0A95.pres
+		u0A97_u0AA8.pres
+		u0AA4.pres
+		u0AA4_u0AA8.pres
+		u0AA6_u0AA8.pres
+		u0AA6_u0AAE.pres
+		u0AA6_u0AAF.pres
+		u0AB7_u0A9F.pres
+		u0AB7_u0AA0.pres
+	</class>
+</classes>
