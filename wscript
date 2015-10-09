@@ -29,11 +29,12 @@ stylesName = ('Regular', 'Bold', 'Italic')
 
 # set build parameters
 fontbase = 'source/'
+tag = script.upper()
 
 for f in faces:
     for (s, sn) in zip(styles, stylesName):
-        font(target = process(script.title() + f + s + '.ttf',
-                name(script.upper() + ' ' + f, lang='en-US', subfamily=(sn))
+        font(target = process(tag + f + '-' + sn + '.ttf',
+                name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
             sfd_master = fontbase + 'master.sfd',
