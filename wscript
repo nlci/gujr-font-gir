@@ -44,7 +44,7 @@ for f in faces:
             #    make_params = '-p 1 -s 2 -l first',
             #    params = '-d -v2'
             #    ),
-            #classes = fontbase + 'vayalar_classes.xml',
+            #classes = fontbase + 'gir_classes.xml',
             ap = f + s + '.xml',
             version = TTF_VERSION,
             copyright = COPYRIGHT,
