@@ -11098,7 +11098,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0AC8
-Encoding: 271 -1 271
+Encoding: 271 2760 271
 Width: 11
 Flags: HW
 AnchorPoint: "abv" -263 518 mark 0
@@ -11160,7 +11160,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0AC9.top
-Encoding: 273 2760 273
+Encoding: 273 -1 273
 Width: 11
 Flags: HW
 AnchorPoint: "abv" -231 511 mark 0
@@ -11263,7 +11263,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 255 2750 N 1 0 0 1 0 0 0
-Refer: 271 -1 N 1 0 0 1 201 0 0
+Refer: 271 2760 N 1 0 0 1 201 0 0
 EndChar
 
 StartChar: u0ACD

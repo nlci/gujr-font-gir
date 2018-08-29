@@ -4179,7 +4179,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 105 2693 N 1 0 0 1 0 0 0
-Refer: 273 2760 N 1 0 0 1 715 0 0
+Refer: 273 -1 N 1 0 0 1 715 0 0
 EndChar
 
 StartChar: u0A8F
@@ -4199,7 +4199,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 105 2693 N 1 0 0 1 0 0 0
-Refer: 271 -1 N 1 0 0 1 715 0 0
+Refer: 271 2760 N 1 0 0 1 715 0 0
 EndChar
 
 StartChar: u0A91
@@ -4210,7 +4210,7 @@ LayerCount: 2
 Fore
 Refer: 105 2693 N 1 0 0 1 0 0 0
 Refer: 255 2750 N 1 0 0 1 715 0 0
-Refer: 273 2760 N 1 0 0 1 917 0 0
+Refer: 273 -1 N 1 0 0 1 917 0 0
 EndChar
 
 StartChar: u0A93
@@ -4232,7 +4232,7 @@ LayerCount: 2
 Fore
 Refer: 105 2693 N 1 0 0 1 0 0 0
 Refer: 255 2750 N 1 0 0 1 715 0 0
-Refer: 271 -1 N 1 0 0 1 917 0 0
+Refer: 271 2760 N 1 0 0 1 917 0 0
 EndChar
 
 StartChar: u0A95
@@ -8408,7 +8408,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0AC8
-Encoding: 65648 -1 271
+Encoding: 2760 2760 271
 Width: 11
 Flags: HW
 AnchorPoint: "a" -263 518 mark 0
@@ -8469,7 +8469,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0AC9.top
-Encoding: 2760 2760 273
+Encoding: 2760 -1 273
 Width: 11
 Flags: HW
 AnchorPoint: "a" -231 511 mark 0
@@ -8496,7 +8496,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 255 2750 N 1 0 0 1 0 0 0
-Refer: 273 2760 N 1 0 0 1 201 0 0
+Refer: 273 -1 N 1 0 0 1 201 0 0
 EndChar
 
 StartChar: u0ACB
@@ -8516,7 +8516,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 255 2750 N 1 0 0 1 0 0 0
-Refer: 271 -1 N 1 0 0 1 201 0 0
+Refer: 271 2760 N 1 0 0 1 201 0 0
 EndChar
 
 StartChar: u0ACD
