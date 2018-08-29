@@ -1,0 +1,9 @@
+RenderingUnknown
+Lookups ending with the digit 2 are only in the OpenType shaper
+newer gjr2, not the older gujr.
+
+fea
+\u0a95\u0ac7
+\u0a96\u0ac7\u0aa4\u0ac0
+ot spec examples
+\u0ab0\u0acd\u0a95\u0abc\u0acd\u0a95\u0acd\u0ab7\u0acd\u0ab0\u0abf\u0ac5
