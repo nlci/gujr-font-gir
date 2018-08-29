@@ -1,0 +1,297 @@
+languagesystem DFLT dflt;
+languagesystem gujr dflt;
+
+
+# GSUB
+
+
+lookup akhnAkhandinGujaratilookup0 {
+  lookupflag 0;
+    sub \u0A95 \u0ACD \u0AB7  by \u0A95_u0AB7.akhn;
+    sub \u0A9C \u0ACD \u0A9E  by \u0A9C_u0A9E.akhn;
+} akhnAkhandinGujaratilookup0;
+
+lookup rphfRephForminGujaratilookup1 {
+  lookupflag 0;
+    sub \u0AB0 \u0ACD  by \u0AB0_u0ACD;
+} rphfRephForminGujaratilookup1;
+
+lookup blwfBelowBaseFormsinGujaratilookup2 {
+  lookupflag 0;
+    sub \u0AB0 \u0ACD  by \u0ACD_u0AB0;
+} blwfBelowBaseFormsinGujaratilookup2;
+
+lookup vatuVattuVariantsinGujaratilookup3 {
+  lookupflag 0;
+    sub \u0A95 \u0ACD_u0AB0  by \u0A95.vatu;
+    sub \u0A96 \u0ACD_u0AB0  by \u0A96.vatu;
+    sub \u0A97 \u0ACD_u0AB0  by \u0A97.vatu;
+    sub \u0A98 \u0ACD_u0AB0  by \u0A98.vatu;
+    sub \u0A9A \u0ACD_u0AB0  by \u0A9A.vatu;
+    sub \u0A9C \u0ACD_u0AB0  by \u0A9C.vatu;
+    sub \u0A9D \u0ACD_u0AB0  by \u0A9D.vatu;
+    sub \u0AA4 \u0ACD_u0AB0  by \u0AA4.vatu;
+    sub \u0AA5 \u0ACD_u0AB0  by \u0AA5.vatu;
+    sub \u0AA6 \u0ACD_u0AB0  by \u0AA6.vatu;
+    sub \u0AA7 \u0ACD_u0AB0  by \u0AA7.vatu;
+    sub \u0AA8 \u0ACD_u0AB0  by \u0AA8.vatu;
+    sub \u0AAA \u0ACD_u0AB0  by \u0AAA.vatu;
+    sub \u0AAB \u0ACD_u0AB0  by \u0AAB.vatu;
+    sub \u0AAC \u0ACD_u0AB0  by \u0AAC.vatu;
+    sub \u0AAD \u0ACD_u0AB0  by \u0AAD.vatu;
+    sub \u0AAE \u0ACD_u0AB0  by \u0AAE.vatu;
+    sub \u0AB5 \u0ACD_u0AB0  by \u0AB5.vatu;
+    sub \u0AB6 \u0ACD_u0AB0  by \u0AB6.vatu;
+    sub \u0AB8 \u0ACD_u0AB0  by \u0AB8.vatu;
+} vatuVattuVariantsinGujaratilookup3;
+
+lookup halfHalfFormsinGujaratilookup4 {
+  lookupflag 0;
+    sub \u0A95 \u0ACD  by \u0A95.half;
+    sub \u0A96 \u0ACD  by \u0A96.half;
+    sub \u0A97 \u0ACD  by \u0A97.half;
+    sub \u0A98 \u0ACD  by \u0A98.half;
+    sub \u0A9A \u0ACD  by \u0A9A.half;
+    sub \u0A9C \u0ACD  by \u0A9C.half;
+    sub \u0A9D \u0ACD  by \u0A9D.half;
+    sub \u0AA3 \u0ACD  by \u0AA3.half;
+    sub \u0AA4 \u0ACD  by \u0AA4.half;
+    sub \u0AA5 \u0ACD  by \u0AA5.half;
+    sub \u0AA6 \u0ACD  by \u0AA6.half;
+    sub \u0AA7 \u0ACD  by \u0AA7.half;
+    sub \u0AA8 \u0ACD  by \u0AA8.half;
+    sub \u0AAA \u0ACD  by \u0AAA.half;
+    sub \u0AAB \u0ACD  by \u0AAB.half;
+    sub \u0AAC \u0ACD  by \u0AAC.half;
+    sub \u0AAD \u0ACD  by \u0AAD.half;
+    sub \u0AAE \u0ACD  by \u0AAE.half;
+    sub \u0AAF \u0ACD  by \u0AAF.half;
+    sub \u0AB2 \u0ACD  by \u0AB2.half;
+    sub \u0AB3 \u0ACD  by \u0AB3.half;
+    sub \u0AB5 \u0ACD  by \u0AB5.half;
+    sub \u0AB6 \u0ACD  by \u0AB6.half;
+    sub \u0AB7 \u0ACD  by \u0AB7.half;
+    sub \u0AB8 \u0ACD  by \u0AB8.half;
+    sub \u0AB9 \u0ACD  by \u0AB9.half;
+} halfHalfFormsinGujaratilookup4;
+
+lookup presPreBaseSubstitutionsinGujaratilookup5 {
+  lookupflag 0;
+    sub \u0A95.half \u0A95  by \u0A95.pres;
+    sub \u0A97.half \u0AA8  by \u0A97_u0AA8.pres;
+    sub \u0AA4.half \u0AA4  by \u0AA4.pres;
+    sub \u0AA4.half \u0AA8  by \u0AA4_u0AA8.pres;
+    sub \u0AA6.half \u0AA8  by \u0AA6_u0AA8.pres;
+    sub \u0AA6.half \u0AAE  by \u0AA6_u0AAE.pres;
+    sub \u0AB7.half \u0A9F  by \u0AB7_u0A9F.pres;
+    sub \u0AB7.half \u0AA0  by \u0AB7_u0AA0.pres;
+} presPreBaseSubstitutionsinGujaratilookup5;
+
+lookup blwsBelowBaseSubstitutionsinGujaratilookup6 {
+  lookupflag 0;
+    sub \u0A9F \u0ACD \u0A9F  by \u0A9F.blws;
+    sub \u0A9F \u0ACD \u0AA0  by \u0A9F_u0AA0.blws;
+    sub \u0AA0 \u0ACD \u0AA0  by \u0AA0.blws;
+    sub \u0AA1 \u0ACD \u0AA1  by \u0AA1.blws;
+    sub \u0AA1 \u0ACD \u0AA2  by \u0AA1_u0AA2.blws;
+    sub \u0AA3 \u0AC1  by \u0AA3_u0AC1.blws;
+    sub \u0AA3 \u0AC2  by \u0AA3_u0AC2.blws;
+    sub \u0AA6 \u0ACD \u0AA7  by \u0AA6_u0AA7.blws;
+    sub \u0AA6 \u0ACD \u0AB5  by \u0AA6_u0AB5.blws;
+    sub \u0AA8.half \u0AA8  by \u0AA8.blws;
+    sub \u0AB0 \u0AC2  by \u0AB0_u0AC2.blws;
+    sub \u0AB6.half \u0AB5  by \u0AB6_u0AB5.blws;
+} blwsBelowBaseSubstitutionsinGujaratilookup6;
+
+lookup pstsPostBaseSubstitutionsinGujaratilookup7 {
+  lookupflag 0;
+    sub \u0A9C \u0ABE  by \u0A9C_u0ABE.psts;
+    sub \u0A9C \u0AC0  by \u0A9C_u0AC0.psts;
+    sub \u0AB0_u0ACD \u0AC0  by \u0AB0_u0AC0.psts;
+    sub \u0AB0 \u0AC1  by \u0AB0_u0AC1.psts;
+    sub \u0AB0 \u0AC2  by \u0AB0_u0AC2.psts;
+    sub \u0AB7.half \u0A9F  by \u0AB7_u0A9F.psts;
+    sub \u0AB7.half \u0AA0  by \u0AB7_u0AA0.psts;
+    sub \u0AB9.half \u0AA8  by \u0AB9_u0AA8.psts;
+    sub \u0AB9.half \u0AAE  by \u0AB9_u0AAE.psts;
+    sub \u0AB9.half \u0AAF  by \u0AB9_u0AAF.psts;
+} pstsPostBaseSubstitutionsinGujaratilookup7;
+
+lookup pstsPostBaseSubstitutionsinGujaratilookup8 {
+  lookupflag 0;
+    sub \u0AB0_u0AC0.psts \u0A82  by \u0AB0_u0AC0_u0A82.psts;
+} pstsPostBaseSubstitutionsinGujaratilookup8;
+
+feature akhn {
+
+ script gujr;
+     language dflt ;
+      lookup akhnAkhandinGujaratilookup0;
+} akhn;
+
+feature rphf {
+
+ script gujr;
+     language dflt ;
+      lookup rphfRephForminGujaratilookup1;
+} rphf;
+
+feature blwf {
+
+ script gujr;
+     language dflt ;
+      lookup blwfBelowBaseFormsinGujaratilookup2;
+} blwf;
+
+feature vatu {
+
+ script gujr;
+     language dflt ;
+      lookup vatuVattuVariantsinGujaratilookup3;
+} vatu;
+
+feature half {
+
+ script gujr;
+     language dflt ;
+      lookup halfHalfFormsinGujaratilookup4;
+} half;
+
+feature pres {
+
+ script gujr;
+     language dflt ;
+      lookup presPreBaseSubstitutionsinGujaratilookup5;
+} pres;
+
+feature blws {
+
+ script gujr;
+     language dflt ;
+      lookup blwsBelowBaseSubstitutionsinGujaratilookup6;
+} blws;
+
+feature psts {
+
+ script gujr;
+     language dflt ;
+      lookup pstsPostBaseSubstitutionsinGujaratilookup7;
+      lookup pstsPostBaseSubstitutionsinGujaratilookup8;
+} psts;
+
+# GPOS
+
+
+lookup BelowMatras {
+  lookupflag 0;
+  markClass [\u0AB0_matra_u0AC1.psts ] <anchor -188 -26> @b;
+  markClass [\u0AB0_u0AC2.blwf ] <anchor -189 -27> @b;
+  markClass [\u0AC1.alt ] <anchor -194 -145> @b;
+  markClass [\u0AC2.alt ] <anchor -150 -137> @b;
+  markClass [\u0AC3.alt ] <anchor -179 -135> @b;
+  pos base [\u0AC1 ] <anchor -195 0> mark @b;
+  pos base [\u0AC2 ] <anchor -146 0> mark @b;
+  pos base [\u0AC3 ] <anchor -158 -24> mark @b;
+  pos base [\u0AC4 ] <anchor -98 3> mark @b;
+  pos base [\u0ACD_u0AB0 ] <anchor -189 -24> mark @b;
+} BelowMatras;
+
+lookup AboveMatras {
+  lookupflag 0;
+  markClass [\u0A81 ] <anchor -196 511> @a;
+  markClass [\u0AB0_u0A82 ] <anchor -219 549> @a;
+  markClass [\u0AB0_u0AC7 ] <anchor -220 518> @a;
+  markClass [\u0AB0_u0AC7_u0A82 ] <anchor -224 520> @a;
+  markClass [\u0AB0_u0AC8 ] <anchor -276 519> @a;
+  markClass [\u0AB0_u0ACD ] <anchor -225 548> @a;
+  markClass [\u0AC7 ] <anchor -225 511> @a;
+  markClass [\u0AC7_u0A82 ] <anchor -222 518> @a;
+  markClass [\u0AC8 \u0AC8_u0A82 ] <anchor -263 518> @a;
+  markClass [\u0AC9.top ] <anchor -231 511> @a;
+  pos base [\u0A82 ] <anchor -156 511> mark @a;
+  pos base [\u0A95 ] <anchor 35 526> mark @a;
+  pos base [\u0A96 ] <anchor 427 528> mark @a;
+  pos base [\u0A97 ] <anchor 422 522> mark @a;
+  pos base [\u0A98 ] <anchor 326 520> mark @a;
+  pos base [\u0A99 ] <anchor 152 538> mark @a;
+  pos base [\u0A9A ] <anchor 390 528> mark @a;
+  pos base [\u0A9B ] <anchor 298 528> mark @a;
+  pos base [\u0A9C ] <anchor 512 536> mark @a;
+  pos base [\u0A9D ] <anchor 450 526> mark @a;
+  pos base [\u0A9E ] <anchor 416 530> mark @a;
+  pos base [\u0A9F ] <anchor 130 530> mark @a;
+  pos base [\u0AA0 ] <anchor 174 528> mark @a;
+  pos base [\u0AA3 ] <anchor 416 517> mark @a;
+  pos base [\u0AE0 ] <anchor 290 518> mark @a;
+} AboveMatras;
+
+feature blwm {
+
+ script DFLT;
+     language dflt ;
+      lookup BelowMatras;
+
+ script gujr;
+     language dflt ;
+      lookup BelowMatras;
+} blwm;
+
+feature abvm {
+
+ script DFLT;
+     language dflt ;
+      lookup AboveMatras;
+
+ script gujr;
+     language dflt ;
+      lookup AboveMatras;
+} abvm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign
+	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus
+	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight
+	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J
+	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright
+	\asciicircum \glyph66 \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w
+	\x \y \z \braceleft \glyph95 \glyph96 \asciitilde \quoteleft \quoteright
+	\quotedblleft \quotedblright \u0A82 \u0A83 \u0A85 \u0A86 \u0A87 \u0A87.abvm
+	\u0A88 \u0A88.abvm \u0A89 \u0A89.abvm \u0A8A \u0A8A.abvm \u0A8B \u0A8D \u0A8F
+	\u0A90 \u0A91 \u0A93 \u0A94 \u0A95 \u0A96 \u0A97 \u0A98 \u0A99 \u0A9A \u0A9B \u0A9C
+	\u0A9C_u0A9E.half \u0A9D \u0A9E \u0A9F \u0AA0 \u0AA1 \u0AA2 \u0AA3 \u0AA4 \u0AA5
+	\u0AA6 \u0AA6_u0AAF.pres \u0AA7 \u0AA8 \u0AAA \u0AAB \u0AAC \u0AAD \u0AAE \u0AAF
+	\u0AB0 \u0AB0_u0ABF.pres \u0AB0_u0ABF.wide \u0AB0_u0ABF_u0A82.pres
+	\u0AB0_u0ABF_u0A82.wide \u0AB2 \u0AB3 \u0AB5 \u0AB6 \u0AB6.althalf \u0AB7
+	\u0AB8 \u0AB9.old \u0AB9.halfold \u0AB9.halfalt \u0AB9 \u0AB9_u0AAF.pstsalt
+	\u0ABC \u0ABD \u0ABE \u0ABF \u0ABF.wide \u0ABF_u0A82 \u0ABF_u0A82.wide \u0AC0
+	\u0AC0_u0A82 \u0AC1 \u0AC2 \u0AC3 \u0AC4 \u0AC9 \u0ACB \u0ACC \u0ACD \u0AE0 \u0AE6
+	\u0AE7 \u0AE8 \u0AE9 \u0AEA \u0AEB \u0AEC \u0AED \u0AEE \u0AEF \u25CC \u200D \u200C
+	\u200B \u2060 \u00A0 \Kappa \Mu \Omicron \Theta \Tau \underscore \mu \nu \pi \zeta
+	\bar \braceright \Upsilon1 \florin \diamond \spade \proportional \divide
+	\notequal \carriagereturn ];
+@GDEF_Ligature = [\u0A95.half \u0A95.pres \u0A95.vatu \u0A95_u0AB7.akhn
+	\u0A96.half \u0A96.vatu \u0A97.half \u0A97.vatu \u0A97_u0AA8.pres \u0A98.half
+	\u0A98.vatu \u0A9A.half \u0A9A.vatu \u0A9C.half \u0A9C.vatu \u0A9C_u0A9E.akhn
+	\u0A9C_u0ABE.psts \u0A9C_u0AC0.psts \u0A9D.half \u0A9D.vatu \u0A9F.blws
+	\u0A9F_u0AA0.blws \u0AA0.blws \u0AA1.blws \u0AA1_u0AA2.blws \u0AA3.half
+	\u0AA3_u0AC1.blws \u0AA3_u0AC2.blws \u0AA4.half \u0AA4.pres \u0AA4.vatu
+	\u0AA4_u0AA8.pres \u0AA5.half \u0AA5.vatu \u0AA6.half \u0AA6.vatu
+	\u0AA6_u0AA7.blws \u0AA6_u0AA8.pres \u0AA6_u0AAE.pres \u0AA6_u0AB5.blws
+	\u0AA7.half \u0AA7.vatu \u0AA8.blws \u0AA8.half \u0AA8.vatu \u0AAA.half
+	\u0AAA.vatu \u0AAB.half \u0AAB.vatu \u0AAC.half \u0AAC.vatu \u0AAD.half
+	\u0AAD.vatu \u0AAE.half \u0AAE.vatu \u0AAF.half \u0AB0_u0AC0.psts
+	\u0AB0_u0AC0_u0A82.psts \u0AB0_u0AC1.psts \u0AB0_u0AC2.blws
+	\u0AB0_u0AC2.psts \u0AB2.half \u0AB3.half \u0AB5.half \u0AB5.vatu \u0AB6.half
+	\u0AB6.vatu \u0AB6_u0AB5.blws \u0AB7.half \u0AB7_u0A9F.pres
+	\u0AB7_u0A9F.psts \u0AB7_u0AA0.pres \u0AB7_u0AA0.psts \u0AB8.half
+	\u0AB8.vatu \u0AB9.half \u0AB9_u0AA8.psts \u0AB9_u0AAE.psts
+	\u0AB9_u0AAF.psts \u0ACD_u0AB0 ];
+@GDEF_Mark = [\u0A81 \u0AB0_u0A82 \u0AB0_matra_u0AC1.psts \u0AB0_u0AC2.blwf
+	\u0AB0_u0AC7 \u0AB0_u0AC7_u0A82 \u0AB0_u0AC8 \u0AB0_u0ACD \u0AC1.alt
+	\u0AC2.alt \u0AC3.alt \u0AC7 \u0AC7_u0A82 \u0AC8 \u0AC8_u0A82 \u0AC9.top
+	\u0ACD_u0AB0.rkrf ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;

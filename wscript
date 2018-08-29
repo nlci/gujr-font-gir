@@ -37,8 +37,7 @@ for f in faces:
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
-            #sfd_master = fontbase + 'master.sfd',
-            opentype = internal(),
+            opentype = fea(fontbase + f + s + '.fea', no_make = True),
             #graphite = gdl(fontbase + f + s + '.gdl',
             #    master = fontbase + 'master.gdl',
             #    make_params = '-p 1 -s 2 -l first',
