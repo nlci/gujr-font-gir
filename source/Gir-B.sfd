@@ -10,9 +10,10 @@ UnderlinePosition: -290
 UnderlineWidth: 20
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 XUID: [1021 955 1228309082 3905698]
 FSType: 0
 OS2Version: 3
@@ -52,6 +53,18 @@ OS2StrikeYPos: 259
 OS2Vendor: 'Alts'
 OS2CodePages: 80000000.00000000
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
+Lookup: 4 0 0 "'akhn' Akhand in Gujarati lookup 0" { "'akhn' Akhand in Gujarati lookup 0 subtable"  } ['akhn' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form in Gujarati lookup 1" { "'rphf' Reph Form in Gujarati lookup 1 subtable"  } ['rphf' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Gujarati lookup 2" { "'blwf' Below Base Forms in Gujarati lookup 2 subtable"  } ['blwf' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 3" { "'vatu' Vattu Variants in Gujarati lookup 3 subtable"  } ['vatu' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 4" { "'half' Half Forms in Gujarati lookup 4 subtable"  } ['half' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Gujarati lookup 5" { "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable"  } ['pres' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6" { "'blws' Below Base Substitutions in Gujarati lookup 6 subtable"  } ['blws' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 7" { "'psts' Post Base Substitutions in Gujarati lookup 7 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 8" { "'psts' Post Base Substitutions in Gujarati lookup 8 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
+Lookup: 262 0 0 "Half Ra Matra" { "Half Ra Matra-1"  } ['p   ' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 260 0 0 "Below Matras" { "Below Matras-1"  } ['blwm' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 260 0 0 "Above Matras" { "Above Matras-1"  } ['abvm' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
 DEI: 91125
 TtTable: prep
 PUSHW_1
@@ -1485,26 +1498,16 @@ ShortTable: maxp 16
   3
   2
 EndShort
-LangName: 1033 "" "" "" "NLCI:GUJ Gir Bold" "" "1.0 Tue May 09 11:53:10 1995" 
+LangName: 1033 "" "" "" "NLCI:GUJ Gir Bold" "" "1.0 Tue May 09 11:53:10 1995"
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -24
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-Lookup: 4 0 0 "'akhn' Akhand in Gujarati lookup 0"  {"'akhn' Akhand in Gujarati lookup 0 subtable"  } ['akhn' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Reph Form in Gujarati lookup 1"  {"'rphf' Reph Form in Gujarati lookup 1 subtable"  } ['rphf' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Gujarati lookup 2"  {"'blwf' Below Base Forms in Gujarati lookup 2 subtable"  } ['blwf' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 3"  {"'vatu' Vattu Variants in Gujarati lookup 3 subtable"  } ['vatu' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 4"  {"'half' Half Forms in Gujarati lookup 4 subtable"  } ['half' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Gujarati lookup 5"  {"'pres' Pre Base Substitutions in Gujarati lookup 5 subtable"  } ['pres' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6"  {"'blws' Below Base Substitutions in Gujarati lookup 6 subtable"  } ['blws' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 7"  {"'psts' Post Base Substitutions in Gujarati lookup 7 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 8"  {"'psts' Post Base Substitutions in Gujarati lookup 8 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
-Lookup: 262 0 0 "Half Ra Matra"  {"Half Ra Matra-1"  } ['p   ' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 260 0 0 "Below Matras"  {"Below Matras-1"  } ['blwm' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 260 0 0 "Above Matras"  {"Above Matras-1"  } ['abvm' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
-AnchorClass2: "r"  "Half Ra Matra-1" "b"  "Below Matras-1" "a"  "Above Matras-1" 
+WinInfo: 0 36 12
+AnchorClass2: "r" "Half Ra Matra-1" "b" "Below Matras-1" "a" "Above Matras-1"
 BeginChars: 65672 317
 
 StartChar: .notdef
@@ -16099,6 +16102,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -196 511 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16121,7 +16125,6 @@ SplineSet
  -107 658 -107 658 -96 706 c 1,22,-1
  -41 616 l 1,4,5
 EndSplineSet
-AnchorPoint: "a" -196 511 mark 0
 EndChar
 
 StartChar: u0A82
@@ -16139,6 +16142,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -156 511 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16148,7 +16152,6 @@ SplineSet
  -156 635 l 1,3,-1
  -102 591 l 1,0,-1
 EndSplineSet
-AnchorPoint: "a" -156 511 basechar 0
 EndChar
 
 StartChar: u0A83
@@ -18660,6 +18663,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" 35 525.5 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18696,7 +18700,6 @@ SplineSet
  368 379 l 1,47,-1
  403 320 l 1,0,-1
 EndSplineSet
-AnchorPoint: "a" 35 525.5 basechar 0
 EndChar
 
 StartChar: u0A95.half
@@ -18892,7 +18895,6 @@ SplineSet
  410 279 l 1,0,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A95 u0ACD
-
 EndChar
 
 StartChar: u0A95.pres
@@ -19206,7 +19208,6 @@ SplineSet
  743 320 l 1,0,-1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0A95.half u0A95
-
 EndChar
 
 StartChar: u0A95.vatu
@@ -19421,7 +19422,6 @@ SplineSet
  403 320 l 1,0,-1
 EndSplineSet
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A95 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0A95_u0AB7.akhn
@@ -19433,18 +19433,17 @@ Fore
 Refer: 297 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 328 0 0
 Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0A95 u0ACD u0AB7
-
 EndChar
 
 StartChar: u0A96
 Encoding: 2710 2710 127
 Width: 598
 Flags: W
+AnchorPoint: "a" 427 528 basechar 0
 LayerCount: 2
 Fore
 Refer: 128 -1 N 1 0 0 1 0 0 0
 Refer: 255 2750 N 1 0 0 1 396 0 0
-AnchorPoint: "a" 427 528 basechar 0
 EndChar
 
 StartChar: u0A96.half
@@ -19542,7 +19541,6 @@ SplineSet
  413 232 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A96 u0ACD
-
 EndChar
 
 StartChar: u0A96.vatu
@@ -19554,18 +19552,17 @@ Fore
 Refer: 298 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 396 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A96 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0A97
 Encoding: 2711 2711 130
 Width: 583
 Flags: W
+AnchorPoint: "a" 422 522 basechar 0
 LayerCount: 2
 Fore
 Refer: 131 -1 N 1 0 0 1 0 0 0
 Refer: 255 2750 N 1 0 0 1 381 0 0
-AnchorPoint: "a" 422 522 basechar 0
 EndChar
 
 StartChar: u0A97.half
@@ -19658,7 +19655,6 @@ SplineSet
  232 80 232 80 165 80 c 0,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A97 u0ACD
-
 EndChar
 
 StartChar: u0A97.vatu
@@ -19670,7 +19666,6 @@ Fore
 Refer: 299 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 381 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A97 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0A97_u0AA8.pres
@@ -19825,18 +19820,17 @@ SplineSet
  232 75 232 75 165 75 c 256,28,29
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0A97.half u0AA8
-
 EndChar
 
 StartChar: u0A98
 Encoding: 2712 2712 134
 Width: 494
 Flags: W
+AnchorPoint: "a" 326 520 basechar 0
 LayerCount: 2
 Fore
 Refer: 135 -1 N 1 0 0 1 0 0 0
 Refer: 255 2750 N 1 0 0 1 292 0 0
-AnchorPoint: "a" 326 520 basechar 0
 EndChar
 
 StartChar: u0A98.half
@@ -19951,7 +19945,6 @@ SplineSet
  306 101 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A98 u0ACD
-
 EndChar
 
 StartChar: u0A98.vatu
@@ -19963,7 +19956,6 @@ Fore
 Refer: 300 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 292 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A98 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0A99
@@ -20034,6 +20026,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" 152 538 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20067,18 +20060,17 @@ SplineSet
  295 259 295 259 303 252 c 0,43,44
  364 198 364 198 365 143 c 1,4,5
 EndSplineSet
-AnchorPoint: "a" 152 538 basechar 0
 EndChar
 
 StartChar: u0A9A
 Encoding: 2714 2714 138
 Width: 560
 Flags: W
+AnchorPoint: "a" 390 528 basechar 0
 LayerCount: 2
 Fore
 Refer: 139 -1 N 1 0 0 1 0 0 0
 Refer: 255 2750 N 1 0 0 1 358 0 0
-AnchorPoint: "a" 390 528 basechar 0
 EndChar
 
 StartChar: u0A9A.half
@@ -20186,7 +20178,6 @@ SplineSet
  376 236 l 1,0,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A9A u0ACD
-
 EndChar
 
 StartChar: u0A9A.vatu
@@ -20198,7 +20189,6 @@ Fore
 Refer: 301 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 358 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A9A u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0A9B
@@ -20383,6 +20373,7 @@ MDRP[rp0,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" 298 528 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20429,7 +20420,6 @@ SplineSet
  265 360 265 360 305 313 c 128,-1,68
  345 266 345 266 381 258 c 0,56,57
 EndSplineSet
-AnchorPoint: "a" 298 528 basechar 0
 EndChar
 
 StartChar: u0A9C
@@ -20634,6 +20624,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" 512 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20684,7 +20675,6 @@ SplineSet
  332 167 332 167 330 179.5 c 128,-1,71
  328 192 328 192 326 199 c 1,57,58
 EndSplineSet
-AnchorPoint: "a" 512 536 basechar 0
 EndChar
 
 StartChar: u0A9C.half
@@ -20936,7 +20926,6 @@ SplineSet
  327 193 327 193 325 200 c 1,57,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A9C u0ACD
-
 EndChar
 
 StartChar: u0A9C.vatu
@@ -21144,7 +21133,6 @@ SplineSet
  162 419 162 419 146 431 c 0,58,59
 EndSplineSet
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A9C u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0A9C_u0A9E.akhn
@@ -21156,7 +21144,6 @@ Fore
 Refer: 146 -1 N 1 0 0 1 0 0 0
 Refer: 255 2750 N 1 0 0 1 318 0 0
 Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0A9C u0ACD u0A9E
-
 EndChar
 
 StartChar: u0A9C_u0A9E.half
@@ -21553,7 +21540,6 @@ SplineSet
  328 192 328 192 326 199 c 1,71,72
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0A9C u0ABE
-
 EndChar
 
 StartChar: u0A9C_u0AC0.psts
@@ -21836,7 +21822,6 @@ SplineSet
  167 423 167 423 149 433 c 1,72,73
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0A9C u0AC0
-
 EndChar
 
 StartChar: u0A9D
@@ -21919,6 +21904,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" 450 526 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -21964,7 +21950,6 @@ SplineSet
  433 491 433 491 453 479 c 1,64,65
  466 470 466 470 494 450 c 1,0,1
 EndSplineSet
-AnchorPoint: "a" 450 526 basechar 0
 EndChar
 
 StartChar: u0A9D.half
@@ -22082,7 +22067,6 @@ SplineSet
  514 233 514 233 515 185 c 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A9D u0ACD
-
 EndChar
 
 StartChar: u0A9D.vatu
@@ -22213,18 +22197,17 @@ SplineSet
  466 470 466 470 494 450 c 1,0,1
 EndSplineSet
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A9D u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0A9E
 Encoding: 2718 2718 152
 Width: 583
 Flags: W
+AnchorPoint: "a" 416 530 basechar 0
 LayerCount: 2
 Fore
 Refer: 302 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 381 0 0
-AnchorPoint: "a" 416 530 basechar 0
 EndChar
 
 StartChar: u0A9F
@@ -22377,6 +22360,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" 130 530 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -22405,7 +22389,6 @@ SplineSet
  224 75 224 75 299 148 c 1,38,-1
  340 79 l 1,0,1
 EndSplineSet
-AnchorPoint: "a" 130 530 basechar 0
 EndChar
 
 StartChar: u0A9F.blws
@@ -22562,7 +22545,6 @@ SplineSet
  281 0 l 1,0,1
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0A9F u0ACD u0A9F
-
 EndChar
 
 StartChar: u0A9F_u0AA0.blws
@@ -22748,7 +22730,6 @@ SplineSet
  204 26 204 26 191 36 c 0,44,45
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0A9F u0ACD u0AA0
-
 EndChar
 
 StartChar: u0AA0
@@ -22925,6 +22906,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" 174 528 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -22958,7 +22940,6 @@ SplineSet
  280 122 280 122 280 166 c 0,41,42
  280 201 280 201 253 229 c 0,28,29
 EndSplineSet
-AnchorPoint: "a" 174 528 basechar 0
 EndChar
 
 StartChar: u0AA0.blws
@@ -23198,7 +23179,6 @@ SplineSet
  194 26 194 26 181 36 c 0,53,54
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA0 u0ACD u0AA0
-
 EndChar
 
 StartChar: u0AA1
@@ -23496,7 +23476,6 @@ SplineSet
  315 338 315 338 314 224 c 0,0,1
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA1 u0ACD u0AA1
-
 EndChar
 
 StartChar: u0AA1_u0AA2.blws
@@ -23729,7 +23708,6 @@ SplineSet
  223 -31 223 -31 219 -28 c 0,70,71
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA1 u0ACD u0AA2
-
 EndChar
 
 StartChar: u0AA2
@@ -23880,11 +23858,11 @@ StartChar: u0AA3
 Encoding: 2723 2723 162
 Width: 578
 Flags: W
+AnchorPoint: "a" 416 517 basechar 0
 LayerCount: 2
 Fore
 Refer: 163 -1 N 1 0 0 1 0 0 0
 Refer: 255 2750 N 1 0 0 1 376 0 0
-AnchorPoint: "a" 416 517 basechar 0
 EndChar
 
 StartChar: u0AA3.half
@@ -24029,7 +24007,6 @@ SplineSet
  319 -16 319 -16 317 -19 c 0,22,23
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AA3 u0ACD
-
 EndChar
 
 StartChar: u0AA3_u0AC1.blws
@@ -24295,7 +24272,6 @@ SplineSet
  509 -24 509 -24 506 -10 c 1,91,92
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA3 u0AC1
-
 EndChar
 
 StartChar: u0AA3_u0AC2.blws
@@ -24493,7 +24469,6 @@ SplineSet
  439 -26 439 -26 430 -20 c 0,91,92
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA3 u0AC2
-
 EndChar
 
 StartChar: u0AA4
@@ -24585,7 +24560,6 @@ SplineSet
  289 297 l 1,0,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AA4 u0ACD
-
 EndChar
 
 StartChar: u0AA4.pres
@@ -24597,7 +24571,6 @@ Fore
 Refer: 304 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 387 0 0
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0AA4.half u0AA4
-
 EndChar
 
 StartChar: u0AA4.vatu
@@ -24609,7 +24582,6 @@ Fore
 Refer: 303 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 321 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AA4 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AA4_u0AA8.pres
@@ -24763,7 +24735,6 @@ SplineSet
  290 294 l 1,28,-1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0AA4.half u0AA8
-
 EndChar
 
 StartChar: u0AA5
@@ -24933,7 +24904,6 @@ SplineSet
  208 417 208 417 203 427 c 0,38,39
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AA5 u0ACD
-
 EndChar
 
 StartChar: u0AA5.vatu
@@ -24945,7 +24915,6 @@ Fore
 Refer: 305 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 307 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AA5 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AA6
@@ -25209,7 +25178,6 @@ SplineSet
  301 32 301 32 311 26 c 1,0,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AA6 u0ACD
-
 EndChar
 
 StartChar: u0AA6.vatu
@@ -25270,7 +25238,6 @@ SplineSet
  351 50 l 1,0,-1
 EndSplineSet
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AA6 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AA6_u0AA7.blws
@@ -25458,7 +25425,6 @@ SplineSet
  377 48 l 1,0,-1
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA6 u0ACD u0AA7
-
 EndChar
 
 StartChar: u0AA6_u0AA8.pres
@@ -25663,7 +25629,6 @@ SplineSet
  307 98 l 1,28,29
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0AA6.half u0AA8
-
 EndChar
 
 StartChar: u0AA6_u0AAE.pres
@@ -25844,7 +25809,6 @@ SplineSet
  480 32 l 1,0,1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0AA6.half u0AAE
-
 EndChar
 
 StartChar: u0AA6_u0AAF.pres
@@ -26196,7 +26160,6 @@ SplineSet
  350 48 l 1,0,-1
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA6 u0ACD u0AB5
-
 EndChar
 
 StartChar: u0AA7
@@ -26325,7 +26288,6 @@ SplineSet
  309 195 l 1,0,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AA7 u0ACD
-
 EndChar
 
 StartChar: u0AA7.vatu
@@ -26337,7 +26299,6 @@ Fore
 Refer: 306 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 292 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AA7 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AA8
@@ -26359,7 +26320,6 @@ Fore
 Refer: 308 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 301 0 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA8.half u0AA8
-
 EndChar
 
 StartChar: u0AA8.half
@@ -26400,7 +26360,6 @@ SplineSet
  314 289 l 1,0,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AA8 u0ACD
-
 EndChar
 
 StartChar: u0AA8.vatu
@@ -26412,7 +26371,6 @@ Fore
 Refer: 307 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 301 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AA8 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AAA
@@ -26597,7 +26555,6 @@ SplineSet
  304 119 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AAA u0ACD
-
 EndChar
 
 StartChar: u0AAA.vatu
@@ -26609,7 +26566,6 @@ Fore
 Refer: 309 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 293 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AAA u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AAB
@@ -27051,7 +27007,6 @@ SplineSet
  382 -98 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AAB u0ACD
-
 EndChar
 
 StartChar: u0AAB.vatu
@@ -27278,7 +27233,6 @@ SplineSet
  382 -98 l 1,0,1
 EndSplineSet
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AAB u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AAC
@@ -27474,7 +27428,6 @@ SplineSet
  385 247 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AAC u0ACD
-
 EndChar
 
 StartChar: u0AAC.vatu
@@ -27486,7 +27439,6 @@ Fore
 Refer: 310 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 370 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AAC u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AAD
@@ -27661,7 +27613,6 @@ SplineSet
  402 202 l 1,0,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AAD u0ACD
-
 EndChar
 
 StartChar: u0AAD.vatu
@@ -27673,7 +27624,6 @@ Fore
 Refer: 311 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 388 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AAD u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AAE
@@ -27767,7 +27717,6 @@ SplineSet
  305 204 l 1,0,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AAE u0ACD
-
 EndChar
 
 StartChar: u0AAE.vatu
@@ -27779,7 +27728,6 @@ Fore
 Refer: 312 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 282 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AAE u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AAF
@@ -27896,7 +27844,6 @@ SplineSet
  330 110 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AAF u0ACD
-
 EndChar
 
 StartChar: u0AB0
@@ -28070,6 +28017,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -219 549 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -28096,7 +28044,6 @@ SplineSet
  -190 778 -190 778 -166.5 766.5 c 128,-1,26
  -143 755 -143 755 -129 730 c 1,4,-1
 EndSplineSet
-AnchorPoint: "a" -219 549 mark 0
 EndChar
 
 StartChar: u0AB0_u0ABF.pres
@@ -28700,7 +28647,6 @@ SplineSet
  198 767 198 767 228 716 c 1,0,-1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB0_u0ACD u0AC0
-
 EndChar
 
 StartChar: u0AB0_u0AC0_u0A82.psts
@@ -28805,7 +28751,6 @@ SplineSet
  198 767 198 767 228 716 c 1,4,-1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB0_u0AC0.psts u0A82
-
 EndChar
 
 StartChar: u0AB0_u0AC1.psts
@@ -28949,7 +28894,6 @@ SplineSet
  392 329 392 329 411 300 c 1,0,1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB0 u0AC1
-
 EndChar
 
 StartChar: u0AB0_matra_u0AC1.psts
@@ -29032,6 +28976,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -188 -26 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -29069,7 +29014,6 @@ SplineSet
  -133 -271 -133 -271 -124.5 -259 c 128,-1,44
  -116 -247 -116 -247 -120 -232 c 0,34,35
 EndSplineSet
-AnchorPoint: "b" -188 -26 mark 0
 EndChar
 
 StartChar: u0AB0_u0AC2.blwf
@@ -29108,6 +29052,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -189 -27 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -29145,7 +29090,6 @@ SplineSet
  -194 -279 -194 -279 -181 -279 c 0,46,47
  -158 -279 -158 -279 -151 -252 c 0,35,36
 EndSplineSet
-AnchorPoint: "b" -189 -27 mark 0
 EndChar
 
 StartChar: u0AB0_u0AC2.blws
@@ -29285,7 +29229,6 @@ SplineSet
  360 -89 360 -89 367 -102 c 1,0,1
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AB0 u0AC2
-
 EndChar
 
 StartChar: u0AB0_u0AC2.psts
@@ -29419,9 +29362,7 @@ SplineSet
  541 277 541 277 562 216 c 1,0,1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB0 u0AC2
-LCarets2: 1 0 
-
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0AB0_u0AC7
@@ -29441,6 +29382,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -220 518 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -29468,7 +29410,6 @@ SplineSet
  -203 765 -203 765 -181.5 754.5 c 128,-1,29
  -160 744 -160 744 -147 721 c 1,0,-1
 EndSplineSet
-AnchorPoint: "a" -220 518 mark 0
 EndChar
 
 StartChar: u0AB0_u0AC7_u0A82
@@ -29488,6 +29429,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -224 520 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -29520,7 +29462,6 @@ SplineSet
  -203 765 -203 765 -181.5 754.5 c 128,-1,33
  -160 744 -160 744 -147 721 c 1,4,-1
 EndSplineSet
-AnchorPoint: "a" -224 520 mark 0
 EndChar
 
 StartChar: u0AB0_u0AC8
@@ -29556,6 +29497,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -276 519 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -29590,7 +29532,6 @@ SplineSet
  -483 691 -483 691 -458 677 c 1,38,-1
  -262 554 l 1,27,-1
 EndSplineSet
-AnchorPoint: "a" -276 519 mark 0
 EndChar
 
 StartChar: u0AB0_u0ACD
@@ -29656,6 +29597,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -225 548 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -29677,11 +29619,8 @@ SplineSet
  -193 778 -193 778 -169.5 766.5 c 128,-1,22
  -146 755 -146 755 -132 730 c 1,0,-1
 EndSplineSet
-AnchorPoint: "a" -225 548 mark 0
 Ligature2: "'rphf' Reph Form in Gujarati lookup 1 subtable" u0AB0 u0ACD
-LCarets2: 1 0 
-
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0AB2
@@ -29782,7 +29721,6 @@ SplineSet
  312 33 l 1,4,5
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AB2 u0ACD
-
 EndChar
 
 StartChar: u0AB3
@@ -30031,7 +29969,6 @@ SplineSet
  358 370 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AB3 u0ACD
-
 EndChar
 
 StartChar: u0AB5
@@ -30130,7 +30067,6 @@ SplineSet
  291 141 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AB5 u0ACD
-
 EndChar
 
 StartChar: u0AB5.vatu
@@ -30142,7 +30078,6 @@ Fore
 Refer: 313 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 275 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AB5 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AB6
@@ -30447,7 +30382,6 @@ SplineSet
  239 389 239 389 238 393 c 0,50,51
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AB6 u0ACD
-
 EndChar
 
 StartChar: u0AB6.vatu
@@ -30459,7 +30393,6 @@ Fore
 Refer: 314 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 303 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AB6 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AB6_u0AB5.blws
@@ -30471,7 +30404,6 @@ Fore
 Refer: 315 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 289 0 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AB6.half u0AB5
-
 EndChar
 
 StartChar: u0AB7
@@ -30540,7 +30472,6 @@ SplineSet
  280 193 280 193 289 226 c 1,25,-1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AB7 u0ACD
-
 EndChar
 
 StartChar: u0AB7_u0A9F.pres
@@ -30701,7 +30632,6 @@ SplineSet
  263 288 263 288 263 327 c 1,44,-1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0AB7.half u0A9F
-
 EndChar
 
 StartChar: u0AB7_u0A9F.psts
@@ -30865,7 +30795,6 @@ SplineSet
  280 194 280 194 290 227 c 1,61,-1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB7.half u0A9F
-
 EndChar
 
 StartChar: u0AB7_u0AA0.pres
@@ -31025,7 +30954,6 @@ SplineSet
  258 169 258 169 246 181 c 1,45,-1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0AB7.half u0AA0
-
 EndChar
 
 StartChar: u0AB7_u0AA0.psts
@@ -31240,7 +31168,6 @@ SplineSet
  290 226 l 1,66,-1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB7.half u0AA0
-
 EndChar
 
 StartChar: u0AB8
@@ -31381,7 +31308,6 @@ SplineSet
  388 228 l 1,0,1
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AB8 u0ACD
-
 EndChar
 
 StartChar: u0AB8.vatu
@@ -31393,7 +31319,6 @@ Fore
 Refer: 316 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 378 0 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AB8 u0ACD_u0AB0
-
 EndChar
 
 StartChar: u0AB9.old
@@ -32149,7 +32074,6 @@ SplineSet
  299 -10 299 -10 296 -19 c 0,37,38
 EndSplineSet
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AB9 u0ACD
-
 EndChar
 
 StartChar: u0AB9_u0AA8.psts
@@ -32356,7 +32280,6 @@ SplineSet
  300 -10 300 -10 297 -19 c 0,48,49
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB9.half u0AA8
-
 EndChar
 
 StartChar: u0AB9_u0AAE.psts
@@ -32547,7 +32470,6 @@ SplineSet
  536 28 l 1,0,1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB9.half u0AAE
-
 EndChar
 
 StartChar: u0AB9_u0AAF.pstsalt
@@ -33158,7 +33080,6 @@ SplineSet
  589 28 l 1,0,1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB9.half u0AAF
-
 EndChar
 
 StartChar: u0ABC
@@ -33959,6 +33880,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -195 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -33987,7 +33909,6 @@ SplineSet
  -164 -130 -164 -130 -154.5 -118 c 128,-1,35
  -145 -106 -145 -106 -149 -93 c 0,25,26
 EndSplineSet
-AnchorPoint: "b" -195 0 basechar 0
 EndChar
 
 StartChar: u0AC1.alt
@@ -34067,6 +33988,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -194 -145 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34095,7 +34017,6 @@ SplineSet
  -164 -271 -164 -271 -154.5 -258.5 c 128,-1,35
  -145 -246 -145 -246 -149 -233 c 0,25,26
 EndSplineSet
-AnchorPoint: "b" -194 -145 mark 0
 EndChar
 
 StartChar: u0AC2
@@ -34131,6 +34052,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -146.5 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34161,7 +34083,6 @@ SplineSet
  -185 -114 -185 -114 -172 -114 c 0,40,41
  -149 -114 -149 -114 -142 -87 c 0,29,30
 EndSplineSet
-AnchorPoint: "b" -146.5 0 basechar 0
 EndChar
 
 StartChar: u0AC2.alt
@@ -34197,6 +34118,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -150 -137 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34227,7 +34149,6 @@ SplineSet
  -185 -254 -185 -254 -172 -254 c 0,40,41
  -149 -254 -149 -254 -142 -227 c 0,29,30
 EndSplineSet
-AnchorPoint: "b" -150 -137 mark 0
 EndChar
 
 StartChar: u0AC3
@@ -34301,6 +34222,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -158 -24.5 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34319,7 +34241,6 @@ SplineSet
  -149 -148 -149 -148 -121 -117 c 1,19,-1
  -78 -175 l 1,0,1
 EndSplineSet
-AnchorPoint: "b" -158 -24.5 basechar 0
 EndChar
 
 StartChar: u0AC3.alt
@@ -34393,6 +34314,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -179 -135 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34411,7 +34333,6 @@ SplineSet
  -156 -258 -156 -258 -127 -226 c 1,19,-1
  -85 -285 l 1,0,1
 EndSplineSet
-AnchorPoint: "b" -179 -135 mark 0
 EndChar
 
 StartChar: u0AC4
@@ -34498,6 +34419,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -98 3 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34534,7 +34456,6 @@ SplineSet
  26 -225 26 -225 8.5 -231 c 128,-1,42
  -9 -237 -9 -237 -39 -237 c 0,0,1
 EndSplineSet
-AnchorPoint: "b" -98 3 basechar 0
 EndChar
 
 StartChar: u0AC7
@@ -34566,6 +34487,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -225 511 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34581,7 +34503,6 @@ SplineSet
  -391 740 -391 740 -360 709 c 2,13,-1
  -203 545 l 1,0,-1
 EndSplineSet
-AnchorPoint: "a" -225 511 mark 0
 EndChar
 
 StartChar: u0AC7_u0A82
@@ -34613,6 +34534,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -222.5 518 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34633,7 +34555,6 @@ SplineSet
  -391 740 -391 740 -360 709 c 2,17,-1
  -203 545 l 1,4,-1
 EndSplineSet
-AnchorPoint: "a" -222.5 518 mark 0
 EndChar
 
 StartChar: u0AC8
@@ -34656,6 +34577,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -263 518 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34681,7 +34603,6 @@ SplineSet
  -483 691 -483 691 -458 677 c 1,25,-1
  -262 554 l 1,14,-1
 EndSplineSet
-AnchorPoint: "a" -263 518 mark 0
 EndChar
 
 StartChar: u0AC8_u0A82
@@ -34704,6 +34625,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -263 518 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34734,7 +34656,6 @@ SplineSet
  -483 691 -483 691 -458 677 c 1,29,-1
  -262 554 l 1,18,-1
 EndSplineSet
-AnchorPoint: "a" -263 518 mark 0
 EndChar
 
 StartChar: u0AC9.top
@@ -34809,6 +34730,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" -231 511 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34826,7 +34748,6 @@ SplineSet
  -162 653 -162 653 -150 703 c 1,18,-1
  -96 614 l 1,0,1
 EndSplineSet
-AnchorPoint: "a" -231 511 mark 0
 EndChar
 
 StartChar: u0AC9
@@ -34922,6 +34843,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "b" -189 -24 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34933,11 +34855,8 @@ SplineSet
  -188 -33 l 1,5,-1
  -20 -171 l 1,0,-1
 EndSplineSet
-AnchorPoint: "b" -189 -24 basechar 0
 Ligature2: "'blwf' Below Base Forms in Gujarati lookup 2 subtable" u0AB0 u0ACD
-LCarets2: 1 0 
-
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0ACD_u0AB0.rkrf
@@ -34958,6 +34877,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "r" -218 158 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -34967,7 +34887,6 @@ SplineSet
  -231 191 l 1,3,-1
  -191 132 l 1,0,-1
 EndSplineSet
-AnchorPoint: "r" -218 158 basemark 0
 EndChar
 
 StartChar: u0AE0
@@ -35152,6 +35071,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "a" 290 518 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -35210,7 +35130,6 @@ SplineSet
  554 86 554 86 572.5 90 c 128,-1,75
  591 94 591 94 620 105 c 1,0,1
 EndSplineSet
-AnchorPoint: "a" 290 518 basechar 0
 EndChar
 
 StartChar: u0AE6

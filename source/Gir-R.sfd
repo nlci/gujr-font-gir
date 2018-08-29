@@ -10,10 +10,10 @@ UnderlinePosition: -290
 UnderlineWidth: 20
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 1008 1168222881 11799714]
 FSType: 0
 OS2Version: 3
@@ -53,19 +53,19 @@ OS2StrikeYPos: 259
 OS2Vendor: 'Alts'
 OS2CodePages: 80000000.00000000
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
-Lookup: 4 0 0 "'akhn' Akhand in Gujarati lookup 0"  {"'akhn' Akhand in Gujarati lookup 0 subtable"  } ['akhn' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Reph Form in Gujarati lookup 1"  {"'rphf' Reph Form in Gujarati lookup 1 subtable"  } ['rphf' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Gujarati lookup 2"  {"'blwf' Below Base Forms in Gujarati lookup 2 subtable"  } ['blwf' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 3"  {"'vatu' Vattu Variants in Gujarati lookup 3 subtable"  } ['vatu' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 4"  {"'half' Half Forms in Gujarati lookup 4 subtable"  } ['half' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Gujarati lookup 5"  {"'pres' Pre Base Substitutions in Gujarati lookup 5 subtable"  } ['pres' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6"  {"'blws' Below Base Substitutions in Gujarati lookup 6 subtable"  } ['blws' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 7"  {"'psts' Post Base Substitutions in Gujarati lookup 7 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 8"  {"'psts' Post Base Substitutions in Gujarati lookup 8 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
-Lookup: 260 0 0 "After Base"  {"After Base-1"  } ['mark' ('DFLT' <'dflt' > 'gujr' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "Below Base"  {"Below Matras-1"  } ['blwm' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 260 0 0 "Above Base"  {"Above Matras-1"  } ['abvm' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 260 0 0 "Before Base"  {"Before Base-1"  } []
+Lookup: 4 0 0 "'akhn' Akhand in Gujarati lookup 0" { "'akhn' Akhand in Gujarati lookup 0 subtable"  } ['akhn' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form in Gujarati lookup 1" { "'rphf' Reph Form in Gujarati lookup 1 subtable"  } ['rphf' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Gujarati lookup 2" { "'blwf' Below Base Forms in Gujarati lookup 2 subtable"  } ['blwf' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 3" { "'vatu' Vattu Variants in Gujarati lookup 3 subtable"  } ['vatu' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 4" { "'half' Half Forms in Gujarati lookup 4 subtable"  } ['half' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Gujarati lookup 5" { "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable"  } ['pres' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6" { "'blws' Below Base Substitutions in Gujarati lookup 6 subtable"  } ['blws' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 7" { "'psts' Post Base Substitutions in Gujarati lookup 7 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 8" { "'psts' Post Base Substitutions in Gujarati lookup 8 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
+Lookup: 260 0 0 "After Base" { "After Base-1"  } ['mark' ('DFLT' <'dflt' > 'gujr' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "Below Base" { "Below Matras-1"  } ['blwm' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 260 0 0 "Above Base" { "Above Matras-1"  } ['abvm' ('DFLT' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 260 0 0 "Before Base" { "Before Base-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -796,7 +796,7 @@ ShortTable: maxp 16
   3
   2
 EndShort
-LangName: 1033 "" "" "" "NLCI:GUJ Gir Normal" "" "Version 1.000 Created on 19 March 2009" "" "" "NLCI" "Beniza" "This unicode font is created based on the glyph sets from Guj Gir Legacy fonts created in 1995." 
+LangName: 1033 "" "" "" "NLCI:GUJ Gir Normal" "" "Version 1.000 Created on 19 March 2009" "" "" "NLCI" "Beniza" "This unicode font is created based on the glyph sets from Guj Gir Legacy fonts created in 1995."
 Encoding: Custom
 Compacted: 1
 UnicodeInterp: none
@@ -804,26 +804,26 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 25 25 9
+WinInfo: 0 36 12
 Grid
 -1000 217 m 0
- 2000 217 l 0
+ 2000 217 l 1024
 -1000 223 m 0
- 2000 223 l 0
+ 2000 223 l 1024
 -1000 122 m 0
- 2000 122 l 0
-  Named: "h1" 
+ 2000 122 l 1024
+  Named: "h1"
 -1000 -4 m 0
- 2000 -4 l 0
-  Named: "curve line" 
+ 2000 -4 l 1024
+  Named: "curve line"
 -1000 454.286 m 0
- 2000 454.286 l 0
-  Named: "hb" 
+ 2000 454.286 l 1024
+  Named: "hb"
 -1000 513.429 m 0
- 2000 513.429 l 0
-  Named: "ha" 
+ 2000 513.429 l 1024
+  Named: "ha"
 EndSplineSet
-AnchorClass2: "vtu"  "Before Base-1" "nkt"  "Before Base-1" "lft"  "Before Base-1" "aft"  "After Base-1" "blw"  "Below Matras-1" "abv"  "Above Matras-1" 
+AnchorClass2: "vtu" "Before Base-1" "nkt" "Before Base-1" "lft" "Before Base-1" "aft" "After Base-1" "blw" "Below Matras-1" "abv" "Above Matras-1"
 BeginChars: 573 317
 
 StartChar: .notdef
@@ -3764,58 +3764,7 @@ Encoding: 105 2693 105
 Width: 715
 Flags: HW
 LayerCount: 2
-Back
 Fore
-SplineSet
-260 364 m 0
- 260 280.076 211.589 222 105 222 c 1
- 105 175.36 165.373 124 215 124 c 0
- 284 124 330 146 330 181 c 1
- 328.159 255.542 331.071 328.39 330.222 405 c 2
- 330.153 411.638 330.08 418.303 330 425 c 1
- 383 380 l 1
- 383 294 l 1
- 391 286 401 282 413 282 c 0
- 420.814 282 443.411 284.357 466 309 c 1
- 466 513 l 1
- 519 454 l 1
- 519 51 l 2
- 519 45.2998 520.8 40 528 40 c 256
- 542.4 40 558.414 62.0077 564 81 c 1
- 613 24 l 1
- 602.696 10.6053 586.65 -2.65496e-19 554 0 c 0
- 513.919 2.54313e-06 466.997 16.0537 466.997 80.124 c 0
- 467.356 186.227 468.67 218.332 467.333 229.333 c 1
- 466.392 230.263 467.867 228.638 456 228 c 1
- 427.2 228 402.095 239.271 383 261 c 1
- 384 160 l 5
- 375.123 123.224 318.297 72 240 72 c 0
- 172.4 72 109.325 125.203 71 222 c 1
- 19.7948 232.862 0 272.6 0 305 c 0
- 0 329.5 6.6 347 37 347 c 0
- 74.8 347 96.0777 305.458 100 278 c 1
- 159.637 278 235 310.536 235 389 c 0
- 235 411 224 431.333 214 454 c 1
- 72 454 l 1
- 40 513 l 1
- 190 513 l 1
- 235.736 493.943 260 430.368 260 364 c 0
-519 51 m 2
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-100 278 m 1
-519 51 m 2
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
-100 278 m 1
-EndSplineSet
 SplineSet
 260 364 m 0
  260 280.076 211.589 222 105 222 c 1
@@ -3848,21 +3797,21 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235.736 493.943 260 430.368 260 364 c 0
-519 51 m 2
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-100 278 m 1
-519 51 m 2
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
-100 278 m 1
+519 51 m 1026
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+100 278 m 1025
+519 51 m 1026
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
+100 278 m 1025
 EndSplineSet
 EndChar
 
@@ -3913,17 +3862,17 @@ SplineSet
  40 513 l 5
  190 513 l 5
  235 487 260 430.368 260 364 c 4
-528 40 m 260
-613 24 m 5
-384 261 m 5
-240 72 m 4
-71 222 m 5
-37 347 m 4
-528 40 m 260
-613 24 m 5
-384 261 m 5
-71 222 m 5
-37 347 m 4
+528 40 m 1284
+613 24 m 1029
+384 261 m 1029
+240 72 m 1028
+71 222 m 1029
+37 347 m 1028
+528 40 m 1284
+613 24 m 1029
+384 261 m 1029
+71 222 m 1029
+37 347 m 1028
 EndSplineSet
 Fore
 SplineSet
@@ -3967,17 +3916,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 EndChar
 
@@ -3986,36 +3935,7 @@ Encoding: 107 2695 107
 Width: 430
 Flags: HW
 LayerCount: 2
-Back
 Fore
-SplineSet
-258 574 m 4
- 258 495.8 340 310.075 340 183 c 4
- 340 113.992 324.941 71.2108 285 39 c 5
- 251 13.6667 213 1 171 1 c 4
- 84.4203 1 1 63.3031 1 189 c 4
- 1 262.2 44.6161 296.256 71 311 c 5
- 25 366.333 2 413.333 2 452 c 4
- 2 490 25.6667 509 73 509 c 6
- 154 509 l 5
- 170 455 l 5
- 63 455 l 5
- 54.3333 443.667 50 430.333 50 415 c 4
- 50 377.513 73.2086 343.233 96 325 c 5
- 108.504 330.835 124.4 336 167 336 c 6
- 193 336 l 5
- 202 278 l 5
- 61.0781 278 28 208.4 28 162 c 4
- 28 103.358 78.8031 42 151 42 c 4
- 193.8 42 227.739 59.9998 258 84 c 5
- 299.384 122.714 307 169.916 307 239 c 4
- 307 265.667 300.333 303.667 287 353 c 6
- 233 542 l 5
- 231.511 553.914 231 566 231 572 c 4
- 231 613.212 242.6 659 289 659 c 5
- 289 603 l 5
- 275.297 601.173 258 591.4 258 574 c 4
-EndSplineSet
 SplineSet
 258 574 m 0
  258 495.8 340 310.075 340 183 c 0
@@ -4123,34 +4043,7 @@ Encoding: 109 2696 109
 Width: 430
 Flags: HW
 LayerCount: 2
-Back
 Fore
-SplineSet
-309.338 205.635 m 0
- 309.338 309.312 230.625 502.529 230.625 582.643 c 0
- 230.625 629 252 661 289 661 c 0
- 322.2 661 349.972 633.041 372 554 c 1
- 355 545 l 1
- 334.521 601.288 318.418 612.471 305.149 612.471 c 0
- 292.488 612.471 271.102 602.948 271.065 561 c 0
- 270.994 480.163 350.801 275.605 350.801 180.459 c 0
- 350.801 88.7179 301.95 1.97685 174.618 1.97685 c 0
- 63.9753 1.97685 0.0450632 95.6792 0.0450632 183.322 c 0
- 0.0450632 235.266 22.5019 285.082 71 312 c 1
- 25 367.333 2 414.333 2 453 c 0
- 2 491 25.6667 510 73 510 c 2
- 154 510 l 1
- 170 456 l 1
- 142.827 456.436 120.469 458.215 102.72 458.215 c 0
- 66.9355 458.215 49.8882 450.98 49.8882 410.907 c 0
- 49.8882 368.077 74.0637 343.549 96 326 c 1
- 117.237 335.91 140.486 337.131 166.529 337.131 c 0
- 177.117 337.122 182.412 337 193 337 c 1
- 202 279 l 1
- 76.9948 279 24.643 219.431 24.643 160.1 c 0
- 24.643 101.239 76.168 42.6112 159.395 42.6112 c 0
- 234 42.6112 309.338 105 309.338 205.635 c 0
-EndSplineSet
 SplineSet
 289 607 m 0
  237.302 574.997 310.385 410.662 344.647 238 c 1
@@ -4554,50 +4447,7 @@ Encoding: 115 2699 115
 Width: 741
 Flags: HW
 LayerCount: 2
-Back
 Fore
-SplineSet
-0 474 m 26,0,0
-572 442 m 0,0,-1
- 572 409 541.128 379.282 504 361 c 1,3,-1
- 504 291 l 1,4,-1
- 570.899 291 607.455 279.491 629.5 216 c 0,7,-1
- 637.833 192 642 166.333 642 139 c 0,10,-1
- 642 106.333 636.333 79.3333 625 58 c 0,13,-1
- 605.503 17.8587 564.222 1 487 1 c 1,16,-1
- 482.288 7.28211 469.157 70.5297 463 89 c 1,19,-1
- 493 77 517.667 71 537 71 c 0,22,-1
- 584.116 71 608 102.704 608 145 c 0,25,-1
- 608 214 553 229 524 230 c 0,28,-1
- 504.012 230.689 485.667 224.333 469 213 c 1,31,-1
- 469 341 l 1,32,-1
- 316 240 l 1,33,-1
- 316 51 l 2,34,-1
- 316 43.6667 319 40 325 40 c 256,37,-1
- 339.4 40 355.414 62.0076 361 81 c 1,40,-1
- 412 26 l 1,41,-1
- 404.825 16.6729 386.4 1 348 1 c 0,44,-1
- 307.6 1 262 17 262 81 c 2,47,-1
- 262 194 l 1,48,-1
- 255 194 l 1,49,-1
- 74 72 l 1,50,-1
- 42 124 l 1,51,-1
- 231.999 253.775 l 1,52,-1
- 145.889 397.667 l 1,53,-1
- 125.333 416.222 84.3333 419 47 419 c 2,56,-1
- 33.5 419 l 2,57,-1
- 29.833 419 26.6667 418.667 24 418 c 1,60,-1
- 3 474 l 1,61,-1
- 120 474 l 2,62,-1
- 158.192 474 244.66 296.68 263 260 c 1,65,-1
- 263 510 l 1,66,-1
- 317 452 l 1,67,-1
- 317 313 l 1,68,-1
- 466 415 l 1,69,-1
- 465.333 421 465.014 425.333 465 428 c 0,72,-1
- 464.75 475.5 492.062 493.037 513 493 c 0,75,-1
- 548.125 492.938 572 473.966 572 442 c 0,0,-1
-EndSplineSet
 SplineSet
 572 442 m 4
  572 409.6 542.342 380.171 504 361 c 5
@@ -4688,17 +4538,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 Fore
 SplineSet
@@ -4742,17 +4592,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 EndChar
 
@@ -4803,17 +4653,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 Fore
 SplineSet
@@ -4857,17 +4707,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 EndChar
 
@@ -4928,17 +4778,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1xefe0
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025xefe0
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 Fore
 SplineSet
@@ -4990,17 +4840,17 @@ SplineSet
  40 513 l 5
  190 513 l 5
  235 487 260 430.368 260 364 c 0
-528 40 m 260
-613 24 m 5
-384 261 m 5
-240 72 m 4
-71 222 m 5
-37 347 m 4
-528 40 m 260
-613 24 m 5
-384 261 m 5
-71 222 m 5
-37 347 m 4
+528 40 m 1284
+613 24 m 1029
+384 261 m 1029
+240 72 m 1028
+71 222 m 1029
+37 347 m 1028
+528 40 m 1284
+613 24 m 1029
+384 261 m 1029
+71 222 m 1029
+37 347 m 1028
 EndSplineSet
 EndChar
 
@@ -5060,17 +4910,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 Fore
 SplineSet
@@ -5092,7 +4942,7 @@ SplineSet
  729.2 575 764.709 647.672 774 690 c 1
  816 613 l 1
  772.97 546.663 725.884 537 691 537 c 0
-716 514 m 1
+716 514 m 1025
 105 222 m 1
  119.825 158.748 161.05 123.893 220.768 123.893 c 0
  286.349 123.893 327.141 165.93 332 198 c 1
@@ -5124,17 +4974,17 @@ SplineSet
  190 513 l 1
  230.671 489.501 261.119 425.653 261.119 363.731 c 0
  261.119 291.557 219.754 222 105 222 c 1
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 EndChar
 
@@ -5194,17 +5044,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 Fore
 SplineSet
@@ -5257,17 +5107,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 EndChar
 
@@ -5335,17 +5185,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 EndSplineSet
 Fore
 SplineSet
@@ -5380,17 +5230,17 @@ SplineSet
  40 513 l 1
  190 513 l 1
  235 487 260 430.368 260 364 c 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-240 72 m 0
-71 222 m 1
-37 347 m 0
-528 40 m 256
-613 24 m 1
-384 261 m 1
-71 222 m 1
-37 347 m 0
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+240 72 m 1024
+71 222 m 1025
+37 347 m 1024
+528 40 m 1280
+613 24 m 1025
+384 261 m 1025
+71 222 m 1025
+37 347 m 1024
 802 1 m 0
  761.6 1 716 17 716 81 c 2
  716 514 l 1
@@ -5400,9 +5250,9 @@ SplineSet
  793.4 40 809.414 62.0078 815 81 c 1
  866 26 l 1
  858.825 16.6729 840.4 1 802 1 c 0
-613 24 m 1
-613 24 m 1
-613 24 m 1
+613 24 m 1025
+613 24 m 1025
+613 24 m 1025
 587 713 m 0xcfe0
  573.118 713 557.33 705.95 549 700 c 1
  524 791 l 1
@@ -5433,31 +5283,7 @@ AnchorPoint: "abv" 217 551.5 basechar 0
 AnchorPoint: "nkt" 418 76 basechar 0
 AnchorPoint: "vtu" 256 248 basechar 0
 LayerCount: 2
-Back
 Fore
-SplineSet
-115 437 m 0
- 115 488.103 153.155 520 209 520 c 0
- 229.667 520 250.333 516.667 271 510 c 1
- 296 456 l 1
- 266.908 460.849 256.799 461.13 247 461 c 0
- 193.286 460.286 168.857 437.429 170 409 c 0
- 171.259 377.692 188.667 348 226 320 c 1
- 364 372 l 1
- 391 324 l 1
- 294 288 l 1
- 346.143 253.857 378.143 202.143 379 133 c 0
- 379.994 52.8312 325.429 0 241 1 c 0
- 103.11 2.63322 42.6624 96.8855 1 200 c 1
- 21 209 l 1
- 57.1577 123.854 106.113 56 218 56 c 0
- 289.369 56 331.15 98.411 332 156 c 0
- 332.571 194.714 306.571 239.143 257 272 c 1
- 124 222 l 1
- 96 272 l 1
- 196 308 l 1
- 127.262 357.35 115 411.2 115 437 c 0
-EndSplineSet
 SplineSet
 115 437 m 4
  115 488.103 153.155 520 209 520 c 4
@@ -5488,33 +5314,7 @@ Encoding: 123 -1 123
 Width: 491
 Flags: HW
 LayerCount: 2
-Back
 Fore
-SplineSet
-115 437 m 0
- 115 483.642 149.202 520.022 211.439 520.022 c 0
- 229.333 520 237.333 520 271 513 c 1
- 296 456 l 1
- 266.908 460.849 256.8 461 247 461 c 0
- 183.194 461 169.978 430.29 169.978 410.396 c 0
- 169.978 374.237 194.303 343.773 226 320 c 1
- 364 315 l 1
- 391 287 l 1
- 294 288 l 1
- 340.775 258.766 379 202.028 379 133 c 0
- 379 52.2413 326.489 -4.00684 239.049 -4.00684 c 0
- 93.5117 -4.00684 38.7776 112.361 2 197.678 c 2
- 1 200 l 1
- 21 209 l 1
- 61.013 119.971 105.491 51 218 51 c 0
- 291 51 332 102 332 156 c 0
- 332 202.4 301.906 244.086 257 272 c 1
- 124 222 l 1
- 96 272 l 1
- 196 308 l 1
- 127.262 357.35 115 411.2 115 437 c 0
-EndSplineSet
-LCarets2: 1 0 
 SplineSet
 115 437 m 4
  115 488.103 153.155 520 209 520 c 4
@@ -5538,6 +5338,7 @@ SplineSet
  196 308 l 5
  127.262 357.35 115 411.2 115 437 c 4
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A95 u0ACD
 EndChar
 
@@ -5632,7 +5433,7 @@ SplineSet
  678.775 258.766 717 202.028 717 133 c 0
  717 52.825 665.084 -3 579 -3 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0A95.half u0A95
 EndChar
 
@@ -5695,7 +5496,7 @@ SplineSet
  21 209 l 1
  57.1577 123.854 106.113 51 218 51 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A95 u0ACD_u0AB0
 EndChar
 
@@ -5708,7 +5509,7 @@ VStem: 1 24<118.424 205.078> 74 44<376.186 471.843> 182 91<65.9715 152.021> 199 
 LayerCount: 2
 Back
 SplineSet
-420 0 m 26,0,0
+420 0 m 1050,0,0
 159 450 m 0,0,1
  143.575 450 118 442.2 118 411 c 0,2,3
  118 396.6 123.53 363.706 150 339 c 1,4,5
@@ -5749,7 +5550,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-420 -1 m 26,0,0
+420 -1 m 1050,0,0
 159 454.286 m 0,0,1
  143.575 454.286 118 444.333 118 415.285 c 0,2,3
  118 383.619 127 367.619 151.666 340.286 c 1,4,5
@@ -5788,7 +5589,7 @@ SplineSet
  379.6 -1 329 21.1279 329 85.501 c 2,2,-1
  329 242 l 1,0,0
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0A95 u0ACD u0AB7
 EndChar
 
@@ -5919,7 +5720,7 @@ SplineSet
  316 291 l 5
  320 285 328 282 340 282 c 260
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A96 u0ACD
 EndChar
 
@@ -6001,7 +5802,7 @@ SplineSet
  287 20 l 1
  397 147.522 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A96 u0ACD_u0AB0
 EndChar
 
@@ -6064,22 +5865,7 @@ Encoding: 131 -1 131
 Width: 583
 Flags: HW
 LayerCount: 2
-Back
 Fore
-SplineSet
-148.545 455.009 m 4
- 139.89 455.009 131.235 455 62 455 c 5
- 33 513 l 5
- 159 513 l 4
- 240 512 306 412 306 264 c 4
- 306 121.864 212.469 84.9501 161.905 84.9501 c 4
- 72.5665 84.9501 13.0167 162.271 -1 240 c 5
- 18 245 l 5
- 34.1885 191.455 84.1523 148 144 148 c 4
- 223.796 148 264.046 227.712 264.046 306.426 c 4
- 264.046 383.192 225.763 455.009 148.545 455.009 c 4
-EndSplineSet
-LCarets2: 1 0 
 SplineSet
 265 295 m 260
  265 379.013 221.04 456 149 456 c 6
@@ -6093,6 +5879,7 @@ SplineSet
  36.188 186.455 86.1527 143 146 143 c 4
  222.824 143 265 209.971 265 295 c 260
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A97 u0ACD
 EndChar
 
@@ -6155,7 +5942,7 @@ SplineSet
  271 20 l 1
  382 148.681 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A97 u0ACD_u0AB0
 EndChar
 
@@ -6226,7 +6013,7 @@ SplineSet
  759 26 l 1
  751.825 16.6729 733.4 -4 695 -4 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0A97.half u0AA8
 EndChar
 
@@ -6340,7 +6127,7 @@ SplineSet
  299 99 l 1
  264.954 67.1509 218.382 38 154 38 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A98 u0ACD
 EndChar
 
@@ -6355,7 +6142,7 @@ SplineSet
  298 100 l 5
  174 -33 l 5
  136 0 l 5
- 169 38 l 5
+ 169 38 l 1029
 379 1 m 4
  338.6 1 293 17 293 81 c 6
  293 93.5362 l 5
@@ -6412,7 +6199,7 @@ SplineSet
  440.825 16.6729 422.4 1 384 1 c 0
  293.367 1 298.286 77.1429 298 93.5361 c 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A98 u0ACD_u0AB0
 EndChar
 
@@ -6577,7 +6364,7 @@ SplineSet
  274 297.863 239.119 222 113 222 c 1
  124.742 176.335 171.13 134 221 134 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A9A u0ACD
 EndChar
 
@@ -6645,7 +6432,7 @@ SplineSet
  509 21 l 1
  501.825 11.6729 483.4 -4 445 -4 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A9A u0ACD_u0AB0
 EndChar
 
@@ -6855,7 +6642,7 @@ SplineSet
  2 449.771 43.5585 513.152 108.117 513.152 c 0
  166.98 513.152 244.963 460.462 328 299 c 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A9C u0ACD
 EndChar
 
@@ -6930,7 +6717,7 @@ SplineSet
  473.667 207 479 173.667 479 139 c 0
  479 79.45 461.6 -1 392 -1 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A9C u0ACD_u0AB0
 EndChar
 
@@ -7004,7 +6791,7 @@ SplineSet
  469 21 l 1
  461.825 11.6729 443.4 -4 405 -4 c 0
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0A9C u0ACD u0A9E
 EndChar
 
@@ -7140,7 +6927,7 @@ SplineSet
  2 459.046 45.766 510 103.5 510 c 130
  111 510 l 2
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0A9C u0ABE
 EndChar
 
@@ -7210,7 +6997,7 @@ SplineSet
  63.3379 273 25 339.641 25 400 c 0
  25 455.087 58.3428 513 134 513 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0A9C u0AC0
 EndChar
 
@@ -7325,7 +7112,7 @@ SplineSet
  308 351 338.667 356 366 356 c 0
  428 356 506 281.331 506 183 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0A9D u0ACD
 EndChar
 
@@ -7394,7 +7181,7 @@ SplineSet
  506 86.0091 430.359 1 345 1 c 1
  314 69 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0A9D u0ACD_u0AB0
 EndChar
 
@@ -7560,7 +7347,7 @@ SplineSet
  237.75 -61.9911 178.6 -96 117 -96 c 0
  52.6594 -96 1.77974e-18 -58.925 0 4 c 0
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0A9F u0ACD u0A9F
 EndChar
 
@@ -7627,7 +7414,7 @@ SplineSet
  249 -64.6443 206.137 -106 143 -106 c 0
  82.3366 -106 36 -63.4008 36 -12 c 0
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0A9F u0ACD u0AA0
 EndChar
 
@@ -7747,7 +7534,7 @@ SplineSet
  94 349.46 265 320.436 265 235 c 2
  265 225 l 2
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA0 u0ACD u0AA0
 EndChar
 
@@ -7857,7 +7644,7 @@ SplineSet
  84 424 93 447 106 454 c 1
  237 454 l 1
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA1 u0ACD u0AA1
 EndChar
 
@@ -7900,7 +7687,7 @@ SplineSet
  182.99 -65.4446 190.747 -77.1629 198.861 -82.5723 c 1
  211.512 -77.9727 232 -58.7998 232 -42 c 0
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA1 u0ACD u0AA2
 EndChar
 
@@ -7934,8 +7721,8 @@ SplineSet
  199 116.333 208 93 226 79 c 5
  258.475 91.4902 304 138.219 304 174 c 4
  304 197.926 278.467 217 254 217 c 4
-208 -19 m 0
-208 -19 m 0
+208 -19 m 1024
+208 -19 m 1024
 EndSplineSet
 Fore
 SplineSet
@@ -8112,7 +7899,7 @@ SplineSet
  243 483 l 2
  290.962 483 310 398.045 310 339 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AA3 u0ACD
 EndChar
 
@@ -8226,7 +8013,7 @@ SplineSet
  203 -15.5 l 2
  215 -21.1667 225.667 -24 235 -24 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA3 u0AC1
 EndChar
 
@@ -8337,7 +8124,7 @@ SplineSet
  396.5 -12.4287 413.714 -30 428 -30 c 4
  442.857 -30 456 -20.2754 456 -6 c 4
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA3 u0AC2
 EndChar
 
@@ -8418,7 +8205,7 @@ SplineSet
  143 6 l 5
  61.2084 100.937 2 166.871 2 278 c 4
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'half' Half Forms in Gujarati lookup 4 subtable" u0AA4 u0ACD
 EndChar
 
@@ -8472,7 +8259,7 @@ SplineSet
  155 159.808 233.654 68.4736 269 22 c 1
  253 6 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0AA4.half u0AA4
 EndChar
 
@@ -8525,14 +8312,14 @@ SplineSet
  472 19 l 1
  464.825 9.67285 446.4 -6 408 -6 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AA4 u0ACD_u0AB0
 EndChar
 
 StartChar: u0AA4_u0AA8.pres
 Encoding: 170 -1 170
 Width: 811
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 SplineSet
@@ -8592,7 +8379,7 @@ SplineSet
  144 6 l 1
  62.2084 100.937 3 166.871 3 278 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 5 subtable" u0AA4.half u0AA8
 EndChar
 
@@ -9029,7 +8816,7 @@ LayerCount: 2
 Fore
 Refer: 308 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 301 0 0
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6 subtable" u0AA8.half u0AA8
 EndChar
 
@@ -9132,7 +8919,7 @@ LayerCount: 2
 Fore
 Refer: 309 -1 N 1 0 0 1 1 1 0
 Refer: 255 2750 N 1 0 0 1 293 0 0
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants in Gujarati lookup 3 subtable" u0AAA u0ACD_u0AB0
 EndChar
 
@@ -9876,7 +9663,7 @@ SplineSet
  548.667 214 543 211 535 207 c 1
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 7 subtable" u0AB0 u0AC2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0AB0_u0AC7
@@ -9992,7 +9779,7 @@ SplineSet
  -337.167 654.167 -338 664 -338 672 c 0
 EndSplineSet
 Ligature2: "'rphf' Reph Form in Gujarati lookup 1 subtable" u0AB0 u0ACD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0AB2
@@ -11517,7 +11304,7 @@ SplineSet
  -189 -32 l 1
 EndSplineSet
 Ligature2: "'blwf' Below Base Forms in Gujarati lookup 2 subtable" u0AB0 u0ACD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0ACD_u0AB0.rkrf
@@ -12587,7 +12374,7 @@ SplineSet
  125.367 382.54 141.753 346.583 156.665 331.666 c 1
  169.994 340.329 207 364.976 207 402 c 0
  207 427.252 192.828 459 172 459 c 0
-921 355 m 0
+921 355 m 1024
 143 143 m 0
  143 174.744 187.637 208.498 218 217 c 1
  172 270 l 1
