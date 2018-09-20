@@ -1,0 +1,13 @@
+#!/bin/bash
+
+faces=(Gir)
+styles=(Regular Bold Italic)
+desc_long="Pan Gujarati font designed to support all the languages using the Gujarati script."
+
+export nlci=$HOME/script/tools
+source ${nlci}/prepare.bash
+
+source ${nlci}/addchars.bash
+
+source ${nlci}/metadata.bash
+echo "done producing UFO sources"

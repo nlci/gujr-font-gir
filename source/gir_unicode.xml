@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <font>
 <glyphs>
+<!--
 <glyph UID='0020'><base UID='0020' font='1'/></glyph>
 <glyph UID='0021'><base UID='0021' font='1'/></glyph>
 <glyph UID='0022'><base UID='0022' font='1'/></glyph>
@@ -101,6 +102,7 @@
 <glyph UID="2019"><base UID="2019" font='1'/></glyph>
 <glyph UID="201C"><base UID="201C" font='1'/></glyph>
 <glyph UID="201D"><base UID="201D" font='1'/></glyph>
+-->
 
 <!--<glyph UID="0020" PSName="space"><base UID="F020"/></glyph>
 <glyph UID="0021" PSName="exclam"><base UID="F021"/></glyph>
@@ -295,7 +297,7 @@
 <glyph PSName="u0AC7_u0A82"><base UID="F0E1"><shift x="1.8" y="1.8"/></base></glyph>
 <glyph UID="0AC8" PSName="u0AC8"><base UID="F0E4"><shift x="1.8" y="1.8"/></base></glyph>
 <glyph PSName="u0AC8_u0A82"><base UID="F0E5"><shift x="1.8" y="1.8"/></base></glyph>
-<glyph UID="0AC8" PSName="u0AC8"><base UID="F0E8"><shift x="1.8" y="1.8"/></base></glyph>
+<glyph PSName="u0AC9.top"><base UID="F0E8"><shift x="1.8" y="1.8"/></base></glyph>
 <glyph UID="0AC9" PSName="u0AC9"><base UID="F0C9"><shift x="1.8" y="1.8"/></base><base UID="F0E8"><shift x="1.8" y="1.8"/></base></glyph>
 <glyph UID="0ACB" PSName="u0ACB"><base UID="F0C9"><shift x="1.8" y="1.8"/></base><base UID="F0E0"><shift x="1.8" y="1.8"/></base></glyph>
 <glyph UID="0ACC" PSName="u0ACC"><base UID="F0C9"><shift x="1.8" y="1.8"/></base><base UID="F0E4"><shift x="1.8" y="1.8"/></base></glyph>
