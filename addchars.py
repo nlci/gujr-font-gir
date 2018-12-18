@@ -37,12 +37,12 @@ def modifySource(sfd, f, s, sn):
 
     emsize = '1000'
     emext = '.sfd'
-    emopt = '-s ' + str(1000.0/2048.0) + ' '
+    emopt = '-s ' + str(1000.0/2048/1.4) + ' '
 
     asn = sn
     asn = asn.replace('BoldItalic', 'Bold')
     asn = asn.replace('Italic', 'Regular')
-    cmd = '-i ' + annapurna_dir + emsize + annapurna_ttf + asn + emext + ' --rangefile cs/annapurna/main.txt'
+    cmd = '-s ' + str(1/1.4) + ' ' + '-i ' + annapurna_dir + emsize + annapurna_ttf + asn + emext + ' --rangefile cs/annapurna/main.txt'
     modifyFile(cmd, sfd)
 
     cmd = emopt + '-i ' + charis_dir + '2048' + charis_ttf + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
