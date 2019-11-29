@@ -59,6 +59,10 @@ hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
         for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
+            missing_style = sLegacy
+            if missing_style == 'BD':
+                missing_style = ''
+            missing = '../' + archive + fLegacy + missing_style + '.ttf'
             font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
                     cmd(hackos2 + ' ${DEP} ${TGT}'),
                     name(f, lang='en-US', subfamily=(sn))
@@ -66,7 +70,7 @@ if '-l' in opts:
                 source = legacy(f + s + '.ttf',
                                 source = archive + fLegacy + sLegacy + '.ttf',
                                 xml = fontbase + 'gir_unicode.xml',
-                                params = '',
+                                params = ' -f ' + missing,
                                 noap = '')
                 )
 

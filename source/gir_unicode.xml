@@ -1,207 +1,32 @@
 <?xml version="1.0"?>
 <font>
 <glyphs>
-<!--<glyph UID="0020" PSName="space"><base UID="F020"/></glyph>
-<glyph UID="0021" PSName="exclam"><base UID="F021"/></glyph>
-<glyph UID="0028" PSName="parenleft"><base UID="F028"/></glyph>
-<glyph UID="0029" PSName="parenright"><base UID="F029"/></glyph>
-<glyph UID="002C" PSName="comma"><base UID="F02C"/></glyph>
-<glyph UID="002D" PSName="hyphen"><base UID="F02D"/></glyph>
-<glyph UID="002E" PSName="period"><base UID="F02E"/></glyph>
-<glyph UID="002F" PSName="slash"><base UID="F02F"/></glyph>
-<glyph UID="0030" PSName="zero"><base UID="F080"/></glyph>
-<glyph UID="0031" PSName="one"><base UID="F081"/></glyph>
-<glyph UID="0032" PSName="two"><base UID="F082"/></glyph>
-<glyph UID="0033" PSName="three"><base UID="F083"/></glyph>
-<glyph UID="0034" PSName="four"><base UID="F084"/></glyph>
-<glyph UID="0035" PSName="five"><base UID="F085"/></glyph>
-<glyph UID="0036" PSName="six"><base UID="F086"/></glyph>
-<glyph UID="0037" PSName="seven"><base UID="F087"/></glyph>
-<glyph UID="0038" PSName="eight"><base UID="F088"/></glyph>
-<glyph UID="0039" PSName="nine"><base UID="F089"/></glyph>
-<glyph UID="003A" PSName="colon"><base UID="F026"/></glyph>
-<glyph UID="003B" PSName="semicolon"><base UID="F03B"/></glyph>
-<glyph UID="003F" PSName="question"><base UID="F03F"/></glyph>-->
-
-<glyph UID="0A81" PSName="u0A81"><base UID="F0C6"></base></glyph>
-<glyph UID="0A82" PSName="u0A82"><base UID="F0C5"></base></glyph>
-<glyph UID="0A83" PSName="u0A83"><base UID="F03A"></base></glyph>
+<glyph PSName="space.gujr"><base UID="F020"></base></glyph>
+<glyph PSName="exclam.gujr"><base UID="F021"></base></glyph>
+<glyph PSName="quoteleft.gujr"><base UID="F022"></base></glyph>
+<glyph PSName="quotedblleft.gujr"><base UID="F022"></base><base UID="F022"></base></glyph>
+<glyph UID="25CC" PSName="dottedcircle"><base UID="F023"></base></glyph>
+<glyph UID="0ABD" PSName="u0ABD"><base UID="F025"></base></glyph>
+<glyph UID="0A83" PSName="u0A83"><base UID="F026"></base></glyph>
+<glyph PSName="quoteright.gujr"><base UID="F027"></base></glyph>
+<glyph PSName="quotedblright.gujr"><base UID="F027"></base><base UID="F027"></base></glyph>
+<glyph PSName="parenleft.gujr"><base UID="F028"></base></glyph>
+<glyph PSName="parenright.gujr"><base UID="F029"></base></glyph>
+<glyph UID="0964" PSName="danda"><base UID="F02A"></base></glyph>
+<glyph UID="0965" PSName="dandadbl"><base UID="F02A"></base><base UID="F02A"></base></glyph>
 <glyph UID="0A85" PSName="u0A85"><base UID="F02B"></base></glyph>
 <glyph UID="0A86" PSName="u0A86"><base UID="F02B"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0A87" PSName="u0A87"><base UID="F03C"></base></glyph>
-<glyph PSName="u0A87.abvm"><base UID="F03D"></base></glyph>
-<glyph UID="0A88" PSName="u0A88"><base UID="F03E"></base></glyph>
-<glyph PSName="u0A88.abvm"><base UID="F040"></base></glyph>
-<glyph UID="0A89" PSName="u0A89"><base UID="F041"></base></glyph>
-<glyph PSName="u0A89.abvm"><base UID="F042"></base></glyph>
-<glyph UID="0A8A" PSName="u0A8A"><base UID="F043"></base></glyph>
-<glyph PSName="u0A8A.abvm"><base UID="F044"></base></glyph>
-<glyph UID="0A8B" PSName="u0A8B"><base UID="F045"></base></glyph>
 <glyph UID="0A8D" PSName="u0A8D"><base UID="F02B"></base><base UID="F0E8"></base></glyph>
 <glyph UID="0A8F" PSName="u0A8F"><base UID="F02B"></base><base UID="F0E0"></base></glyph>
 <glyph UID="0A90" PSName="u0A90"><base UID="F02B"></base><base UID="F0E4"></base></glyph>
 <glyph UID="0A91" PSName="u0A91"><base UID="F02B"></base><base UID="F0C9"></base><base UID="F0E8"></base></glyph>
 <glyph UID="0A93" PSName="u0A93"><base UID="F02B"></base><base UID="F0C9"></base><base UID="F0E0"></base></glyph>
 <glyph UID="0A94" PSName="u0A94"><base UID="F02B"></base><base UID="F0C9"></base><base UID="F0E4"></base></glyph>
-<glyph UID="0A95" PSName="u0A95"><base UID="F048"></base></glyph>
-<glyph PSName="u0A95.half"><base UID="F047"></base></glyph>
-<glyph PSName="u0A95.pres"><base UID="F049"></base></glyph>
-<glyph PSName="u0A95.vatu"><base UID="F04A"></base></glyph>
-<glyph PSName="u0A95_u0AB7.akhn"><base UID="F04B"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0A96" PSName="u0A96"><base UID="F04C"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0A96.half"><base UID="F04C"></base></glyph>
-<glyph PSName="u0A96.vatu"><base UID="F04D"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0A97" PSName="u0A97"><base UID="F04E"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0A97.half"><base UID="F04E"></base></glyph>
-<glyph PSName="u0A97.vatu"><base UID="F04F"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0A97_u0AA8.pres"><base UID="F08A"></base></glyph>
-<glyph UID="0A98" PSName="u0A98"><base UID="F050"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0A98.half"><base UID="F050"></base></glyph>
-<glyph PSName="u0A98.vatu"><base UID="F051"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0A99" PSName="u0A99"><base UID="F052"></base></glyph>
-<glyph UID="0A9A" PSName="u0A9A"><base UID="F053"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0A9A.half"><base UID="F053"></base></glyph>
-<glyph PSName="u0A9A.vatu"><base UID="F054"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0A9B" PSName="u0A9B"><base UID="F055"></base></glyph>
-<glyph UID="0A9C" PSName="u0A9C"><base UID="F057"></base></glyph>
-<glyph PSName="u0A9C.half"><base UID="F056"></base></glyph>
-<glyph PSName="u0A9C.vatu"><base UID="F05A"></base></glyph>
-<glyph PSName="u0A9C_u0A9E.akhn"><base UID="F05B"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0A9C_u0A9E.half"><base UID="F05B"></base></glyph>
-<glyph PSName="u0A9C_u0ABE.psts"><base UID="F058"></base></glyph>
-<glyph PSName="u0A9C_u0AC0.psts"><base UID="F059"></base></glyph>
-<glyph UID="0A9D" PSName="u0A9D"><base UID="F05D"></base></glyph>
-<glyph PSName="u0A9D.half"><base UID="F05C"></base></glyph>
-<glyph PSName="u0A9D.vatu"><base UID="F05E"></base></glyph>
-<glyph UID="0A9E" PSName="u0A9E"><base UID="F05F"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0A9F" PSName="u0A9F"><base UID="F060"></base></glyph>
-<glyph PSName="u0A9F.blws"><base UID="F061"></base></glyph>
-<glyph PSName="u0A9F_u0AA0.blws"><base UID="F062"></base></glyph>
-<glyph UID="0AA0" PSName="u0AA0"><base UID="F063"></base></glyph>
-<glyph PSName="u0AA0.blws"><base UID="F064"></base></glyph>
-<glyph UID="0AA1" PSName="u0AA1"><base UID="F065"></base></glyph>
-<glyph PSName="u0AA1.blws"><base UID="F066"></base></glyph>
-<glyph PSName="u0AA1_u0AA2.blws"><base UID="F067"></base></glyph>
-<glyph UID="0AA2" PSName="u0AA2"><base UID="F068"></base></glyph>
-<glyph UID="0AA3" PSName="u0AA3"><base UID="F069"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AA3.half"><base UID="F069"></base></glyph>
-<glyph PSName="u0AA3_u0AC1.blws"><base UID="F06A"></base></glyph>
-<glyph PSName="u0AA3_u0AC2.blws"><base UID="F06B"></base></glyph>
-<glyph UID="0AA4" PSName="u0AA4"><base UID="F06C"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AA4.half"><base UID="F06C"></base></glyph>
-<glyph PSName="u0AA4.pres"><base UID="F06E"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AA4.vatu"><base UID="F06D"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AA4_u0AA8.pres"><base UID="F08C"></base></glyph>
-<glyph UID="0AA5" PSName="u0AA5"><base UID="F06F"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AA5.half"><base UID="F06F"></base></glyph>
-<glyph PSName="u0AA5.vatu"><base UID="F070"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AA6" PSName="u0AA6"><base UID="F071"></base></glyph>
-<glyph PSName="u0AA6.half"><base UID="F074"></base></glyph>
-<glyph PSName="u0AA6.vatu"><base UID="F072"></base></glyph>
-<glyph PSName="u0AA6_u0AA7.blws"><base UID="F075"></base></glyph>
-<glyph PSName="u0AA6_u0AA8.pres"><base UID="F08B"></base></glyph>
-<glyph PSName="u0AA6_u0AAE.pres"><base UID="F073"></base></glyph>
-<glyph PSName="u0AA6_u0AAF.pres"><base UID="F076"></base></glyph>
-<glyph PSName="u0AA6_u0AB5.blws"><base UID="F077"></base></glyph>
-<glyph UID="0AA7" PSName="u0AA7"><base UID="F079"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AA7.half"><base UID="F079"></base></glyph>
-<glyph PSName="u0AA7.vatu"><base UID="F07A"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AA8" PSName="u0AA8"><base UID="F07B"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AA8.blws"><base UID="F07D"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AA8.half"><base UID="F07B"></base></glyph>
-<glyph PSName="u0AA8.vatu"><base UID="F07C"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AAA" PSName="u0AAA"><base UID="F093"></base></glyph>
-<glyph PSName="u0AAA.half"><base UID="F07E"></base></glyph>
-<glyph PSName="u0AAA.vatu"><base UID="F0A1"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AAB" PSName="u0AAB"><base UID="F0A3"></base></glyph>
-<glyph PSName="u0AAB.half"><base UID="F0A2"></base></glyph>
-<glyph PSName="u0AAB.vatu"><base UID="F0A4"></base></glyph>
-<glyph UID="0AAC" PSName="u0AAC"><base UID="F0A5"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AAC.half"><base UID="F0A5"></base></glyph>
-<glyph PSName="u0AAC.vatu"><base UID="F0A6"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AAD" PSName="u0AAD"><base UID="F0A7"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AAD.half"><base UID="F0A7"></base></glyph>
-<glyph PSName="u0AAD.vatu"><base UID="F0A8"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AAE" PSName="u0AAE"><base UID="F0A9"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AAE.half"><base UID="F0A9"></base></glyph>
-<glyph PSName="u0AAE.vatu"><base UID="F0AA"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AAF" PSName="u0AAF"><base UID="F0AB"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AAF.half"><base UID="F0AB"></base></glyph>
-<glyph UID="0AB0" PSName="u0AB0"><base UID="F0AD"></base></glyph>
-<glyph PSName="u0AB0_u0A82"><base UID="F0C8"></base></glyph>
-<glyph PSName="u0AB0_u0ABF.pres"><base UID="F0CC"></base></glyph>
-<glyph PSName="u0AB0_u0ABF.wide"><base UID="F0D0"></base></glyph>
-<glyph PSName="u0AB0_u0ABF_u0A82.pres"><base UID="F0CD"></base></glyph>
-<glyph PSName="u0AB0_u0ABF_u0A82.wide"><base UID="F0D1"></base></glyph>
-<glyph PSName="u0AB0_u0AC0.psts"><base UID="F0D4"></base></glyph>
-<glyph PSName="u0AB0_u0AC0_u0A82.psts"><base UID="F0D5"></base></glyph>
-<glyph PSName="u0AB0_u0AC1.psts"><base UID="F0AE"></base></glyph>
-<glyph PSName="u0AB0_matra_u0AC1.psts"><base UID="F0D7"></base></glyph>
-<glyph PSName="u0AB0_u0AC2.blwf"><base UID="F0DB"></base></glyph>
-<glyph PSName="u0AB0_u0AC2.blws"><base UID="F0B0"></base></glyph>
-<glyph PSName="u0AB0_u0AC2.psts"><base UID="F0AF"></base></glyph>
-<glyph PSName="u0AB0_u0AC7"><base UID="F0E2"></base></glyph>
-<glyph PSName="u0AB0_u0AC7_u0A82"><base UID="F0E3"></base></glyph>
-<glyph PSName="u0AB0_u0AC8"><base UID="F0E6"></base></glyph>
-<glyph PSName="u0AB0_u0ACD"><base UID="F0C7"></base></glyph>
-<glyph UID="0AB2" PSName="u0AB2"><base UID="F0B1"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AB2.half"><base UID="F0B1"></base></glyph>
-<glyph UID="0AB3" PSName="u0AB3"><base UID="F0B3"></base></glyph>
-<glyph PSName="u0AB3.half"><base UID="F0B2"></base></glyph>
-<glyph UID="0AB5" PSName="u0AB5"><base UID="F0B4"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AB5.half"><base UID="F0B4"></base></glyph>
-<glyph PSName="u0AB5.vatu"><base UID="F0B5"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AB6" PSName="u0AB6"><base UID="F0B6"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AB6.althalf"><base UID="F0B7"></base></glyph>
-<glyph PSName="u0AB6.half"><base UID="F0B6"></base></glyph>
-<glyph PSName="u0AB6.vatu"><base UID="F0B8"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AB6_u0AB5.blws"><base UID="F0B9"></base><base UID="F0C9"></base></glyph>
-<glyph UID="0AB7" PSName="u0AB7"><base UID="F0BA"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AB7.half"><base UID="F0BA"></base></glyph>
-<glyph PSName="u0AB7_u0A9F.pres"><base UID="F090"></base></glyph>
-<glyph PSName="u0AB7_u0A9F.psts"><base UID="F08D"></base></glyph>
-<glyph PSName="u0AB7_u0AA0.pres"><base UID="F091"></base></glyph>
-<glyph PSName="u0AB7_u0AA0.psts"><base UID="F08E"></base></glyph>
-<glyph UID="0AB8" PSName="u0AB8"><base UID="F0BB"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AB8.half"><base UID="F0BB"></base></glyph>
-<glyph PSName="u0AB8.vatu"><base UID="F0BF"></base><base UID="F0C9"></base></glyph>
-<glyph PSName="u0AB9.old"><base UID="F0BE"></base></glyph>
-<glyph PSName="u0AB9.halfold"><base UID="F092"></base></glyph>
-<glyph PSName="u0AB9.halfalt"><base UID="F0BD"></base></glyph>
-<glyph UID="0AB9" PSName="u0AB9"><base UID="F092"></base></glyph>
-<glyph PSName="u0AB9.half"><base UID="F0C0"></base></glyph>
-<glyph PSName="u0AB9_u0AA8.psts"><base UID="F08F"></base></glyph>
-<glyph PSName="u0AB9_u0AAE.psts"><base UID="F0C1"></base></glyph>
-<glyph PSName="u0AB9_u0AAF.pstsalt"><base UID="F094"></base></glyph>
-<glyph PSName="u0AB9_u0AAF.psts"><base UID="F0C2"></base></glyph>
-<glyph UID="0ABC" PSName="u0ABC"><base UID="F095"></base></glyph>
-<glyph UID="0ABD" PSName="u0ABD"><base UID="F025"></base></glyph>
-<glyph UID="0ABE" PSName="u0ABE"><base UID="F0C9"></base></glyph>
-<glyph UID="0ABF" PSName="u0ABF"><base UID="F0CA"></base></glyph>
-<glyph PSName="u0ABF.wide"><base UID="F0CE"></base></glyph>
-<glyph PSName="u0ABF_u0A82"><base UID="F0CB"></base></glyph>
-<glyph PSName="u0ABF_u0A82.wide"><base UID="F0CF"></base></glyph>
-<glyph UID="0AC0" PSName="u0AC0"><base UID="F0D2"></base></glyph>
-<glyph PSName="u0AC0_u0A82"><base UID="F0D3"></base></glyph>
-<glyph UID="0AC1" PSName="u0AC1"><base UID="F0D6"></base></glyph>
-<glyph PSName="u0AC1.alt"><base UID="F0D9"></base></glyph>
-<glyph UID="0AC2" PSName="u0AC2"><base UID="F0DA"></base></glyph>
-<glyph PSName="u0AC2.alt"><base UID="F0DD"></base></glyph>
-<glyph UID="0AC3" PSName="u0AC3"><base UID="F0DE"></base></glyph>
-<glyph PSName="u0AC3.alt"><base UID="F0DF"></base></glyph>
-<glyph UID="0AC4" PSName="u0AC4"><base UID="F096"></base></glyph>
-<glyph UID="0AC7" PSName="u0AC7"><base UID="F0E0"></base></glyph>
-<glyph PSName="u0AC7_u0A82"><base UID="F0E1"></base></glyph>
-<glyph UID="0AC8" PSName="u0AC8"><base UID="F0E4"></base></glyph>
-<glyph PSName="u0AC8_u0A82"><base UID="F0E5"></base></glyph>
-<glyph PSName="u0AC9.top"><base UID="F0E8"></base></glyph>
-<glyph UID="0AC9" PSName="u0AC9"><base UID="F0C9"></base><base UID="F0E8"></base></glyph>
-<glyph UID="0ACB" PSName="u0ACB"><base UID="F0C9"></base><base UID="F0E0"></base></glyph>
-<glyph UID="0ACC" PSName="u0ACC"><base UID="F0C9"></base><base UID="F0E4"></base></glyph>
-<glyph UID="0ACD" PSName="u0ACD"><base UID="F0C3"></base></glyph>
-<glyph PSName="u0ACD_u0AB0"><base UID="F0C4"></base></glyph>
-<glyph PSName="u0ACD_u0AB0.rkrf"><base UID="F097"></base></glyph>
-<glyph UID="0AE0" PSName="u0AE0"><base UID="F046"></base></glyph>
+<glyph PSName="comma.gujr"><base UID="F02C"></base></glyph>
+<glyph PSName="hyphen.gujr"><base UID="F02D"></base></glyph>
+<glyph PSName="period.gujr"><base UID="F02E"></base></glyph>
+<glyph UID="2215" PSName="divisionslash"><base UID="F02F"></base></glyph>
+<glyph PSName="slash.gujr"><base UID="F02F"></base></glyph>
 <glyph UID="0AE6" PSName="u0AE6"><base UID="F030"></base></glyph>
 <glyph UID="0AE7" PSName="u0AE7"><base UID="F031"></base></glyph>
 <glyph UID="0AE8" PSName="u0AE8"><base UID="F032"></base></glyph>
@@ -212,11 +37,225 @@
 <glyph UID="0AED" PSName="u0AED"><base UID="F037"></base></glyph>
 <glyph UID="0AEE" PSName="u0AEE"><base UID="F038"></base></glyph>
 <glyph UID="0AEF" PSName="u0AEF"><base UID="F039"></base></glyph>
-<glyph UID="25CC" PSName="u25CC"><base UID="F023"></base></glyph>
-<glyph UID="200D" PSName="u200D"><base UID="F020"><advance width="0"/></base></glyph>
-<glyph UID="200C" PSName="u200C"><base UID="F020"><advance width="0"/></base></glyph>
-<glyph UID="200B" PSName="u200B"><base UID="F020"><advance width="0"/></base></glyph>
-<glyph UID="2060" PSName="u2060"><base UID="F020"><advance width="0"/></base></glyph>
-<glyph UID="00A0" PSName="u00A0"><base UID="F020"></base></glyph>
+<glyph PSName="colon.gujr"><base UID="F03A"></base></glyph>
+<glyph PSName="semicolon.gujr"><base UID="F03B"></base></glyph>
+<glyph UID="0A87" PSName="u0A87"><base UID="F03C"></base></glyph>
+<glyph PSName="u0A87_u0A82"><base UID="F03D"></base></glyph>
+<glyph UID="0A88" PSName="u0A88"><base UID="F03E"></base></glyph>
+<glyph PSName="question.gujr"><base UID="F03F"></base></glyph>
+<glyph PSName="u0A88_u0A82"><base UID="F040"></base></glyph>
+<glyph UID="0A89" PSName="u0A89"><base UID="F041"></base></glyph>
+<glyph PSName="u0A89_u0A82"><base UID="F042"></base></glyph>
+<glyph UID="0A8A" PSName="u0A8A"><base UID="F043"></base></glyph>
+<glyph PSName="u0A8A_u0A82"><base UID="F044"></base></glyph>
+<glyph UID="0A8B" PSName="u0A8B"><base UID="F045"></base></glyph>
+<glyph UID="0AE0" PSName="u0AE0"><base UID="F046"></base></glyph>
+<glyph PSName="u0A95.half"><base UID="F047"></base></glyph>
+<glyph UID="0A95" PSName="u0A95"><base UID="F048"></base></glyph>
+<glyph PSName="u0A95_u0ACD_u0A95"><base UID="F049"></base></glyph>
+<glyph PSName="u0A95.vatu"><base UID="F04A"></base></glyph>
+<glyph PSName="u0A95_u0ACD_u0AB7"><base UID="F04B"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A95_u0ACD_u0AB7.half"><base UID="F04B"></base></glyph>
+<glyph UID="0A96" PSName="u0A96"><base UID="F04C"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A96.half"><base UID="F04C"></base></glyph>
+<glyph PSName="u0A96.vatu"><base UID="F04D"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A96.half.vatu"><base UID="F04D"></base></glyph>
+<glyph UID="0A97" PSName="u0A97"><base UID="F04E"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A97.half"><base UID="F04E"></base></glyph>
+<glyph PSName="u0A97.vatu"><base UID="F04F"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A97.half.vatu"><base UID="F04F"></base></glyph>
+<glyph UID="0A98" PSName="u0A98"><base UID="F050"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A98.half"><base UID="F050"></base></glyph>
+<glyph PSName="u0A98.vatu"><base UID="F051"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A98.half.vatu"><base UID="F051"></base></glyph>
+<glyph UID="0A99" PSName="u0A99"><base UID="F052"></base></glyph>
+<glyph UID="0A9A" PSName="u0A9A"><base UID="F053"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A9A.half"><base UID="F053"></base></glyph>
+<glyph PSName="u0A9A.vatu"><base UID="F054"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A9A.half.vatu"><base UID="F054"></base></glyph>
+<glyph UID="0A9B" PSName="u0A9B"><base UID="F055"></base></glyph>
+<glyph PSName="u0A9C.half"><base UID="F056"></base></glyph>
+<glyph UID="0A9C" PSName="u0A9C"><base UID="F057"></base></glyph>
+<glyph PSName="u0A9C_u0ABE.psts"><base UID="F058"></base></glyph>
+<glyph PSName="u0A9C_u0AC0.psts"><base UID="F059"></base></glyph>
+<glyph PSName="u0A9C.vatu"><base UID="F05A"></base></glyph>
+<glyph PSName="u0A9C_u0ACD_u0A9E"><base UID="F05B"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A9C_u0ACD_u0A9E.half"><base UID="F05B"></base></glyph>
+<glyph PSName="u0A9D.half"><base UID="F05C"></base></glyph>
+<glyph UID="0A9D" PSName="u0A9D"><base UID="F05D"></base></glyph>
+<glyph PSName="u0A9D.vatu"><base UID="F05E"></base></glyph>
+<glyph UID="0A9E" PSName="u0A9E"><base UID="F05F"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0A9E.half"><base UID="F05F"></base></glyph>
+<glyph UID="0A9F" PSName="u0A9F"><base UID="F060"></base></glyph>
+<glyph PSName="u0A9F_u0ACD_u0A9F"><base UID="F061"></base></glyph>
+<glyph PSName="u0A9F_u0ACD_u0AA0"><base UID="F062"></base></glyph>
+<glyph UID="0AA0" PSName="u0AA0"><base UID="F063"></base></glyph>
+<glyph PSName="u0AA0_u0ACD_u0AA0"><base UID="F064"></base></glyph>
+<glyph UID="0AA1" PSName="u0AA1"><base UID="F065"></base></glyph>
+<glyph PSName="u0AA1_u0ACD_u0AA1"><base UID="F066"></base></glyph>
+<glyph PSName="u0AA1_u0ACD_u0AA2"><base UID="F067"></base></glyph>
+<glyph UID="0AA2" PSName="u0AA2"><base UID="F068"></base></glyph>
+<glyph UID="0AA3" PSName="u0AA3"><base UID="F069"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA3.half"><base UID="F069"></base></glyph>
+<glyph PSName="u0AA3_u0AC1.blws"><base UID="F06A"></base></glyph>
+<glyph PSName="u0AA3_u0AC2.blws"><base UID="F06B"></base></glyph>
+<glyph UID="0AA4" PSName="u0AA4"><base UID="F06C"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA4.half"><base UID="F06C"></base></glyph>
+<glyph PSName="u0AA4.vatu"><base UID="F06D"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA4.half.vatu"><base UID="F06D"></base></glyph>
+<glyph PSName="u0AA4_u0ACD_u0AA4"><base UID="F06E"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA4_u0ACD_u0AA4.half"><base UID="F06E"></base></glyph>
+<glyph UID="0AA5" PSName="u0AA5"><base UID="F06F"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA5.half"><base UID="F06F"></base></glyph>
+<glyph PSName="u0AA5.vatu"><base UID="F070"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA5.half.vatu"><base UID="F070"></base></glyph>
+<glyph UID="0AA6" PSName="u0AA6"><base UID="F071"></base></glyph>
+<glyph PSName="u0AA6.vatu"><base UID="F072"></base></glyph>
+<glyph PSName="u0AA6_u0ACD_u0AAE"><base UID="F073"></base></glyph>
+<glyph PSName="u0AA6_u0ACD_u0AA6"><base UID="F074"></base></glyph>
+<glyph PSName="u0AA6_u0ACD_u0AA7"><base UID="F075"></base></glyph>
+<glyph PSName="u0AA6_u0ACD_u0AAF"><base UID="F076"></base></glyph>
+<glyph PSName="u0AA6_u0ACD_u0AB5"><base UID="F077"></base></glyph>
+
+<glyph UID="0AA7" PSName="u0AA7"><base UID="F079"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA7.half"><base UID="F079"></base></glyph>
+<glyph PSName="u0AA7.vatu"><base UID="F07A"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA7.half.vatu"><base UID="F07A"></base></glyph>
+<glyph UID="0AA8" PSName="u0AA8"><base UID="F07B"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA8.half"><base UID="F07B"></base></glyph>
+<glyph PSName="u0AA8.vatu"><base UID="F07C"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA8.half.vatu"><base UID="F07C"></base></glyph>
+<glyph PSName="u0AA8_u0ACD_u0AA8"><base UID="F07D"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AA8_u0ACD_u0AA8.half"><base UID="F07D"></base></glyph>
+<glyph PSName="u0AAA_u0ACD.half"><base UID="F07E"></base></glyph>
+
+<glyph PSName="zero.gujr"><base UID="F080"></base></glyph>
+<glyph PSName="one.gujr"><base UID="F081"></base></glyph>
+<glyph PSName="two.gujr"><base UID="F082"></base></glyph>
+<glyph PSName="three.gujr"><base UID="F083"></base></glyph>
+<glyph PSName="four.gujr"><base UID="F084"></base></glyph>
+<glyph PSName="five.gujr"><base UID="F085"></base></glyph>
+<glyph PSName="six.gujr"><base UID="F086"></base></glyph>
+<glyph PSName="seven.gujr"><base UID="F087"></base></glyph>
+<glyph PSName="eight.gujr"><base UID="F088"></base></glyph>
+<glyph PSName="nine.gujr"><base UID="F089"></base></glyph>
+<glyph PSName="u0A97_u0ACD_u0AA8"><base UID="F08A"></base></glyph>
+<glyph PSName="u0AA6_u0ACD_u0AA8"><base UID="F08B"></base></glyph>
+<glyph PSName="u0AA4_u0ACD_u0AA8"><base UID="F08C"></base></glyph>
+<glyph PSName="u0AB7_u0ACD_u0A9F.psts"><base UID="F08D"></base></glyph>
+<glyph PSName="u0AB7_u0ACD_u0AA0.psts"><base UID="F08E"></base></glyph>
+<glyph PSName="u0AB9_u0ACD_u0AA8"><base UID="F08F"></base></glyph>
+<glyph PSName="u0AB7_u0ACD_u0A9F.pres"><base UID="F090"></base></glyph>
+<glyph PSName="u0AB7_u0ACD_u0AA0.pres"><base UID="F091"></base></glyph>
+<glyph PSName="u0AB9.half.old"><base UID="F092" font='1'></base></glyph>
+<glyph UID="0AB9" PSName="u0AB9"><base UID="F092" font='1'></base></glyph>
+<glyph UID="0AAA" PSName="u0AAA"><base UID="F093" font='1'></base></glyph>
+<glyph PSName="u0AB9_u0ACD_u0AAF.alt"><base UID="F094" font='1'></base></glyph>
+<glyph UID="0ABC" PSName="u0ABC"><base UID="F095" font='1'></base></glyph>
+<glyph UID="0AC4" PSName="u0AC4"><base UID="F096" font='1'></base></glyph>
+<glyph PSName="u0ACD_u0AB0.rphf"><base UID="F097" font='1'></base></glyph>
+
+
+
+
+
+
+
+
+
+<glyph PSName="u0AAA.vatu"><base UID="F0A1"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AAA.half.vatu"><base UID="F0A1"></base></glyph>
+<glyph PSName="u0AAB.half"><base UID="F0A2"></base></glyph>
+<glyph UID="0AAB" PSName="u0AAB"><base UID="F0A3"></base></glyph>
+<glyph PSName="u0AAB.vatu"><base UID="F0A4"></base></glyph>
+<glyph UID="0AAC" PSName="u0AAC"><base UID="F0A5"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AAC.half"><base UID="F0A5"></base></glyph>
+<glyph PSName="u0AAC.vatu"><base UID="F0A6"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AAC.half.vatu"><base UID="F0A6"></base></glyph>
+<glyph UID="0AAD" PSName="u0AAD"><base UID="F0A7"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AAD.half"><base UID="F0A7"></base></glyph>
+<glyph PSName="u0AAD.vatu"><base UID="F0A8"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AAD.half.vatu"><base UID="F0A8"></base></glyph>
+<glyph UID="0AAE" PSName="u0AAE"><base UID="F0A9"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AAE.half"><base UID="F0A9"></base></glyph>
+<glyph PSName="u0AAE.vatu"><base UID="F0AA"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AAE.half.vatu"><base UID="F0AA"></base></glyph>
+<glyph UID="0AAF" PSName="u0AAF"><base UID="F0AB"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AAF.half"><base UID="F0AB"></base></glyph>
+
+<glyph UID="0AB0" PSName="u0AB0"><base UID="F0AD"></base></glyph>
+<glyph PSName="u0AB0_u0AC1"><base UID="F0AE"></base></glyph>
+<glyph PSName="u0AB0_u0AC2.psts"><base UID="F0AF"></base></glyph>
+<glyph PSName="u0AB0_u0AC2"><base UID="F0B0"></base></glyph>
+<glyph UID="0AB2" PSName="u0AB2"><base UID="F0B1"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AB2.half"><base UID="F0B1"></base></glyph>
+<glyph PSName="u0AB3.half"><base UID="F0B2"></base></glyph>
+<glyph UID="0AB3" PSName="u0AB3"><base UID="F0B3"></base></glyph>
+<glyph UID="0AB5" PSName="u0AB5"><base UID="F0B4"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AB5.half"><base UID="F0B4"></base></glyph>
+<glyph PSName="u0AB5.vatu"><base UID="F0B5"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AB5.half.vatu"><base UID="F0B5"></base></glyph>
+<glyph UID="0AB6" PSName="u0AB6"><base UID="F0B6"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AB6.half"><base UID="F0B6"></base></glyph>
+<glyph PSName="u0AB6.half.alt"><base UID="F0B7"></base></glyph>
+<glyph PSName="u0AB6.vatu"><base UID="F0B8"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AB6.half.vatu"><base UID="F0B8"></base></glyph>
+<glyph PSName="u0AB6_u0ACD_u0AB5"><base UID="F0B9"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AB6_u0ACD_u0AB5.half"><base UID="F0B9"></base></glyph>
+<glyph UID="0AB7" PSName="u0AB7"><base UID="F0BA"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AB7.half"><base UID="F0BA"></base></glyph>
+<glyph UID="0AB8" PSName="u0AB8"><base UID="F0BB"></base><base UID="F0C9"></base></glyph>
+<glyph PSName="u0AB8.half"><base UID="F0BB"></base></glyph>
+<glyph PSName="u0AB8.rphf.half"><base UID="F0BC"></base></glyph>
+<glyph PSName="u0AB9.half.alt"><base UID="F0BD"></base></glyph>
+<glyph PSName="u0AB9.old"><base UID="F0BE"></base></glyph>
+<glyph PSName="u0AB8.vatu"><base UID="F0BF"></base></glyph>
+<glyph PSName="u0AB9.half"><base UID="F0C0"></base></glyph>
+<glyph PSName="u0AB9_u0ACD_u0AAE"><base UID="F0C1"></base></glyph>
+<glyph PSName="u0AB9_u0ACD_u0AAF"><base UID="F0C2"></base></glyph>
+<glyph UID="0ACD" PSName="u0ACD"><base UID="F0C3"></base></glyph>
+<glyph PSName="u0ACD_u0AB0"><base UID="F0C4"></base></glyph>
+<glyph UID="0A82" PSName="u0A82"><base UID="F0C5"></base></glyph>
+<glyph UID="0A81" PSName="u0A81"><base UID="F0C6"></base></glyph>
+<glyph PSName="u0AB0_u0ACD"><base UID="F0C7"></base></glyph>
+<glyph PSName="u0AB0_u0A82"><base UID="F0C8"></base></glyph>
+<glyph UID="0ABE" PSName="u0ABE"><base UID="F0C9"></base></glyph>
+<glyph UID="0AC9" PSName="u0AC9"><base UID="F0C9"></base><base UID="F0E8"></base></glyph>
+<glyph UID="0ACB" PSName="u0ACB"><base UID="F0C9"></base><base UID="F0E0"></base></glyph>
+<glyph UID="0ACC" PSName="u0ACC"><base UID="F0C9"></base><base UID="F0E4"></base></glyph>
+<glyph UID="0ABF" PSName="u0ABF"><base UID="F0CA"></base></glyph>
+<glyph PSName="u0ABF_u0A82.anu"><base UID="F0CB"></base></glyph>
+<glyph PSName="u0AB0_u0ABF"><base UID="F0CC"></base></glyph>
+<glyph PSName="u0AB0_u0ABF_u0A82"><base UID="F0CD"></base></glyph>
+<glyph PSName="u0ABF.wide"><base UID="F0CE"></base></glyph>
+<glyph PSName="u0ABF_u0A82.anu.wide"><base UID="F0CF"></base></glyph>
+<glyph PSName="u0AB0_u0ABF.wide"><base UID="F0D0"></base></glyph>
+<glyph PSName="u0AB0_u0ABF_u0A82.wide"><base UID="F0D1"></base></glyph>
+<glyph UID="0AC0" PSName="u0AC0"><base UID="F0D2"></base></glyph>
+<glyph PSName="u0AC0_u0A82.anu"><base UID="F0D3"></base></glyph>
+<glyph PSName="u0AB0_u0AC0.psts"><base UID="F0D4"></base></glyph>
+<glyph PSName="u0AB0_u0AC0_u0A82.anu.psts"><base UID="F0D5"></base></glyph>
+<glyph UID="0AC1" PSName="u0AC1"><base UID="F0D6"></base></glyph>
+<glyph PSName="u0AB0_u0AC1.psts"><base UID="F0D7"></base></glyph>
+<glyph PSName="u0AB0_u0AC2.blwf"><base UID="F0D8"></base></glyph>
+<glyph PSName="u0AC1.low"><base UID="F0D9"></base></glyph>
+<glyph UID="0AC2" PSName="u0AC2"><base UID="F0DA"></base></glyph>
+<glyph PSName="u0AB0_u0AC2.sub"><base UID="F0DB"></base></glyph>
+
+<glyph PSName="u0AC2.alt"><base UID="F0DD"></base></glyph>
+<glyph UID="0AC3" PSName="u0AC3"><base UID="F0DE"></base></glyph>
+<glyph PSName="u0AC3.alt"><base UID="F0DF"></base></glyph>
+<glyph UID="0AC7" PSName="u0AC7"><base UID="F0E0"></base></glyph>
+<glyph PSName="u0AC7_u0A82.anu"><base UID="F0E1"></base></glyph>
+<glyph PSName="u0AB0_u0AC7"><base UID="F0E2"></base></glyph>
+<glyph PSName="u0AB0_u0AC7_u0A82.anu"><base UID="F0E3"></base></glyph>
+<glyph UID="0AC8" PSName="u0AC8"><base UID="F0E4"></base></glyph>
+<glyph PSName="u0AC8_u0A82.anu"><base UID="F0E5"></base></glyph>
+<glyph PSName="u0AB0_u0AC8"><base UID="F0E6"></base></glyph>
+<glyph PSName="u0AB0_u0AC8_u0A82.anu"><base UID="F0E7"></base></glyph>
+<glyph PSName="u0AC9.top"><base UID="F0E8"></base></glyph>
+<glyph PSName="u0AC5_u0A82.anu"><base UID="F0E9"></base></glyph>
+<glyph PSName="u0AB0_u0AC5"><base UID="F0EA"></base></glyph>
+<glyph PSName="u0AB0_u0AC5_u0A82.anu"><base UID="F0EB"></base></glyph>
 </glyphs>
 </font>
