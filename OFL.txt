@@ -1,4 +1,4 @@
-This Font Software is Copyright (c) 2009-2019, NLCI (http://www.nlci.in/fonts/)
+This Font Software is Copyright (c) 2009-2020, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "Gir" and "NLCI".
 Latin glyphs Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Charis" and "SIL".
