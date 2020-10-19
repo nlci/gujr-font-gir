@@ -17,7 +17,7 @@
 \proof{કખગઘઙચછજઝઞટઠડઢણતથદધનપફબભમયરલળવશષસહ}
 
 \patterngroup[name="cons"]{કખગઘઙચછજઝઞટઠડઢણતથદધનપફબભમયરલળવશષસહ}
-\patterngroup[name="matras"{ાિીુૂૃૄૅેૈૉોૌ્}
+\patterngroup[name="matras"]{ાિીુૂૃૄૅેૈૉોૌ્}
 
 \pattern[chars="C,M",reps="group_cons,group_matras",heading=Cons+Matras]{CM}
 
