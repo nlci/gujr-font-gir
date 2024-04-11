@@ -49,7 +49,7 @@ tag = script.upper()
 
 panose = [2, 0, 0, 3]
 codePageRange = [0, 29]
-unicodeRange = [0, 1, 2, 3, 4, 5, 6, 7, 15, 18, 29, 31, 32, 33, 35, 38, 39, 40, 45, 60, 62, 67, 69, 91]
+unicodeRange = [0, 1, 2, 3, 5, 6, 7, 15, 18, 31, 32, 33, 35, 38, 39, 40, 45, 60, 62, 67, 69, 91]
 hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 
 if '-l' in opts:
@@ -85,7 +85,7 @@ for f in faces:
             ),
             opentype=fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
-                master = fontbase + 'master.feax',
+                master = fontbase + 'main.feax',
                 make_params = ''
                 ),
             #graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',

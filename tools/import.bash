@@ -7,5 +7,5 @@ ufo="$3"
 devaf="Maurya"
 tamlf="Vaigai"
 
-psfcopyglyphs -f --rename rename --unicode usv -i ../cs/panini/main4gujr.csv -s "${deva}/${devaf}-${style}.ufo" ${ufo}
-psfcopyglyphs -f --rename rename --unicode usv -i ../cs/thiruvalluvar/main.csv -s "${taml}/${tamlf}-${style}.ufo" ${ufo}
+psfcopyglyphs -f --rename rename --unicode usv -i ${cs}/panini/main4gujr.csv -s "${deva}/${devaf}-${style}.ufo" ${ufo}
+psfcopyglyphs -f --rename rename --unicode usv -i ${cs}/thiruvalluvar/main.csv -s "${taml}/${tamlf}-${style}.ufo" ${ufo}

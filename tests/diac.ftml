@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 10.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="patelR">url(../references/patelN.ttf)</fontsrc>
+    <fontsrc label="patelB">url(../references/patelB.ttf)</fontsrc>
+    <fontsrc label="patelI">url(../references/patelI.ttf)</fontsrc>
+    <fontsrc label="gujrR">url(../references/GUJRGir-Regular.ttf)</fontsrc>
+    <fontsrc label="gujrB">url(../references/GUJRGir-Bold.ttf)</fontsrc>
+    <fontsrc label="gujrI">url(../references/GUJRGir-Italic.ttf)</fontsrc>
+    <fontsrc label="refR">url(../references/Gir-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Gir-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/Gir-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Gir-Bold.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansGujaratiUI-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooBhai2-Regular.ttf)</fontsrc>
+    <fontsrc label="ek">url(../references/AnekGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="lohit">url(../references/Lohit-Gujarati.ttf)</fontsrc>
+    <title>Diac auto</title>
+  </head>
+  <testgroup label="Representative diacritics on all bases that take diacritics">
+    <test label="U+0A85
+U+0A81">
+      <comment>avowel candrabindu</comment>
+      <string>\u000A85\u000A81 \u000A85\u000A82 \u000A85\u000A83 \u000A85\u000ABC</string>
+    </test>
+    <test label="U+0A86
+U+0A81">
+      <comment>aavowel candrabindu</comment>
+      <string>\u000A86\u000A81 \u000A86\u000A82 \u000A86\u000A83 \u000A86\u000ABC</string>
+    </test>
+    <test label="U+0A87
+U+0A81">
+      <comment>ivowel candrabindu</comment>
+      <string>\u000A87\u000A81 \u000A87\u000A82 \u000A87\u000A83 \u000A87\u000ABC</string>
+    </test>
+    <test label="U+0A88
+U+0A81">
+      <comment>iivowel candrabindu</comment>
+      <string>\u000A88\u000A81 \u000A88\u000A82 \u000A88\u000A83 \u000A88\u000ABC</string>
+    </test>
+    <test label="U+0A89
+U+0A81">
+      <comment>uvowel candrabindu</comment>
+      <string>\u000A89\u000A81 \u000A89\u000A82 \u000A89\u000A83 \u000A89\u000ABC</string>
+    </test>
+    <test label="U+0A8A
+U+0A81">
+      <comment>uuvowel candrabindu</comment>
+      <string>\u000A8A\u000A81 \u000A8A\u000A82 \u000A8A\u000A83 \u000A8A\u000ABC</string>
+    </test>
+    <test label="U+0A8B
+U+0A81">
+      <comment>rvocalicvowel candrabindu</comment>
+      <string>\u000A8B\u000A81 \u000A8B\u000A82 \u000A8B\u000A83 \u000A8B\u000ABC</string>
+    </test>
+    <test label="U+0A8D
+U+0A81">
+      <comment>ecandravowel candrabindu</comment>
+      <string>\u000A8D\u000A81 \u000A8D\u000A82 \u000A8D\u000A83 \u000A8D\u000ABC</string>
+    </test>
+    <test label="U+0A8F
+U+0A81">
+      <comment>evowel candrabindu</comment>
+      <string>\u000A8F\u000A81 \u000A8F\u000A82 \u000A8F\u000A83 \u000A8F\u000ABC</string>
+    </test>
+    <test label="U+0A90
+U+0A81">
+      <comment>aivowel candrabindu</comment>
+      <string>\u000A90\u000A81 \u000A90\u000A82 \u000A90\u000A83 \u000A90\u000ABC</string>
+    </test>
+    <test label="U+0A91
+U+0A81">
+      <comment>ocandravowel candrabindu</comment>
+      <string>\u000A91\u000A81 \u000A91\u000A82 \u000A91\u000A83 \u000A91\u000ABC</string>
+    </test>
+    <test label="U+0A93
+U+0A81">
+      <comment>ovowel candrabindu</comment>
+      <string>\u000A93\u000A81 \u000A93\u000A82 \u000A93\u000A83 \u000A93\u000ABC</string>
+    </test>
+    <test label="U+0A94
+U+0A81">
+      <comment>auvowel candrabindu</comment>
+      <string>\u000A94\u000A81 \u000A94\u000A82 \u000A94\u000A83 \u000A94\u000ABC</string>
+    </test>
+    <test label="U+0A95
+U+0A81">
+      <comment>ka candrabindu</comment>
+      <string>\u000A95\u000A81 \u000A95\u000A82 \u000A95\u000A83 \u000A95\u000ABC</string>
+    </test>
+    <test label="U+0A96
+U+0A81">
+      <comment>kha candrabindu</comment>
+      <string>\u000A96\u000A81 \u000A96\u000A82 \u000A96\u000A83 \u000A96\u000ABC</string>
+    </test>
+    <test label="U+0A97
+U+0A81">
+      <comment>ga candrabindu</comment>
+      <string>\u000A97\u000A81 \u000A97\u000A82 \u000A97\u000A83 \u000A97\u000ABC</string>
+    </test>
+    <test label="U+0A98
+U+0A81">
+      <comment>gha candrabindu</comment>
+      <string>\u000A98\u000A81 \u000A98\u000A82 \u000A98\u000A83 \u000A98\u000ABC</string>
+    </test>
+    <test label="U+0A99
+U+0A81">
+      <comment>nga candrabindu</comment>
+      <string>\u000A99\u000A81 \u000A99\u000A82 \u000A99\u000A83 \u000A99\u000ABC</string>
+    </test>
+    <test label="U+0A9A
+U+0A81">
+      <comment>ca candrabindu</comment>
+      <string>\u000A9A\u000A81 \u000A9A\u000A82 \u000A9A\u000A83 \u000A9A\u000ABC</string>
+    </test>
+    <test label="U+0A9B
+U+0A81">
+      <comment>cha candrabindu</comment>
+      <string>\u000A9B\u000A81 \u000A9B\u000A82 \u000A9B\u000A83 \u000A9B\u000ABC</string>
+    </test>
+    <test label="U+0A9C
+U+0A81">
+      <comment>ja candrabindu</comment>
+      <string>\u000A9C\u000A81 \u000A9C\u000A82 \u000A9C\u000A83 \u000A9C\u000ABC</string>
+    </test>
+    <test label="U+0A9D
+U+0A81">
+      <comment>jha candrabindu</comment>
+      <string>\u000A9D\u000A81 \u000A9D\u000A82 \u000A9D\u000A83 \u000A9D\u000ABC</string>
+    </test>
+    <test label="U+0A9E
+U+0A81">
+      <comment>nya candrabindu</comment>
+      <string>\u000A9E\u000A81 \u000A9E\u000A82 \u000A9E\u000A83 \u000A9E\u000ABC</string>
+    </test>
+    <test label="U+0A9F
+U+0A81">
+      <comment>tta candrabindu</comment>
+      <string>\u000A9F\u000A81 \u000A9F\u000A82 \u000A9F\u000A83 \u000A9F\u000ABC</string>
+    </test>
+    <test label="U+0AA0
+U+0A81">
+      <comment>ttha candrabindu</comment>
+      <string>\u000AA0\u000A81 \u000AA0\u000A82 \u000AA0\u000A83 \u000AA0\u000ABC</string>
+    </test>
+    <test label="U+0AA1
+U+0A81">
+      <comment>dda candrabindu</comment>
+      <string>\u000AA1\u000A81 \u000AA1\u000A82 \u000AA1\u000A83 \u000AA1\u000ABC</string>
+    </test>
+    <test label="U+0AA2
+U+0A81">
+      <comment>ddha candrabindu</comment>
+      <string>\u000AA2\u000A81 \u000AA2\u000A82 \u000AA2\u000A83 \u000AA2\u000ABC</string>
+    </test>
+    <test label="U+0AA3
+U+0A81">
+      <comment>nna candrabindu</comment>
+      <string>\u000AA3\u000A81 \u000AA3\u000A82 \u000AA3\u000A83 \u000AA3\u000ABC</string>
+    </test>
+    <test label="U+0AA4
+U+0A81">
+      <comment>ta candrabindu</comment>
+      <string>\u000AA4\u000A81 \u000AA4\u000A82 \u000AA4\u000A83 \u000AA4\u000ABC</string>
+    </test>
+    <test label="U+0AA5
+U+0A81">
+      <comment>tha candrabindu</comment>
+      <string>\u000AA5\u000A81 \u000AA5\u000A82 \u000AA5\u000A83 \u000AA5\u000ABC</string>
+    </test>
+    <test label="U+0AA6
+U+0A81">
+      <comment>da candrabindu</comment>
+      <string>\u000AA6\u000A81 \u000AA6\u000A82 \u000AA6\u000A83 \u000AA6\u000ABC</string>
+    </test>
+    <test label="U+0AA7
+U+0A81">
+      <comment>dha candrabindu</comment>
+      <string>\u000AA7\u000A81 \u000AA7\u000A82 \u000AA7\u000A83 \u000AA7\u000ABC</string>
+    </test>
+    <test label="U+0AA8
+U+0A81">
+      <comment>na candrabindu</comment>
+      <string>\u000AA8\u000A81 \u000AA8\u000A82 \u000AA8\u000A83 \u000AA8\u000ABC</string>
+    </test>
+    <test label="U+0AAA
+U+0A81">
+      <comment>pa candrabindu</comment>
+      <string>\u000AAA\u000A81 \u000AAA\u000A82 \u000AAA\u000A83 \u000AAA\u000ABC</string>
+    </test>
+    <test label="U+0AAB
+U+0A81">
+      <comment>pha candrabindu</comment>
+      <string>\u000AAB\u000A81 \u000AAB\u000A82 \u000AAB\u000A83 \u000AAB\u000ABC</string>
+    </test>
+    <test label="U+0AAC
+U+0A81">
+      <comment>ba candrabindu</comment>
+      <string>\u000AAC\u000A81 \u000AAC\u000A82 \u000AAC\u000A83 \u000AAC\u000ABC</string>
+    </test>
+    <test label="U+0AAD
+U+0A81">
+      <comment>bha candrabindu</comment>
+      <string>\u000AAD\u000A81 \u000AAD\u000A82 \u000AAD\u000A83 \u000AAD\u000ABC</string>
+    </test>
+    <test label="U+0AAE
+U+0A81">
+      <comment>ma candrabindu</comment>
+      <string>\u000AAE\u000A81 \u000AAE\u000A82 \u000AAE\u000A83 \u000AAE\u000ABC</string>
+    </test>
+    <test label="U+0AAF
+U+0A81">
+      <comment>ya candrabindu</comment>
+      <string>\u000AAF\u000A81 \u000AAF\u000A82 \u000AAF\u000A83 \u000AAF\u000ABC</string>
+    </test>
+    <test label="U+0AB0
+U+0A81">
+      <comment>ra candrabindu</comment>
+      <string>\u000AB0\u000A81 \u000AB0\u000A82 \u000AB0\u000A83 \u000AB0\u000ABC</string>
+    </test>
+    <test label="U+0AB2
+U+0A81">
+      <comment>la candrabindu</comment>
+      <string>\u000AB2\u000A81 \u000AB2\u000A82 \u000AB2\u000A83 \u000AB2\u000ABC</string>
+    </test>
+    <test label="U+0AB3
+U+0A81">
+      <comment>lla candrabindu</comment>
+      <string>\u000AB3\u000A81 \u000AB3\u000A82 \u000AB3\u000A83 \u000AB3\u000ABC</string>
+    </test>
+    <test label="U+0AB5
+U+0A81">
+      <comment>va candrabindu</comment>
+      <string>\u000AB5\u000A81 \u000AB5\u000A82 \u000AB5\u000A83 \u000AB5\u000ABC</string>
+    </test>
+    <test label="U+0AB6
+U+0A81">
+      <comment>sha candrabindu</comment>
+      <string>\u000AB6\u000A81 \u000AB6\u000A82 \u000AB6\u000A83 \u000AB6\u000ABC</string>
+    </test>
+    <test label="U+0AB7
+U+0A81">
+      <comment>ssa candrabindu</comment>
+      <string>\u000AB7\u000A81 \u000AB7\u000A82 \u000AB7\u000A83 \u000AB7\u000ABC</string>
+    </test>
+    <test label="U+0AB8
+U+0A81">
+      <comment>sa candrabindu</comment>
+      <string>\u000AB8\u000A81 \u000AB8\u000A82 \u000AB8\u000A83 \u000AB8\u000ABC</string>
+    </test>
+    <test label="U+0AB9
+U+0A81">
+      <comment>ha candrabindu</comment>
+      <string>\u000AB9\u000A81 \u000AB9\u000A82 \u000AB9\u000A83 \u000AB9\u000ABC</string>
+    </test>
+    <test label="U+0ABD
+U+0A81">
+      <comment>avagraha candrabindu</comment>
+      <string>\u000ABD\u000A81 \u000ABD\u000A82 \u000ABD\u000A83 \u000ABD\u000ABC</string>
+    </test>
+    <test label="U+0AE0
+U+0A81">
+      <comment>rrvocalicvowel candrabindu</comment>
+      <string>\u000AE0\u000A81 \u000AE0\u000A82 \u000AE0\u000A83 \u000AE0\u000ABC</string>
+    </test>
+  </testgroup>
+  <testgroup label="All diacritics on representative bases">
+    <test label="U+0A95
+U+0A81">
+      <comment>ka candrabindu</comment>
+      <string>\u000A95\u000A81 \u000AAA\u000A81 \u0025CC\u000A81</string>
+    </test>
+    <test label="U+0A95
+U+0A82">
+      <comment>ka anusvara</comment>
+      <string>\u000A95\u000A82 \u000AAA\u000A82 \u0025CC\u000A82</string>
+    </test>
+    <test label="U+0A95
+U+0ABC">
+      <comment>ka nukta</comment>
+      <string>\u000A95\u000ABC \u000AAA\u000ABC \u0025CC\u000ABC</string>
+    </test>
+    <test label="U+0A95
+U+0AC1">
+      <comment>ka umatra</comment>
+      <string>\u000A95\u000AC1 \u000AAA\u000AC1 \u0025CC\u000AC1</string>
+    </test>
+    <test label="U+0A95
+U+0AC2">
+      <comment>ka uumatra</comment>
+      <string>\u000A95\u000AC2 \u000AAA\u000AC2 \u0025CC\u000AC2</string>
+    </test>
+    <test label="U+0A95
+U+0AC3">
+      <comment>ka rvocalicmatra</comment>
+      <string>\u000A95\u000AC3 \u000AAA\u000AC3 \u0025CC\u000AC3</string>
+    </test>
+    <test label="U+0A95
+U+0AC4">
+      <comment>ka rrvocalicmatra</comment>
+      <string>\u000A95\u000AC4 \u000AAA\u000AC4 \u0025CC\u000AC4</string>
+    </test>
+    <test label="U+0A95
+U+0AC5">
+      <comment>ka ecandramatra</comment>
+      <string>\u000A95\u000AC5 \u000AAA\u000AC5 \u0025CC\u000AC5</string>
+    </test>
+    <test label="U+0A95
+U+0AC7">
+      <comment>ka ematra</comment>
+      <string>\u000A95\u000AC7 \u000AAA\u000AC7 \u0025CC\u000AC7</string>
+    </test>
+    <test label="U+0A95
+U+0AC8">
+      <comment>ka aimatra</comment>
+      <string>\u000A95\u000AC8 \u000AAA\u000AC8 \u0025CC\u000AC8</string>
+    </test>
+    <test label="U+0A95
+U+0ACD">
+      <comment>ka virama</comment>
+      <string>\u000A95\u000ACD \u000AAA\u000ACD \u0025CC\u000ACD</string>
+    </test>
+  </testgroup>
+</ftml>

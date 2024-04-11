@@ -1,0 +1,133 @@
+languagesystem DFLT dflt;
+languagesystem gjr2 dflt;
+
+# GSUB
+
+lookup Akhands {
+  lookupflag IgnoreMarks;
+    sub ka virama ssa by ka_virama_ssa;
+    sub ja virama nya by ja_virama_nya;
+} Akhands;
+
+lookup RephForm {
+  lookupflag 0;
+    sub ra virama by ra_virama;
+} RephForm;
+
+lookup RakaarForms {
+  lookupflag 0;
+    sub @cno_vatu virama ra by @c_vatu;
+} RakaarForms;
+
+lookup BelowForm {
+  lookupflag 0;
+    sub virama ra by virama_ra;
+} BelowForm;
+
+lookup HalfForms {
+  lookupflag 0;
+    sub @cno_half virama by @c_half;
+} HalfForms;
+
+lookup ConjunctForms {
+  lookupflag 0;
+    sub tta virama tta by tta_virama_tta;
+    sub tta virama ttha by tta_virama_ttha;
+    sub ttha virama ttha by ttha_virama_ttha;
+    sub dda virama dda by dda_virama_dda;
+    sub dda virama ddha by dda_virama_ddha;
+    sub da virama da by da_virama_da;
+    sub da virama dha by da_virama_dha;
+    sub da virama na by da_virama_na;
+    sub da virama ma by da_virama_ma;
+    sub da virama ya by da_virama_ya;
+    sub da virama va by da_virama_va;
+} ConjunctForms;
+
+lookup PreBaseSubs {
+  lookupflag 0;
+    # pres
+    sub ka.half ka by ka_virama_ka;
+    sub ga.half na by ga_virama_na;
+    sub ta.half ta by ta_virama_ta;
+    sub ta.half na by ta_virama_na;
+    sub ssa.half tta by ssa_virama_tta;
+    sub ssa.half ttha by ssa_virama_ttha;
+    sub na.half na by na_virama_na;
+    sub sha.half va by sha_virama_va;
+    sub ha.half na by ha_virama_na;
+    sub ha.half ma by ha_virama_ma;
+    sub ha.half ya by ha_virama_ya;
+} PreBaseSubs;
+
+# lookup AboveBaseSubs {
+#   lookupflag 0;
+# } AboveBaseSubs;
+
+lookup BelowBaseSubs {
+  lookupflag 0;
+    sub nna umatra by nna_umatra.blws;
+    sub nna uumatra by nna_uumatra.blws;
+    sub ra umatra by ra_umatra.psts;
+    sub ra uumatra by ra_uumatra.blws;
+} BelowBaseSubs;
+
+lookup PostBaseSubs {
+  lookupflag 0;
+    sub ja aamatra by ja_aamatra.psts;
+    sub ja iimatra by ja_iimatra.psts;
+    sub iimatra ra_virama by ra_iimatra.psts;
+} PostBaseSubs;
+
+lookup MorePostBaseSubs {
+  lookupflag 0;
+    sub ra_iimatra.psts anusvara by ra_iimatra_anusvara.anu.psts;
+} MorePostBaseSubs;
+
+feature akhn {
+    lookup Akhands;
+} akhn;
+
+feature rphf {
+  lookup RephForm;
+} rphf;
+
+feature rkrf {
+  lookup RakaarForms;
+} rkrf;
+
+feature blwf {
+  lookup BelowForm;
+} blwf;
+
+feature half {
+  lookup HalfForms;
+} half;
+
+feature cjct {
+  lookup ConjunctForms;
+} cjct;
+
+feature pres {
+  lookup PreBaseSubs;
+} pres;
+
+# feature abvs {
+#   lookup AboveBaseSubs;
+# } abvs;
+
+feature blws {
+  lookup BelowBaseSubs;
+} blws;
+
+feature psts {
+  lookup PostBaseSubs;
+  lookup MorePostBaseSubs;
+} psts;
+
+# GPOS
+
+
+table GDEF {
+  GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
+} GDEF;

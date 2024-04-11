@@ -5,10 +5,11 @@ styles=(Regular Bold Italic)
 desc_long="Gujarati script font for all languages using the Gujarati script"
 
 export nlci=$HOME/script/tools
+export cs=$HOME/script/charsets
 export src=source
 source ${nlci}/prepare.bash
 
 source ${nlci}/metadata.bash
 
 rm -f ${src}/*-???*.sfd*
-echo "done producing UFO sources"
+echo "done cleaning up"

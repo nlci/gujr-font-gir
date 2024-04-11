@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="patelR">url(../references/patelN.ttf)</fontsrc>
+    <fontsrc label="patelB">url(../references/patelB.ttf)</fontsrc>
+    <fontsrc label="patelI">url(../references/patelI.ttf)</fontsrc>
+    <fontsrc label="gujrR">url(../references/GUJRGir-Regular.ttf)</fontsrc>
+    <fontsrc label="gujrB">url(../references/GUJRGir-Bold.ttf)</fontsrc>
+    <fontsrc label="gujrI">url(../references/GUJRGir-Italic.ttf)</fontsrc>
+    <fontsrc label="refR">url(../references/Gir-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Gir-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/Gir-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Gir-Bold.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansGujaratiUI-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooBhai2-Regular.ttf)</fontsrc>
+    <fontsrc label="ek">url(../references/AnekGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="lohit">url(../references/Lohit-Gujarati.ttf)</fontsrc>
+    <title>Lookups</title>
+  </head>
+  <testgroup label="akhn">
+    <test label="akhn 1">
+      <comment>ka virama ssa</comment>
+      <string>\u0A95\u0ACD\u0AB7</string>
+    </test>
+    <test label="akhn 2">
+      <comment>ja virama nya</comment>
+      <string>\u0A9C\u0ACD\u0A9E</string>
+    </test>
+  </testgroup>
+  <testgroup label="rphf">
+    <test label="init ra cons">
+      <comment>ra halant ka</comment>
+      <string>\u0AB0\u0ACD\u0A95</string>
+    </test>
+    <test label="init ra cons multiple cons">
+      <comment>ra halant ka halant ka</comment>
+      <string>\u0AB0\u0ACD\u0A95\u0ACD\u0A95</string>
+    </test>
+    <test label="init ra cons">
+      <comment>ra halant ma</comment>
+      <string>\u0AB0\u0ACD\u0AAE</string>
+    </test>
+    <test label="init ra cons multiple cons">
+      <comment>ra halant ma halant ma</comment>
+      <string>\u0AB0\u0ACD\u0AAE\u0ACD\u0AAE</string>
+    </test>
+  </testgroup>
+  <testgroup label="rkrf2">
+    <test label="cons">
+      <comment>ka halant ra</comment>
+      <string>\u0A95\u0ACD\u0AB0</string>
+    </test>
+    <test label="cons nukta">
+      <comment>ka nukta halant ra</comment>
+      <string>\u0A95\u0ABC\u0ACD\u0AB0</string>
+    </test>
+    <test label="akhn 1">
+      <comment>ka virama ssa halant ra</comment>
+      <string>\u0A95\u0ACD\u0AB7\u0ACD\u0AB0</string>
+    </test>
+    <test label="akhn 1 (nukta)">
+      <comment>ka virama ssa halant ra</comment>
+      <string>\u0A95\u0ACD\u0AB7\u0ABC\u0ACD\u0AB0</string>
+    </test>
+    <test label="akhn 2">
+      <comment>ja virama nya halant ra</comment>
+      <string>\u0A9C\u0ACD\u0A9E\u0ACD\u0AB0</string>
+    </test>
+    <test label="akhn 2 (nukta)">
+      <comment>ja virama nya halant ra</comment>
+      <string>\u0A9C\u0ACD\u0A9E\u0ABC\u0ACD\u0AB0</string>
+    </test>
+    <test label="vatu full">
+      <comment>va halant ra</comment>
+      <string>\u0AB5\u0ACD\u0AB0</string>
+    </test>
+    <test label="vatu half?">
+      <comment>va halant ra</comment>
+      <string>\u0AB5\u0ACD\u0AB0</string>
+    </test>q
+  </testgroup>
+  <testgroup label="blwf">
+    <test label="rakaar ligature">
+      <comment>da halant ra</comment>
+      <string>\u0AA6\u0ACD\u0AB0</string>
+    </test>
+    <test label="no rakaar ligature">
+      <comment>ddha halant ra</comment>
+      <string>\u0AA2\u0ACD\u0AB0</string>
+    </test>
+  </testgroup>
+  <testgroup label="half">
+    <test label="cons">
+      <comment>kha halant ka</comment>
+      <string>\u0A96\u0ACD\u0A95</string>
+    </test>
+    <test label="cons multiple cons">
+      <comment>kha halant kha halant ka</comment>
+      <string>\u0A96\u0ACD\u0A98\u0ACD\u0A95</string>
+    </test>
+    <test label="cons (nukta)">
+      <comment>ga nukta halant ka</comment>
+      <string>\u0A96\u0ABC\u0ACD\u0A95</string>
+    </test>
+    <test label="akhn 2">
+      <comment>ja virama nya halant ka</comment>
+      <string>\u0A9C\u0ACD\u0A9E\u0ACD\u0A95</string>
+    </test>
+    <test label="halant form">
+      <comment>cha virama ka</comment>
+      <string>\u0A9B\u0ACD\u0A95</string>
+    </test>
+  </testgroup>
+  <testgroup label="cjct2">
+    <test label="1">
+      <comment>da halant ga</comment>
+      <string>\u0AA6\u0ACD\u0A97</string>
+    </test>
+    <test label="2">
+      <comment>da halant ma</comment>
+      <string>\u0AA6\u0ACD\u0AAE</string>
+    </test>
+    <test label="3">
+      <comment>ha halant la</comment>
+      <string>\u0AB9\u0ACD\u0AB2</string>
+    </test>
+  </testgroup>
+  <testgroup label="pres">
+    <test label="1">
+      <comment>nya halant ca</comment>
+      <string>\u0A9E\u0ACD\u0A9A</string>
+    </test>
+    <test label="2">
+      <comment>sha halant ca</comment>
+      <string>\u0AB6\u0ACD\u0A9A</string>
+    </test>
+    <test label="3">
+      <comment>nya halant ca halant ra</comment>
+      <string>\u0A9E\u0ACD\u0A9A\u0ACD\u0AB0</string>
+    </test>
+    <test label="4">
+      <comment>sha halant ca halant ra</comment>
+      <string>\u0AB6\u0ACD\u0A9A\u0ACD\u0AB0</string>
+    </test>
+    <test label="5">
+      <comment>imatra cha</comment>
+      <string>\u0A9B\u0ABF</string>
+    </test>
+    <test label="6a">
+      <comment>imatra ja halant ja</comment>
+      <string>\u0A9C\u0ACD\u0A9C\u0ABF</string>
+    </test>
+    <test label="6b">
+      <comment>imatra ja nukta halant ja</comment>
+      <string>\u0A9C\u0ABC\u0ACD\u0A9C\u0ABF</string>
+    </test>
+  </testgroup>
+  <testgroup label="abvs">
+    <test label="1">
+      <comment>ka aimatra</comment>
+      <string>\u0A95\u0AC8</string>
+    </test>
+    <test label="2">
+      <comment>ra halant ka iimatra</comment>
+      <string>\u0AB0\u0ACD\u0A95\u0ABF</string>
+    </test>
+    <test label="3">
+      <comment>cha candrabindu</comment>
+      <string>\u0A9B\u0A81</string>
+    </test>
+  </testgroup>
+  <testgroup label="blws">
+    <test label="2">
+      <comment>ddha halant ra uumatra</comment>
+      <string>\u0AA2\u0ACD\u0AB0\u0AC2</string>
+    </test>
+  </testgroup>
+  <testgroup label="psts">
+    <test label="1">
+      <comment>ja iimatra</comment>
+      <string>\u0A9C\u0AC0</string>
+    </test>
+    <test label="2a">
+      <comment>ra halant ka iimatra candrabindu</comment>
+      <string>\u0AB0\u0ACD\u0A95\u0AC0\u0A81</string>
+    </test>
+    <test label="2b">
+      <comment>ra halant ka iimatra anusvara</comment>
+      <string>\u0AB0\u0ACD\u0A95\u0AC0\u0A82</string>
+    </test>
+    <test label="2c">
+      <comment>ka iimatra candrabindu</comment>
+      <string>\u0A95\u0AC0\u0A81</string>
+    </test>
+    <test label="2d">
+      <comment>ka iimatra anusvara</comment>
+      <string>\u0A95\u0AC0\u0A82</string>
+    </test>
+    <test label="reph iimatra">
+      <comment>ra virama ma iimatra</comment>
+      <string>\u0AB0\u0ACD\u0AAE\u0AC0</string>
+    </test>
+  </testgroup>
+</ftml>
