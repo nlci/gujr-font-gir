@@ -286,51 +286,6 @@ def doit(args):
                 builder.render((c1,nukta,virama,c2,nukta,virama,c1,nukta), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
             ftml.closeTest()
 
-
-
-    if test.lower().startswith("nuktas"):
-        ftml.startTestGroup('Vowels')
-        for v in vowels:
-            builder.render((v,nukta), ftml, label=f'{v:04X}', comment=builder.char(v).basename)
-            ftml.closeTest()
-
-        ftml.startTestGroup('Consonants')
-        for c in consonants:
-            builder.render((c,nukta), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
-            ftml.closeTest()
-
-        ftml.startTestGroup('Akhands')
-        for a in akhands:
-            c = a[0]
-            builder.render((a+(nukta,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
-        ftml.closeTest()
-
-        ftml.startTestGroup('Consonants with matra and nukta')
-        for c in consonants:
-            for m in matras:
-                builder.render((c,m,nukta), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
-            ftml.closeTest()
-
-        ftml.startTestGroup('Akhands with matra and nukta')
-        for a in akhands:
-            c = a[0]
-            for m in matras:
-                builder.render((a+(m,)+(nukta,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
-        ftml.closeTest()
-
-        ftml.startTestGroup('Consonants with nukta and matra')
-        for c in consonants:
-            for m in matras:
-                builder.render((c,nukta,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
-            ftml.closeTest()
-
-        ftml.startTestGroup('Akhands with nukta and matra')
-        for a in akhands:
-            c = a[0]
-            for m in matras:
-                builder.render((a+(nukta,)+(m,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
-        ftml.closeTest()
-
     # Write the output ftml file
     ftml.writeFile(args.output)
 

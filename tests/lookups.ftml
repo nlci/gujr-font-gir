@@ -202,9 +202,5 @@
       <comment>ka iimatra anusvara</comment>
       <string>\u0A95\u0AC0\u0A82</string>
     </test>
-    <test label="reph iimatra">
-      <comment>ra virama ma iimatra</comment>
-      <string>\u0AB0\u0ACD\u0AAE\u0AC0</string>
-    </test>
   </testgroup>
 </ftml>

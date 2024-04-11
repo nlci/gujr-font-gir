@@ -1,0 +1,8 @@
+softhyphen.gujr = hyphen | 00AD
+hyphentwo.gujr = hyphen | 2010
+nbhyphen.gujr = hyphen | 2011
+figuredash.gujr = hyphen | 2012
+endash.gujr = hyphen | 2013
+emdash.gujr = hyphen | 2014
+horizontalbar.gujr = hyphen | 2015
+minus.gujr = hyphen | 2212
