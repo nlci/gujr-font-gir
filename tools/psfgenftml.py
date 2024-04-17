@@ -61,6 +61,7 @@ def doit(args):
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
+    matra_like = matras + [virama]
     akhands = [(0x0A95, 0x0ACD, 0x0AB7), (0x0A9C, 0x0ACD, 0x0A9E)]
     candrabindu = 0x0A81
     anusvara = 0x0A82
@@ -157,7 +158,7 @@ def doit(args):
     if test.lower().startswith("proof"):
         # Characters used to create SILE test data
         ftml.startTestGroup('Proof')
-        for section in (vowels, consonants, matras, digits, punct):
+        for section in (vowels, consonants, matra_like, digits, punct):
             builder.render(section, ftml)
             ftml.closeTest()
 
@@ -200,12 +201,12 @@ def doit(args):
     if test.lower().startswith("matras"):
         ftml.startTestGroup('Consonants with matras')
         for c in consonants + [dotted_circle]:
-            for m in matras:
+            for m in matra_like:
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
         ftml.startTestGroup('Consonants (nukta) with matras')
         for c in consonants + [dotted_circle]:
-            for m in matras:
+            for m in matra_like:
                 builder.render((c,nukta,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
@@ -222,27 +223,17 @@ def doit(args):
         ftml.startTestGroup('Akhands with matras')
         for a in akhands:
             c = a[0]
-            for m in matras:
+            for m in matra_like:
                 builder.render((a+(m,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
         ftml.startTestGroup('Akhands (nukta) with matras')
         for a in akhands:
             c = a[0]
-            for m in matras:
+            for m in matra_like:
                 builder.render((a+(nukta,)+(m,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
     if test.lower().startswith("conjuncts"):
-        ftml.startTestGroup('Consonants with virama')
-        for c1 in consonants:
-            builder.render((c1,virama), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
-            ftml.closeTest()
-        ftml.startTestGroup('Consonants (nuktas) with virama')
-        for c1 in consonants:
-            for c2 in consonants:
-                builder.render((c1,nukta,virama,c2,nukta), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
-            ftml.closeTest()
-
         ftml.startTestGroup('Consonants with rakaar')
         for c1 in consonants:
             builder.render((c1,virama,ra), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
