@@ -1,7 +1,7 @@
 softhyphen = hyphen | 00AD
 hyphentwo = hyphen | 2010
 nbhyphen = hyphen | 2011
-quotedblleft = quoteleft & quoteleft | 201C
-quotedblright = quoteright & quoteright | 201D
-dandadbl = danda & danda | 0965
+quotedblleft = quoteleft & quoteleft[shift=-150,0] ^ 0,-150 | 201C
+quotedblright = quoteright & quoteright[shift=-150,0] ^ 0,-150 | 201D
+dandadbl = danda & danda[shift=-150,0] ^ 0,-150 | 0965
 divisionslash = slash | 2215

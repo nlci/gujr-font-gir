@@ -4,10 +4,12 @@
 <glyph PSName="space.gujr"><base UID="F020"></base></glyph>
 <glyph PSName="exclam.gujr"><base UID="F021"></base></glyph>
 <glyph PSName="quoteleft.gujr"><base UID="F022"></base></glyph>
+<glyph PSName="quotedblleft.gujr"><base UID="F022"></base><base UID="F022"></base></glyph>
 <glyph UID="25CC" PSName="dottedcircle"><base UID="F023"></base></glyph>
 <glyph UID="0ABD" PSName="u0ABD"><base UID="F025"></base></glyph>
 <glyph UID="0A83" PSName="u0A83"><base UID="F026"></base></glyph>
 <glyph PSName="quoteright.gujr"><base UID="F027"></base></glyph>
+<glyph PSName="quotedblright.gujr"><base UID="F027"></base><base UID="F027"></base></glyph>
 <glyph PSName="parenleft.gujr"><base UID="F028"></base></glyph>
 <glyph PSName="parenright.gujr"><base UID="F029"></base></glyph>
 <glyph UID="0964" PSName="danda"><base UID="F02A"></base></glyph>
