@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="patelR">url(../references/patelN.ttf)</fontsrc>
+    <fontsrc label="patelB">url(../references/patelB.ttf)</fontsrc>
+    <fontsrc label="patelI">url(../references/patelI.ttf)</fontsrc>
+    <fontsrc label="gujrR">url(../references/GUJRGir-Regular.ttf)</fontsrc>
+    <fontsrc label="gujrB">url(../references/GUJRGir-Bold.ttf)</fontsrc>
+    <fontsrc label="gujrI">url(../references/GUJRGir-Italic.ttf)</fontsrc>
+    <fontsrc label="refR">url(../references/Gir-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Gir-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/Gir-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Gir-Bold.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansGujaratiUI-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooBhai2-Regular.ttf)</fontsrc>
+    <fontsrc label="ek">url(../references/AnekGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="lohit">url(../references/Lohit-Gujarati.ttf)</fontsrc>
+    <title>Design</title>
+  </head>
+  <testgroup label="doubled">
+    <test label="double danda">
+      <comment>ga dandadbl</comment>
+      <string>\u0A98\u0965</string>
+    </test>
+    <test label="single danda">
+      <comment>ga danda</comment>
+      <string>\u0A98\u0964</string>
+    </test>
+    <test label="double quotes">
+      <comment>quotedblleft ga quotedblright</comment>
+      <string>\u201C\u0A98\u201D</string>
+    </test>
+    <test label="single quotes">
+      <comment>quotedblleft ga quotedblright</comment>
+      <string>\u2018\u0A98\u2019</string>
+    </test>
+  </testgroup>
+  <testgroup label="dashes">
+    <test label="ascii hyphen">
+      <comment>hyphen</comment>
+      <string>\u0AE7\u002D\u0AEF</string>
+    </test>
+    <test label="figure">
+      <comment>1 figuredash 9</comment>
+      <string>\u0AE7\u2012\u0AEF</string>
+    </test>
+    <test label="en">
+      <comment>1 endash 9</comment>
+      <string>\u0AE7\u2013\u0AEF</string>
+    </test>
+    <test label="em">
+      <comment>1 emdash 9</comment>
+      <string>\u0AE7\u2014\u0AEF</string>
+    </test>
+    <test label="bar">
+      <comment>1 horizontalbar 9</comment>
+      <string>\u0AE7\u2015\u0AEF</string>
+    </test>
+    <test label="minus">
+      <comment>1 minus 9</comment>
+      <string>\u0AE7\u2212\u0AEF</string>
+    </test>
+  </testgroup>
+</ftml>
