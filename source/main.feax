@@ -47,7 +47,12 @@ lookup ConjunctForms {
     sub da virama va by da_virama_va;
 } ConjunctForms;
 
-# helper lookup to create an reph to just after the imatra
+# helper lookup to create a reph and anusvara just after the imatra
+lookup Cons2MarkSub {
+    sub @Cons by ra_virama anusvara @Cons;
+} Cons2MarkSub;
+
+# helper lookup to create a reph just after the imatra
 lookup Cons2RephSub {
     sub @Cons by ra_virama @Cons;
 } Cons2RephSub;
@@ -57,8 +62,9 @@ lookup Cons2AnuSub {
     sub @Cons by anusvara @Cons;
 } Cons2AnuSub;
 
-# helper lookup to remove the reph or anusvara after the consonant
+# helper lookup to remove the reph and/or anusvara after the consonant
 lookup Mark2ConsSub {
+    sub @Cons ra_virama anusvara by @Cons;
     sub @Cons ra_virama by @Cons;
     sub @Cons anusvara by @Cons;
 } Mark2ConsSub;
@@ -67,6 +73,7 @@ lookup Mark2ConsSub {
 # with the previous helper lookups
 lookup IMatraSub {
   lookupflag 0;
+    sub imatra @Cons' lookup Cons2MarkSub ra_virama' anusvara' lookup Mark2ConsSub;
     sub imatra @Cons' lookup Cons2RephSub ra_virama' lookup Mark2ConsSub;
     sub imatra @Cons' lookup Cons2AnuSub anusvara' lookup Mark2ConsSub;
 } IMatraSub;
@@ -74,6 +81,8 @@ lookup IMatraSub {
 # different forms of imatra
 lookup IMatraLig {
   lookupflag 0;
+    sub imatra' ra_virama' anusvara' @Wide by ra_imatra_anusvara.wide;
+    sub imatra' ra_virama' anusvara' by ra_imatra_anusvara;
     sub imatra' ra_virama' @Wide by ra_imatra.wide;
     sub imatra' ra_virama' by ra_imatra;
     sub imatra' anusvara' @Wide by imatra_anusvara.anu.wide;
