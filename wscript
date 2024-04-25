@@ -6,8 +6,7 @@
 # command line options
 opts = preprocess_args(
     {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
-    {'opt' : '-p'}, # do not run psfix on the final fonts
-    {'opt' : '-s'}  # only build a single font
+    {'opt' : '-r'}, # only build the regular weight
     )
 
 import os2
@@ -83,6 +82,7 @@ for f in faces:
             target = process('${DS:FILENAME_BASE}.ttf',
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
             ),
+            instances = ['Gir Regular'] if '-r' in opts else None,
             opentype=fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = fontbase + 'main.feax',

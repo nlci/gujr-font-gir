@@ -3,6 +3,9 @@ languagesystem gjr2 dflt;
 
 # GSUB
 
+@Cons = [@cno_half ddha];
+@Wide = [kha cha ja jha nya nna ba bha la lla sha];
+
 lookup Akhands {
   lookupflag IgnoreMarks;
     sub ka virama ssa by ka_virama_ssa;
@@ -43,6 +46,40 @@ lookup ConjunctForms {
     sub da virama ya by da_virama_ya;
     sub da virama va by da_virama_va;
 } ConjunctForms;
+
+# helper lookup to create an reph to just after the imatra
+lookup Cons2RephSub {
+    sub @Cons by ra_virama @Cons;
+} Cons2RephSub;
+
+# helper lookup to create an anusvara to just after the imatra
+lookup Cons2AnuSub {
+    sub @Cons by anusvara @Cons;
+} Cons2AnuSub;
+
+# helper lookup to remove the reph or anusvara after the consonant
+lookup Mark2ConsSub {
+    sub @Cons ra_virama by @Cons;
+    sub @Cons anusvara by @Cons;
+} Mark2ConsSub;
+
+# re-order reph or anusvara to just after the imatra
+# with the previous helper lookups
+lookup IMatraSub {
+  lookupflag 0;
+    sub imatra @Cons' lookup Cons2RephSub ra_virama' lookup Mark2ConsSub;
+    sub imatra @Cons' lookup Cons2AnuSub anusvara' lookup Mark2ConsSub;
+} IMatraSub;
+
+# different forms of imatra
+lookup IMatraLig {
+  lookupflag 0;
+    sub imatra' ra_virama' @Wide by ra_imatra.wide;
+    sub imatra' ra_virama' by ra_imatra;
+    sub imatra' anusvara' @Wide by imatra_anusvara.anu.wide;
+    sub imatra' anusvara' by imatra_anusvara.anu;
+    sub imatra' @Wide by imatra.wide;
+} IMatraLig;
 
 lookup PreBaseSubs {
   lookupflag 0;
@@ -109,6 +146,8 @@ feature cjct {
 } cjct;
 
 feature pres {
+  lookup IMatraSub;
+  lookup IMatraLig;
   lookup PreBaseSubs;
 } pres;
 
