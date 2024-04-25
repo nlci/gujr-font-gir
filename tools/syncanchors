@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export nlci=$HOME/script/tools
+ca="$nlci/copyanchors.py -l $nlci/anchors.json"
+
+pushd source
+
+$ca    Gir-Regular.ufo Gir-Bold.ufo
+$ca -i Gir-Regular.ufo Gir-Italic.ufo
+
+popd

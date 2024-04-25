@@ -127,6 +127,23 @@ feature psts {
 
 # GPOS
 
+lookup AboveMarks {
+  lookupflag 0;
+    pos base @A mark @_A;
+} AboveMarks;
+
+lookup BelowMarks {
+  lookupflag 0;
+    pos base @B mark @_B;
+} BelowMarks;
+
+feature abvm {
+  lookup AboveMarks;
+} abvm;
+
+feature blwm {
+  lookup BelowMarks;
+} blwm;
 
 table GDEF {
   GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
