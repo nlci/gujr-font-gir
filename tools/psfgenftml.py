@@ -70,6 +70,9 @@ def doit(args):
     ra = 0x0AB0
     imatra = 0x0ABF
     iimatra = 0x0AC0
+    ecandramatra = 0x0AC5
+    ematra = 0x0AC7
+    aimatra = 0x0AC8
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -212,12 +215,12 @@ def doit(args):
 
         ftml.startTestGroup('reph? consonant nukta? imatra_like anusvara?')
         reph = (ra, virama)
-        for m in (imatra, iimatra):
+        for m in ((), (imatra,), (iimatra,), (ecandramatra,), (ematra,), (aimatra,)):
             for c in (ddha, nna):
                 for r in ((), reph):
                     for s in ((), (candrabindu,), (anusvara,)):
                         for n in ((), (nukta,)):
-                            builder.render((r+(c,)+(m,)+n+s), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                            builder.render((r+(c,)+n+m+s), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
                 ftml.closeTest()
 
         ftml.startTestGroup('Akhands with matras')

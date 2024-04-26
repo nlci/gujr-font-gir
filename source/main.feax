@@ -106,9 +106,28 @@ lookup PreBaseSubs {
     sub ha.half ya by ha_virama_ya;
 } PreBaseSubs;
 
-# lookup AboveBaseSubs {
-#   lookupflag 0;
-# } AboveBaseSubs;
+lookup AboveBaseSubs {
+  lookupflag 0;
+    sub ivowel anusvara by ivowel_anusvara;
+    sub iivowel anusvara by iivowel_anusvara;
+    sub uvowel anusvara by uvowel_anusvara;
+    sub uuvowel anusvara by uuvowel_anusvara;
+
+    sub ecandramatra ra_virama by ra_ecandramatra;
+    sub ematra ra_virama by ra_ematra;
+    sub aimatra ra_virama by ra_aimatra;
+
+    sub ecandramatra anusvara by ecandramatra_anusvara.anu;
+    sub ematra anusvara by ematra_anusvara.anu;
+    sub aimatra anusvara by aimatra_anusvara.anu;
+} AboveBaseSubs;
+
+lookup MoreAboveBaseSubs {
+  lookupflag 0;
+    sub ra_ecandramatra anusvara by ra_ecandramatra_anusvara.anu;
+    sub ra_ematra anusvara by ra_ematra_anusvara.anu;
+    sub ra_aimatra anusvara by ra_aimatra_anusvara.anu;
+} MoreAboveBaseSubs;
 
 lookup BelowBaseSubs {
   lookupflag 0;
@@ -123,11 +142,13 @@ lookup PostBaseSubs {
     sub ja aamatra by ja_aamatra.psts;
     sub ja iimatra by ja_iimatra.psts;
     sub iimatra ra_virama by ra_iimatra.psts;
+    sub iimatra anusvara by iimatra_anusvara.anu;
 } PostBaseSubs;
 
 lookup MorePostBaseSubs {
   lookupflag 0;
     sub ra_iimatra.psts anusvara by ra_iimatra_anusvara.anu.psts;
+    sub ra_virama anusvara by ra_anusvara;
 } MorePostBaseSubs;
 
 feature akhn {
@@ -160,9 +181,10 @@ feature pres {
   lookup PreBaseSubs;
 } pres;
 
-# feature abvs {
-#   lookup AboveBaseSubs;
-# } abvs;
+feature abvs {
+  lookup AboveBaseSubs;
+  lookup MoreAboveBaseSubs;
+} abvs;
 
 feature blws {
   lookup BelowBaseSubs;
