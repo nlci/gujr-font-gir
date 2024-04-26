@@ -67,4 +67,10 @@
       <string>\u0AE7\u2212\u0AEF</string>
     </test>
   </testgroup>
+  <testgroup label="ha">
+    <test label="encoded">
+      <comment>ha</comment>
+      <string>\u0AB9</string>
+    </test>
+  </testgroup>
 </ftml>

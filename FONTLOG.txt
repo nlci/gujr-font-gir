@@ -15,6 +15,9 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 Unreleased
+26 Apr 2024 (Dev NLCI) NLCI Gujarati fonts version 0.300
+- Use contextual forms with umatra, uumata, and anusvara
+- Improve punctuation
 10 Apr 2024 (Dev NLCI) NLCI Gujarati fonts version 0.200
 - Add many Latin and Devanagari characters
 - Latin glyphs are from Charis SIL (https://software.sil.org/charis/) scaled 71%
