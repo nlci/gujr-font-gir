@@ -135,7 +135,15 @@ lookup BelowBaseSubs {
     sub nna uumatra by nna_uumatra.blws;
     sub ra umatra by ra_umatra.psts;
     sub ra uumatra by ra_uumatra.blws;
+    sub virama_ra umatra by ra_umatra.blwf;
+    sub virama_ra uumatra by ra_uumatra.blwf;
 } BelowBaseSubs;
+
+lookup MoreBelowBaseSubs {
+  lookupflag 0;
+    sub pha umatra' by umatra.low;
+    sub pha uumatra' by uumatra.low;
+} MoreBelowBaseSubs;
 
 lookup PostBaseSubs {
   lookupflag 0;
@@ -188,6 +196,7 @@ feature abvs {
 
 feature blws {
   lookup BelowBaseSubs;
+  lookup MoreBelowBaseSubs;
 } blws;
 
 feature psts {
