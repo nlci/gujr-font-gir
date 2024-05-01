@@ -253,9 +253,9 @@ def doit(args):
                 builder.render((c1,virama,ra,m), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
             ftml.closeTest()
         ftml.startTestGroup('Consonants (nukta) with rakaar and a below matra')
-        for c in consonants:
+        for c1 in consonants:
             for m in below_matras:
-                builder.render((c,nukta,virama,ra,m), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
+                builder.render((c1,nukta,virama,ra,m), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
             ftml.closeTest()
 
         ftml.startTestGroup('Two consonants')

@@ -439,136 +439,136 @@
     </test>
   </testgroup>
   <testgroup label="Consonants (nukta) with rakaar and a below matra">
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A95">
+      <comment>ka</comment>
       <string>\u000A95\u000ABC\u000ACD\u000AB0\u000AC1 \u000A95\u000ABC\u000ACD\u000AB0\u000AC2 \u000A95\u000ABC\u000ACD\u000AB0\u000AC3 \u000A95\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A96">
+      <comment>kha</comment>
       <string>\u000A96\u000ABC\u000ACD\u000AB0\u000AC1 \u000A96\u000ABC\u000ACD\u000AB0\u000AC2 \u000A96\u000ABC\u000ACD\u000AB0\u000AC3 \u000A96\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A97">
+      <comment>ga</comment>
       <string>\u000A97\u000ABC\u000ACD\u000AB0\u000AC1 \u000A97\u000ABC\u000ACD\u000AB0\u000AC2 \u000A97\u000ABC\u000ACD\u000AB0\u000AC3 \u000A97\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A98">
+      <comment>gha</comment>
       <string>\u000A98\u000ABC\u000ACD\u000AB0\u000AC1 \u000A98\u000ABC\u000ACD\u000AB0\u000AC2 \u000A98\u000ABC\u000ACD\u000AB0\u000AC3 \u000A98\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A99">
+      <comment>nga</comment>
       <string>\u000A99\u000ABC\u000ACD\u000AB0\u000AC1 \u000A99\u000ABC\u000ACD\u000AB0\u000AC2 \u000A99\u000ABC\u000ACD\u000AB0\u000AC3 \u000A99\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A9A">
+      <comment>ca</comment>
       <string>\u000A9A\u000ABC\u000ACD\u000AB0\u000AC1 \u000A9A\u000ABC\u000ACD\u000AB0\u000AC2 \u000A9A\u000ABC\u000ACD\u000AB0\u000AC3 \u000A9A\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A9B">
+      <comment>cha</comment>
       <string>\u000A9B\u000ABC\u000ACD\u000AB0\u000AC1 \u000A9B\u000ABC\u000ACD\u000AB0\u000AC2 \u000A9B\u000ABC\u000ACD\u000AB0\u000AC3 \u000A9B\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A9C">
+      <comment>ja</comment>
       <string>\u000A9C\u000ABC\u000ACD\u000AB0\u000AC1 \u000A9C\u000ABC\u000ACD\u000AB0\u000AC2 \u000A9C\u000ABC\u000ACD\u000AB0\u000AC3 \u000A9C\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A9D">
+      <comment>jha</comment>
       <string>\u000A9D\u000ABC\u000ACD\u000AB0\u000AC1 \u000A9D\u000ABC\u000ACD\u000AB0\u000AC2 \u000A9D\u000ABC\u000ACD\u000AB0\u000AC3 \u000A9D\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A9E">
+      <comment>nya</comment>
       <string>\u000A9E\u000ABC\u000ACD\u000AB0\u000AC1 \u000A9E\u000ABC\u000ACD\u000AB0\u000AC2 \u000A9E\u000ABC\u000ACD\u000AB0\u000AC3 \u000A9E\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0A9F">
+      <comment>tta</comment>
       <string>\u000A9F\u000ABC\u000ACD\u000AB0\u000AC1 \u000A9F\u000ABC\u000ACD\u000AB0\u000AC2 \u000A9F\u000ABC\u000ACD\u000AB0\u000AC3 \u000A9F\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA0">
+      <comment>ttha</comment>
       <string>\u000AA0\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA0\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA0\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA0\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA1">
+      <comment>dda</comment>
       <string>\u000AA1\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA1\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA1\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA1\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA2">
+      <comment>ddha</comment>
       <string>\u000AA2\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA2\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA2\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA2\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA3">
+      <comment>nna</comment>
       <string>\u000AA3\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA3\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA3\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA3\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA4">
+      <comment>ta</comment>
       <string>\u000AA4\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA4\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA4\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA4\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA5">
+      <comment>tha</comment>
       <string>\u000AA5\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA5\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA5\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA5\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA6">
+      <comment>da</comment>
       <string>\u000AA6\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA6\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA6\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA6\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA7">
+      <comment>dha</comment>
       <string>\u000AA7\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA7\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA7\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA7\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AA8">
+      <comment>na</comment>
       <string>\u000AA8\u000ABC\u000ACD\u000AB0\u000AC1 \u000AA8\u000ABC\u000ACD\u000AB0\u000AC2 \u000AA8\u000ABC\u000ACD\u000AB0\u000AC3 \u000AA8\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AAA">
+      <comment>pa</comment>
       <string>\u000AAA\u000ABC\u000ACD\u000AB0\u000AC1 \u000AAA\u000ABC\u000ACD\u000AB0\u000AC2 \u000AAA\u000ABC\u000ACD\u000AB0\u000AC3 \u000AAA\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AAB">
+      <comment>pha</comment>
       <string>\u000AAB\u000ABC\u000ACD\u000AB0\u000AC1 \u000AAB\u000ABC\u000ACD\u000AB0\u000AC2 \u000AAB\u000ABC\u000ACD\u000AB0\u000AC3 \u000AAB\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AAC">
+      <comment>ba</comment>
       <string>\u000AAC\u000ABC\u000ACD\u000AB0\u000AC1 \u000AAC\u000ABC\u000ACD\u000AB0\u000AC2 \u000AAC\u000ABC\u000ACD\u000AB0\u000AC3 \u000AAC\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AAD">
+      <comment>bha</comment>
       <string>\u000AAD\u000ABC\u000ACD\u000AB0\u000AC1 \u000AAD\u000ABC\u000ACD\u000AB0\u000AC2 \u000AAD\u000ABC\u000ACD\u000AB0\u000AC3 \u000AAD\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AAE">
+      <comment>ma</comment>
       <string>\u000AAE\u000ABC\u000ACD\u000AB0\u000AC1 \u000AAE\u000ABC\u000ACD\u000AB0\u000AC2 \u000AAE\u000ABC\u000ACD\u000AB0\u000AC3 \u000AAE\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AAF">
+      <comment>ya</comment>
       <string>\u000AAF\u000ABC\u000ACD\u000AB0\u000AC1 \u000AAF\u000ABC\u000ACD\u000AB0\u000AC2 \u000AAF\u000ABC\u000ACD\u000AB0\u000AC3 \u000AAF\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AB0">
+      <comment>ra</comment>
       <string>\u000AB0\u000ABC\u000ACD\u000AB0\u000AC1 \u000AB0\u000ABC\u000ACD\u000AB0\u000AC2 \u000AB0\u000ABC\u000ACD\u000AB0\u000AC3 \u000AB0\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AB2">
+      <comment>la</comment>
       <string>\u000AB2\u000ABC\u000ACD\u000AB0\u000AC1 \u000AB2\u000ABC\u000ACD\u000AB0\u000AC2 \u000AB2\u000ABC\u000ACD\u000AB0\u000AC3 \u000AB2\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AB3">
+      <comment>lla</comment>
       <string>\u000AB3\u000ABC\u000ACD\u000AB0\u000AC1 \u000AB3\u000ABC\u000ACD\u000AB0\u000AC2 \u000AB3\u000ABC\u000ACD\u000AB0\u000AC3 \u000AB3\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AB5">
+      <comment>va</comment>
       <string>\u000AB5\u000ABC\u000ACD\u000AB0\u000AC1 \u000AB5\u000ABC\u000ACD\u000AB0\u000AC2 \u000AB5\u000ABC\u000ACD\u000AB0\u000AC3 \u000AB5\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AB6">
+      <comment>sha</comment>
       <string>\u000AB6\u000ABC\u000ACD\u000AB0\u000AC1 \u000AB6\u000ABC\u000ACD\u000AB0\u000AC2 \u000AB6\u000ABC\u000ACD\u000AB0\u000AC3 \u000AB6\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AB7">
+      <comment>ssa</comment>
       <string>\u000AB7\u000ABC\u000ACD\u000AB0\u000AC1 \u000AB7\u000ABC\u000ACD\u000AB0\u000AC2 \u000AB7\u000ABC\u000ACD\u000AB0\u000AC3 \u000AB7\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
-    <test label="0AB9">
-      <comment>ha</comment>
+    <test label="0AB8">
+      <comment>sa</comment>
       <string>\u000AB8\u000ABC\u000ACD\u000AB0\u000AC1 \u000AB8\u000ABC\u000ACD\u000AB0\u000AC2 \u000AB8\u000ABC\u000ACD\u000AB0\u000AC3 \u000AB8\u000ABC\u000ACD\u000AB0\u000AC4</string>
     </test>
     <test label="0AB9">
