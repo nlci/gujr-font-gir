@@ -73,4 +73,10 @@
       <string>\u0AB9</string>
     </test>
   </testgroup>
+  <testgroup label="bold">
+    <test label="fake bold">
+      <comment>ha-nukta pa-nukta ha-rrvocalicmatra pa-rrvocalicmatra</comment>
+      <string>\u0AB9\u0ABC\u0AAA\u0ABC\u0AB9\u0AC4\u0AAA\u0AC4\u0AB9\u0ACD\u0AB0</string>
+    </test>
+  </testgroup>
 </ftml>

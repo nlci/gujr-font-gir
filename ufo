@@ -9,6 +9,10 @@ export cs=$HOME/script/charsets
 export src=source
 source ${nlci}/prepare.bash
 
+pushd ${src}
+../tools/bold.py Gir-Bold.sfd u0AB9 u0AAA u0ABC u0AC4 u0ACD_u0AB0.rphf
+popd
+
 source ${nlci}/metadata.bash
 
 rm -f ${src}/*-???*.sfd*
