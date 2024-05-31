@@ -12,7 +12,7 @@ fi
 
 # configure tests
 tests="AllChars Proof Diac Matras Conjuncts"
-urls='url(../references/patelN.ttf)=patelR url(../references/patelB.ttf)=patelB url(../references/patelI.ttf)=patelI url(../references/GUJRGir-Regular.ttf)=gujrR url(../references/GUJRGir-Bold.ttf)=gujrB url(../references/GUJRGir-Italic.ttf)=gujrI url(../references/Gir-Regular.ttf)=refR url(../references/Gir-Bold.ttf)=refB url(../references/Gir-Italic.ttf)=refI url(../results/Gir-Regular.ttf)=R url(../results/Gir-Bold.ttf)=B url(../results/Gir-Italic.ttf)=I url(../references/NotoSerifGujarati-Regular.ttf)=notoSerif url(../references/NotoSansGujarati-Regular.ttf)=notoSans url(../references/NotoSansGujaratiUI-Regular.ttf)=notoSansUI url(../references/BalooBhai2-Regular.ttf)=baloo url(../references/AnekGujarati-Regular.ttf)=ek  url(../references/Lohit-Gujarati.ttf)=lohit'
+urls='url(../references/patelN.ttf)=patelR url(../references/patelB.ttf)=patelB url(../references/patelI.ttf)=patelI url(../references/GUJRGir-Regular.ttf)=gujrR url(../references/GUJRGir-Bold.ttf)=gujrB url(../references/GUJRGir-Italic.ttf)=gujrI url(../references/Gir-Regular.ttf)=refR url(../references/Gir-Bold.ttf)=refB url(../references/Gir-Italic.ttf)=refI url(../references/Gir-BoldItalic.ttf)=refBI url(../results/Gir-Regular.ttf)=R url(../results/Gir-Bold.ttf)=B url(../results/Gir-Italic.ttf)=I url(../results/Gir-BoldItalic.ttf)=BI url(../references/NotoSerifGujarati-Regular.ttf)=notoSerif url(../references/NotoSansGujarati-Regular.ttf)=notoSans url(../references/NotoSansGujaratiUI-Regular.ttf)=notoSansUI url(../references/BalooBhai2-Regular.ttf)=baloo url(../references/AnekGujarati-Regular.ttf)=ek  url(../references/Lohit-Gujarati.ttf)=lohit'
 ufo='source/Gir-Regular.ufo'
 
 # list all the fonts to test

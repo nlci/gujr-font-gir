@@ -17,11 +17,23 @@
                 <dimension name="weight" xvalue="400" />
             </location>
         </source>
+        <source familyname="Gir" filename="Gir-BoldItalic.ufo" name="Gir Bold Italic" stylename="Bold Italic">
+            <location>
+                <dimension name="weight" xvalue="700" />
+            </location>
+        </source>
     </sources>
     <instances>
         <instance familyname="Gir" filename="Gir-Italic.ufo" name="Gir Italic" stylemapfamilyname="Gir" stylemapstylename="italic" stylename="Italic">
             <location>
                 <dimension name="weight" xvalue="400" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Gir" filename="Gir-BoldItalic.ufo" name="Gir Bold Italic" stylemapfamilyname="Gir" stylemapstylename="bold italic" stylename="Bold Italic">
+            <location>
+                <dimension name="weight" xvalue="700" />
             </location>
             <info />
             <kerning />

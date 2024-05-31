@@ -7,5 +7,6 @@ pushd source
 
 $ca    Gir-Regular.ufo Gir-Bold.ufo
 $ca -i Gir-Regular.ufo Gir-Italic.ufo
+$ca -i Gir-Regular.ufo Gir-BoldItalic.ufo
 
 popd

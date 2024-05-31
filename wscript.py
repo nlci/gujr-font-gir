@@ -1,2 +1,2 @@
 faces = ('Gir',)
-stylesName = ('Regular', 'Bold', 'Italic')
+stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')

@@ -13,9 +13,11 @@
     <fontsrc label="refR">url(../references/Gir-Regular.ttf)</fontsrc>
     <fontsrc label="refB">url(../references/Gir-Bold.ttf)</fontsrc>
     <fontsrc label="refI">url(../references/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="refBI">url(../references/Gir-BoldItalic.ttf)</fontsrc>
     <fontsrc label="R">url(../results/Gir-Regular.ttf)</fontsrc>
     <fontsrc label="B">url(../results/Gir-Bold.ttf)</fontsrc>
     <fontsrc label="I">url(../results/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/Gir-BoldItalic.ttf)</fontsrc>
     <fontsrc label="notoSerif">url(../references/NotoSerifGujarati-Regular.ttf)</fontsrc>
     <fontsrc label="notoSans">url(../references/NotoSansGujarati-Regular.ttf)</fontsrc>
     <fontsrc label="notoSansUI">url(../references/NotoSansGujaratiUI-Regular.ttf)</fontsrc>
