@@ -1,6 +1,6 @@
-This Font Software is Copyright (c) 2009-2024, NLCI (http://www.nlci.in/fonts/)
+This Font Software is Copyright (c) 2009-2025, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "Gir" and "NLCI".
-Latin glyphs Copyright (c) 1997-2023, SIL International (https://www.sil.org/)
+Latin glyphs Copyright (c) 1997-2024, SIL International (https://www.sil.org/)
 with Reserved Font Names "Charis" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
