@@ -32,7 +32,7 @@
       <string>\u00F130 \u00F131 ! " # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</string>
     </test>
     <test label="U+00A0">
-      <comment>nbspace</comment>
+      <comment>nbsp</comment>
       <string>\u00F130\u0000A0\u00F131 \u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA \u0000AB \u0000AC \u0000AD \u0000AE \u0000AF \u0000B0 \u0000B1 \u0000B2 \u0000B3 \u0000B4 \u0000B5 \u0000B6 \u0000B7 \u0000B8 \u0000B9 \u0000BA \u0000BB \u0000BC \u0000BD \u0000BE \u0000BF \u0000C0 \u0000C1 \u0000C2 \u0000C3 \u0000C4 \u0000C5 \u0000C6 \u0000C7 \u0000C8 \u0000C9 \u0000CA \u0000CB \u0000CC \u0000CD \u0000CE \u0000CF \u0000D0 \u0000D1 \u0000D2 \u0000D3 \u0000D4 \u0000D5 \u0000D6 \u0000D7 \u0000D8 \u0000D9 \u0000DA \u0000DB \u0000DC \u0000DD \u0000DE \u0000DF \u0000E0 \u0000E1 \u0000E2 \u0000E3 \u0000E4 \u0000E5 \u0000E6 \u0000E7 \u0000E8 \u0000E9 \u0000EA \u0000EB \u0000EC \u0000ED \u0000EE \u0000EF \u0000F0 \u0000F1 \u0000F2 \u0000F3 \u0000F4 \u0000F5 \u0000F6 \u0000F7 \u0000F8 \u0000F9 \u0000FA \u0000FB \u0000FC \u0000FD \u0000FE \u0000FF</string>
     </test>
     <test label="U+0131">
@@ -58,6 +58,10 @@
     <test label="U+0192">
       <comment>florin</comment>
       <string>\u000192</string>
+    </test>
+    <test background="#f0fff0" label="U+02BC">
+      <comment>apostrophemod</comment>
+      <string>\u0002BC</string>
     </test>
     <test label="U+02C6">
       <comment>circumflex</comment>
@@ -196,7 +200,7 @@
       <string>\u002026 \u002027 \u00F130\u002028\u00F131 \u00F130\u002029\u00F131</string>
     </test>
     <test label="U+202F">
-      <comment>nnbspace</comment>
+      <comment>nnbsp</comment>
       <string>\u00F130\u00202F\u00F131 \u002030</string>
     </test>
     <test label="U+2039">
@@ -376,6 +380,16 @@ U+0AA8">
       <string>\u000A97\u000ACD\u000AA8</string>
     </test>
     <test label="U+0A9C
+U+0ABE">
+      <comment>ja aamatra</comment>
+      <string>\u000A9C\u000ABE</string>
+    </test>
+    <test label="U+0A9C
+U+0AC0">
+      <comment>ja iimatra</comment>
+      <string>\u000A9C\u000AC0</string>
+    </test>
+    <test label="U+0A9C
 U+0ACD
 U+0A9E">
       <comment>ja virama nya</comment>
@@ -410,6 +424,16 @@ U+0ACD
 U+0AA2">
       <comment>dda virama ddha</comment>
       <string>\u000AA1\u000ACD\u000AA2</string>
+    </test>
+    <test label="U+0AA3
+U+0AC1">
+      <comment>nna umatra</comment>
+      <string>\u000AA3\u000AC1</string>
+    </test>
+    <test label="U+0AA3
+U+0AC2">
+      <comment>nna uumatra</comment>
+      <string>\u000AA3\u000AC2</string>
     </test>
     <test label="U+0AA4
 U+0ACD
@@ -466,40 +490,14 @@ U+0AA8">
       <string>\u000AA8\u000ACD\u000AA8</string>
     </test>
     <test label="U+0AB0
-U+0AC8">
-      <comment>ra aimatra</comment>
-      <string>\u000AB0\u000AC8</string>
+U+0AC1">
+      <comment>ra umatra</comment>
+      <string>\u000AB0\u000AC1</string>
     </test>
     <test label="U+0AB0
-U+0A82">
-      <comment>ra anusvara</comment>
-      <string>\u000AB0\u000A82</string>
-    </test>
-    <test label="U+0AB0
-U+0AC5">
-      <comment>ra ecandramatra</comment>
-      <string>\u000AB0\u000AC5</string>
-    </test>
-    <test label="U+0AB0
-U+0AC7">
-      <comment>ra ematra</comment>
-      <string>\u000AB0\u000AC7</string>
-    </test>
-    <test label="U+0AB0
-U+0ABF">
-      <comment>ra imatra</comment>
-      <string>\u000AB0\u000ABF</string>
-    </test>
-    <test label="U+0AB0
-U+0ABF
-U+0A82">
-      <comment>ra imatra anusvara</comment>
-      <string>\u000AB0\u000ABF\u000A82</string>
-    </test>
-    <test label="U+0AB0
-U+0ACD">
-      <comment>ra virama</comment>
-      <string>\u000AB0\u000ACD</string>
+U+0AC2">
+      <comment>ra uumatra</comment>
+      <string>\u000AB0\u000AC2</string>
     </test>
     <test label="U+0AB6
 U+0ACD
@@ -537,10 +535,30 @@ U+0AAF">
       <comment>ha virama ya</comment>
       <string>\u000AB9\u000ACD\u000AAF</string>
     </test>
-    <test label="U+0ACD
-U+0AB0">
-      <comment>virama ra</comment>
-      <string>\u000A95\u000ACD\u000AB0</string>
+    <test label="U+0ABF
+U+0A82">
+      <comment>imatra anusvara</comment>
+      <string>\u000ABF\u000A82</string>
+    </test>
+    <test label="U+0AC0
+U+0A82">
+      <comment>iimatra anusvara</comment>
+      <string>\u000AC0\u000A82</string>
+    </test>
+    <test label="U+0AC5
+U+0A82">
+      <comment>ecandramatra anusvara</comment>
+      <string>\u000A95\u000AC5\u000A82</string>
+    </test>
+    <test label="U+0AC7
+U+0A82">
+      <comment>ematra anusvara</comment>
+      <string>\u000A95\u000AC7\u000A82</string>
+    </test>
+    <test label="U+0AC8
+U+0A82">
+      <comment>aimatra anusvara</comment>
+      <string>\u000A95\u000AC8\u000A82</string>
     </test>
   </testgroup>
 </ftml>
