@@ -6,7 +6,7 @@
 # command line options
 opts = preprocess_args(
     {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
-    {'opt' : '-r'}, # only build the regular weight
+    {'opt' : '-r'}, # only build the regular font
     )
 
 import os2
@@ -32,13 +32,7 @@ facesLegacy = ('GIRR',)
 styles = ('-R', '-B', '-I')
 stylesName = ('Regular', 'Bold', 'Italic')
 stylesLegacy = ('', 'BD', 'I')
-
-if '-s' in opts:
-    faces = (faces[0],)
-    facesLegacy = (facesLegacy[0],)
-    styles = (styles[0],)
-    stylesName = (stylesName[0],)
-    stylesLegacy = (stylesLegacy[0],)
+dspaces = ('Roman', 'Italic')
 
 # set build parameters
 fontbase = 'source/'
@@ -77,7 +71,7 @@ for f in faces:
         version = VERSION,
         docdir = DOCDIR # 'documentation'
     )
-    for dspace in ('Roman', 'Italic'):
+    for dspace in dspaces:
         d = designspace('source/' + f + dspace + '.designspace',
             target = process('${DS:FILENAME_BASE}.ttf',
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
