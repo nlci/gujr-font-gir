@@ -62,11 +62,14 @@ if '-l' in opts:
                                 noap = '')
                 )
 
+cmds = [
+    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
+    cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
+    ]
+
 for dspace in dspaces:
     d = designspace('source/' + 'Gir' + dspace + '.designspace',
-        target = process('${DS:FILENAME_BASE}.ttf',
-            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
-        ),
+        target = process('${DS:FILENAME_BASE}.ttf', *cmds),
         instances = ['Gir Regular'] if '-r' in opts else None,
         opentype=fea(generated + '${DS:FILENAME_BASE}.fea',
             mapfile = generated + '${DS:FILENAME_BASE}.map',
