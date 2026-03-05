@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="patelR">url(../references/patelN.ttf)</fontsrc>
+    <fontsrc label="patelB">url(../references/patelB.ttf)</fontsrc>
+    <fontsrc label="patelI">url(../references/patelI.ttf)</fontsrc>
+    <fontsrc label="gujrR">url(../references/GUJRGir-Regular.ttf)</fontsrc>
+    <fontsrc label="gujrB">url(../references/GUJRGir-Bold.ttf)</fontsrc>
+    <fontsrc label="gujrI">url(../references/GUJRGir-Italic.ttf)</fontsrc>
+    <fontsrc label="refR">url(../references/Gir-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Gir-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="refBI">url(../references/Gir-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/Gir-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Gir-Bold.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/Gir-Italic.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/Gir-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansGujaratiUI-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooBhai2-Regular.ttf)</fontsrc>
+    <fontsrc label="ek">url(../references/AnekGujarati-Regular.ttf)</fontsrc>
+    <fontsrc label="lohit">url(../references/Lohit-Gujarati.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss19' 1" name="ss19_1"/>
+      <style feats="'ss20' 1" name="ss20_1"/>
+    </styles>
+    <title>Digits</title>
+  </head>
+  <testgroup label="Gujarati digits">
+    <test label="Gujarati codepoints">
+      <string>\u0AE6\u0AE7\u0AE8\u0AE9\u0AEA\u0AEB\u0AEC\u0AED\u0AEE\u0AEF</string>
+    </test>
+    <test label="Latin codepoints" stylename="ss20_1">
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+  <testgroup label="Latin digits">
+    <test label="Gujarati codepoints" stylename="ss19_1">
+      <string>\u0AE6\u0AE7\u0AE8\u0AE9\u0AEA\u0AEB\u0AEC\u0AED\u0AEE\u0AEF</string>
+    </test>
+    <test label="Latin codepoints">
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+</ftml>

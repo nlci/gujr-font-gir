@@ -159,6 +159,34 @@ lookup MorePostBaseSubs {
     sub reph anusvara by reph_anusvara;
 } MorePostBaseSubs;
 
+lookup Gujr2LatnDigits {
+  lookupflag 0;
+    sub zerogujr by zero;
+    sub onegujr by one;
+    sub twogujr by two;
+    sub threegujr by three;
+    sub fourgujr by four;
+    sub fivegujr by five;
+    sub sixgujr by six;
+    sub sevengujr by seven;
+    sub eightgujr by eight;
+    sub ninegujr by nine;
+} Gujr2LatnDigits;
+
+lookup Latn2GujrDigits {
+  lookupflag 0;
+    sub zero by zerogujr;
+    sub one by onegujr;
+    sub two by twogujr;
+    sub three by threegujr;
+    sub four by fourgujr;
+    sub five by fivegujr;
+    sub six by sixgujr;
+    sub seven by sevengujr;
+    sub eight by eightgujr;
+    sub nine by ninegujr;
+} Latn2GujrDigits;
+
 feature akhn {
     lookup Akhands;
 } akhn;
@@ -203,6 +231,20 @@ feature psts {
   lookup PostBaseSubs;
   lookup MorePostBaseSubs;
 } psts;
+
+feature ss19 {
+  featureNames {
+    name 3 1 0x409 "Gujarati to Latin Digits";
+    };
+    lookup Gujr2LatnDigits;
+} ss19;
+
+feature ss20 {
+  featureNames {
+    name 3 1 0x409 "Latin to Gujarati Digits";
+    };
+    lookup Latn2GujrDigits;
+} ss20;
 
 # GPOS
 
