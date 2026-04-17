@@ -1,0 +1,29 @@
+/*
+This Font Software is Copyright (c) 2009-2026, NLCI (http://www.nlci.in/fonts/)
+with Reserved Font Names "Gir" and "NLCI".
+Latin glyphs Copyright (c) 1997-2024, SIL International (https://www.sil.org/)
+with Reserved Font Names "Charis" and "SIL".
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+*/
+@font-face {
+    font-family: Gir-R;
+    src: url("../../../results/Gir-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: Gir-B;
+    src: url("../../../results/Gir-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: Gir-I;
+    src: url("../../../results/Gir-Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: Gir-BI;
+    src: url("../../../results/Gir-BoldItalic.ttf") format("truetype");
+}
+
+.gir-R  { font-family: Gir-R; }
+.gir-B  { font-family: Gir-B; }
+.gir-I  { font-family: Gir-I; }
+.gir-BI { font-family: Gir-BI; }

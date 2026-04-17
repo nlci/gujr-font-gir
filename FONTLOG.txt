@@ -5,31 +5,34 @@ Gir - NLCI Gujarati fonts
 This file provides detailed information on the NLCI Gujarati fonts.
 This information should be distributed along with the NLCI Gujarati fonts and any derivative works.
 
-Basic Font Information
-----------------------
+## About this project
 
 Pan Gujarati font designed to support all the languages using the Gujarati script.
 
-ChangeLog
----------
+## ChangeLog
+
 (This should list both major and minor changes, most recent first.)
 
-24 Mar 2024 (Dev NLCI) NLCI Gujarati fonts version 0.301
+### 24 Mar 2024 (Dev NLCI) NLCI Gujarati fonts version 0.301
 - Bold a few glyphs in the Bold weight that were overlooked
-26 Apr 2024 (Dev NLCI) NLCI Gujarati fonts version 0.300
+
+### 26 Apr 2024 (Dev NLCI) NLCI Gujarati fonts version 0.300
 - Use contextual forms with umatra, uumata, and anusvara
 - Improve punctuation
-10 Apr 2024 (Dev NLCI) NLCI Gujarati fonts version 0.200
+
+### 10 Apr 2024 (Dev NLCI) NLCI Gujarati fonts version 0.200
 - Add many Latin and Devanagari characters
 - Latin glyphs are from Charis SIL (https://software.sil.org/charis/) scaled 71%
 - Fixed many conjuncts
-29 Aug 2018 (Dev NLCI) NLCI Gujarati fonts version 0.101
+
+### 29 Aug 2018 (Dev NLCI) NLCI Gujarati fonts version 0.101
 - Fixed a small encoding mixup
-24 Sep 2015 (Dev NLCI) NLCI Gujarati fonts version 0.100
+
+### 24 Sep 2015 (Dev NLCI) NLCI Gujarati fonts version 0.100
 - Latin glyphs are from Charis SIL (https://software.sil.org/charis/)
 
-Acknowledgements
-----------------
+## Acknowledgements
+
 (If you make modifications be sure to add your
 name (N), email (E), web-address (W) and description (D).
 This list is sorted by last name in alphabetical order.)
