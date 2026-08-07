@@ -85,7 +85,7 @@
     <test label="vatu half?">
       <comment>va halant ra</comment>
       <string>\u0AB5\u0ACD\u0AB0</string>
-    </test>q
+    </test>
   </testgroup>
   <testgroup label="blwf">
     <test label="rakaar ligature">
