@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="avagraha" format="2">
+  <advance width="424"/>
+  <unicode hex="0ABD"/>
+  <outline>
+    <contour>
+      <point x="202" y="457" type="curve" smooth="yes"/>
+      <point x="202" y="393"/>
+      <point x="338" y="305"/>
+      <point x="338" y="223" type="curve" smooth="yes"/>
+      <point x="337" y="223"/>
+      <point x="337" y="215"/>
+      <point x="336" y="207" type="curve" smooth="yes"/>
+      <point x="323" y="150"/>
+      <point x="265" y="118"/>
+      <point x="231" y="118" type="curve" smooth="yes"/>
+      <point x="184" y="118"/>
+      <point x="165" y="141"/>
+      <point x="132" y="208" type="curve"/>
+      <point x="90" y="182" type="line"/>
+      <point x="112" y="112"/>
+      <point x="172" y="48"/>
+      <point x="240" y="48" type="curve" smooth="yes"/>
+      <point x="324" y="48"/>
+      <point x="408" y="128"/>
+      <point x="408" y="206" type="curve" smooth="yes"/>
+      <point x="408" y="311"/>
+      <point x="279" y="389"/>
+      <point x="279" y="432" type="curve" smooth="yes"/>
+      <point x="279" y="436"/>
+      <point x="280" y="458"/>
+      <point x="305" y="458" type="curve" smooth="yes"/>
+      <point x="478" y="458" type="line"/>
+      <point x="455" y="530" type="line"/>
+      <point x="294" y="530" type="line" smooth="yes"/>
+      <point x="246" y="530"/>
+      <point x="202" y="484"/>
+    </contour>
+  </outline>
+</glyph>

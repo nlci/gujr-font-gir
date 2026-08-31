@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ovowel" format="2">
+  <advance width="924"/>
+  <unicode hex="0A93"/>
+  <anchor x="883" y="546" name="A"/>
+  <anchor x="816" y="-50" name="B"/>
+  <outline>
+    <component base="avowel"/>
+    <component base="aamatra" xOffset="714"/>
+    <component base="ematra" xOffset="914"/>
+  </outline>
+</glyph>

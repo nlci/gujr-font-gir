@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <anchor x="-135" y="567" name="U"/>
+  <anchor x="-152" y="416" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-71" y="426" type="line"/>
+      <point x="-175" y="546" type="line" smooth="yes"/>
+      <point x="-187" y="560"/>
+      <point x="-196" y="567"/>
+      <point x="-218" y="567" type="curve" smooth="yes"/>
+      <point x="-247" y="567"/>
+      <point x="-256" y="547"/>
+      <point x="-256" y="531" type="curve" smooth="yes"/>
+      <point x="-256" y="517"/>
+      <point x="-248" y="505"/>
+      <point x="-238" y="498" type="curve" smooth="yes"/>
+      <point x="-121" y="426" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

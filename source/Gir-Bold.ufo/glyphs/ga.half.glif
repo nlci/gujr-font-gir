@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ga.half" format="2">
+  <advance width="380"/>
+  <anchor x="223" y="546" name="A"/>
+  <anchor x="282" y="-50" name="B"/>
+  <outline>
+    <contour>
+      <point x="299" y="266" type="curve" smooth="yes"/>
+      <point x="299" y="385"/>
+      <point x="244" y="499"/>
+      <point x="160" y="509" type="curve"/>
+      <point x="21" y="509" type="line"/>
+      <point x="58" y="442" type="line"/>
+      <point x="149" y="442" type="line" smooth="yes"/>
+      <point x="220" y="442"/>
+      <point x="260" y="371"/>
+      <point x="260" y="293" type="curve" smooth="yes"/>
+      <point x="260" y="222"/>
+      <point x="224" y="154"/>
+      <point x="146" y="154" type="curve" smooth="yes"/>
+      <point x="98" y="154"/>
+      <point x="46" y="187"/>
+      <point x="24" y="250" type="curve"/>
+      <point x="-9" y="242" type="line"/>
+      <point x="7" y="154"/>
+      <point x="75" y="79"/>
+      <point x="164" y="79" type="curve" smooth="yes"/>
+      <point x="289" y="79"/>
+      <point x="299" y="220"/>
+    </contour>
+  </outline>
+</glyph>

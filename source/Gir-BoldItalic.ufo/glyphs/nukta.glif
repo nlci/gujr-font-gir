@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nukta" format="2">
+  <unicode hex="0ABC"/>
+  <anchor x="-122" y="-50" name="_B"/>
+  <outline>
+    <contour>
+      <point x="-47" y="-116" type="line"/>
+      <point x="-108" y="-39" type="line"/>
+      <point x="-196" y="-113" type="line"/>
+      <point x="-136" y="-191" type="line"/>
+    </contour>
+  </outline>
+</glyph>

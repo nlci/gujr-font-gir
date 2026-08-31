@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ya" format="2">
+  <advance width="512"/>
+  <unicode hex="0AAF"/>
+  <anchor x="355" y="546" name="A"/>
+  <anchor x="414" y="-50" name="B"/>
+  <outline>
+    <component base="ya.half"/>
+    <component base="aamatra" xOffset="312"/>
+  </outline>
+</glyph>

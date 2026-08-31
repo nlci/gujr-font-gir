@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="2">
+  <advance width="526"/>
+  <unicode hex="0056"/>
+  <anchor x="266" y="0" name="H"/>
+  <anchor x="272" y="567" name="U"/>
+  <outline>
+    <contour>
+      <point x="518" y="484" type="line"/>
+      <point x="518" y="519" type="line"/>
+      <point x="358" y="519" type="line"/>
+      <point x="358" y="484" type="line"/>
+      <point x="400" y="480" type="line" smooth="yes"/>
+      <point x="408" y="479"/>
+      <point x="413" y="470"/>
+      <point x="411" y="464" type="curve" smooth="yes"/>
+      <point x="284" y="97" type="line"/>
+      <point x="152" y="465" type="line" smooth="yes"/>
+      <point x="150" y="470"/>
+      <point x="153" y="479"/>
+      <point x="159" y="480" type="curve" smooth="yes"/>
+      <point x="204" y="484" type="line"/>
+      <point x="204" y="519" type="line"/>
+      <point x="7" y="519" type="line"/>
+      <point x="7" y="484" type="line"/>
+      <point x="54" y="477" type="line"/>
+      <point x="233" y="-12" type="line"/>
+      <point x="297" y="-12" type="line"/>
+      <point x="472" y="476" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="la" format="2">
+  <advance width="562"/>
+  <unicode hex="0AB2"/>
+  <anchor x="405" y="546" name="A"/>
+  <anchor x="464" y="-50" name="B"/>
+  <outline>
+    <component base="la.half"/>
+    <component base="aamatra" xOffset="362"/>
+  </outline>
+</glyph>

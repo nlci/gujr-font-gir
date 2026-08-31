@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dha.vatu" format="2">
+  <advance width="491"/>
+  <anchor x="334" y="546" name="A"/>
+  <anchor x="394" y="-50" name="B"/>
+  <outline>
+    <component base="dha.half.vatu"/>
+    <component base="aamatra" xOffset="291"/>
+  </outline>
+</glyph>

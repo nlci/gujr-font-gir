@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daggerdbl" format="2">
+  <advance width="392"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="298" y="497" type="line"/>
+      <point x="268" y="571" type="line"/>
+      <point x="210" y="498" type="line"/>
+      <point x="220" y="386" type="line"/>
+      <point x="246" y="386" type="line"/>
+    </contour>
+    <contour>
+      <point x="427" y="371" type="line"/>
+      <point x="369" y="412" type="line"/>
+      <point x="248" y="378" type="line"/>
+      <point x="245" y="361" type="line"/>
+      <point x="355" y="331" type="line"/>
+    </contour>
+    <contour>
+      <point x="214" y="378" type="line"/>
+      <point x="104" y="412" type="line"/>
+      <point x="34" y="372" type="line"/>
+      <point x="87" y="332" type="line"/>
+      <point x="211" y="361" type="line"/>
+    </contour>
+    <contour>
+      <point x="250" y="223" type="line"/>
+      <point x="240" y="354" type="line"/>
+      <point x="213" y="354" type="line"/>
+      <point x="150" y="224" type="line"/>
+      <point x="162" y="92" type="line"/>
+      <point x="189" y="92" type="line"/>
+    </contour>
+    <contour>
+      <point x="369" y="75" type="line"/>
+      <point x="313" y="116" type="line"/>
+      <point x="190" y="84" type="line"/>
+      <point x="187" y="66" type="line"/>
+      <point x="299" y="35" type="line"/>
+    </contour>
+    <contour>
+      <point x="157" y="84" type="line"/>
+      <point x="46" y="116" type="line"/>
+      <point x="-23" y="76" type="line"/>
+      <point x="31" y="35" type="line"/>
+      <point x="155" y="67" type="line"/>
+    </contour>
+    <contour>
+      <point x="191" y="-51" type="line"/>
+      <point x="183" y="60" type="line"/>
+      <point x="156" y="60" type="line"/>
+      <point x="104" y="-50" type="line"/>
+      <point x="132" y="-125" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

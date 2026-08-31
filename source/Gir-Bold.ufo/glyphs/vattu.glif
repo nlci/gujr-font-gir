@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vattu" format="2">
+  <advance width="10"/>
+  <outline>
+    <contour>
+      <point x="-22" y="-173" type="line"/>
+      <point x="-191" y="-34" type="line"/>
+      <point x="-329" y="-149" type="line"/>
+      <point x="-274" y="-199" type="line"/>
+      <point x="-169" y="-112" type="line"/>
+      <point x="-49" y="-204" type="line"/>
+    </contour>
+  </outline>
+</glyph>

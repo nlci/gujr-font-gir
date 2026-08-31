@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ssa" format="2">
+  <advance width="504"/>
+  <unicode hex="0AB7"/>
+  <anchor x="347" y="546" name="A"/>
+  <anchor x="406" y="-50" name="B"/>
+  <outline>
+    <component base="ssa.half"/>
+    <component base="aamatra" xOffset="304"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ca" format="2">
+  <advance width="557"/>
+  <unicode hex="0A9A"/>
+  <anchor x="400" y="546" name="A"/>
+  <anchor x="460" y="-50" name="B"/>
+  <outline>
+    <component base="ca.half"/>
+    <component base="aamatra" xOffset="357"/>
+  </outline>
+</glyph>

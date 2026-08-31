@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ca.half.vatu" format="2">
+  <advance width="357"/>
+  <anchor x="316" y="546" name="A"/>
+  <anchor x="250" y="-50" name="B"/>
+  <outline>
+    <contour>
+      <point x="168" y="214" type="curve"/>
+      <point x="312" y="217"/>
+      <point x="364" y="322"/>
+      <point x="364" y="404" type="curve" smooth="yes"/>
+      <point x="364" y="478"/>
+      <point x="326" y="507"/>
+      <point x="306" y="516" type="curve"/>
+      <point x="148" y="516" type="line"/>
+      <point x="171" y="448" type="line"/>
+      <point x="312" y="448" type="line"/>
+      <point x="315" y="435"/>
+      <point x="316" y="424"/>
+      <point x="316" y="414" type="curve" smooth="yes"/>
+      <point x="316" y="327"/>
+      <point x="225" y="288"/>
+      <point x="166" y="286" type="curve"/>
+      <point x="166" y="297"/>
+      <point x="163" y="351"/>
+      <point x="138" y="357" type="curve" smooth="yes"/>
+      <point x="80" y="371"/>
+      <point x="56" y="319"/>
+      <point x="56" y="288" type="curve" smooth="yes"/>
+      <point x="56" y="236"/>
+      <point x="107" y="218"/>
+      <point x="116" y="215" type="curve"/>
+      <point x="122" y="181"/>
+      <point x="147" y="76"/>
+      <point x="235" y="65" type="curve"/>
+      <point x="195" y="28" type="line"/>
+      <point x="236" y="-15" type="line"/>
+      <point x="402" y="129" type="line"/>
+      <point x="434" y="275" type="line"/>
+      <point x="411" y="237" type="line" smooth="yes"/>
+      <point x="379" y="185"/>
+      <point x="299" y="140"/>
+      <point x="249" y="140" type="curve" smooth="yes"/>
+      <point x="200" y="140"/>
+      <point x="171" y="181"/>
+    </contour>
+  </outline>
+</glyph>

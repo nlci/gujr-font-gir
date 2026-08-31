@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uumatra.low" format="2">
+  <advance width="10"/>
+  <outline>
+    <contour>
+      <point x="-150" y="-153" type="curve" smooth="yes"/>
+      <point x="-195" y="-153"/>
+      <point x="-248" y="-190"/>
+      <point x="-248" y="-241" type="curve" smooth="yes"/>
+      <point x="-248" y="-263"/>
+      <point x="-238" y="-301"/>
+      <point x="-185" y="-301" type="curve" smooth="yes"/>
+      <point x="-140" y="-301"/>
+      <point x="-118" y="-254"/>
+      <point x="-112" y="-223" type="curve"/>
+      <point x="-84" y="-240"/>
+      <point x="-32" y="-332"/>
+      <point x="-39" y="-385" type="curve"/>
+      <point x="-36" y="-387"/>
+      <point x="-33" y="-388"/>
+      <point x="-29" y="-388" type="curve" smooth="yes"/>
+      <point x="-26" y="-388"/>
+      <point x="-23" y="-387"/>
+      <point x="-19" y="-384" type="curve"/>
+      <point x="-18" y="-373"/>
+      <point x="-17" y="-365"/>
+      <point x="-17" y="-359" type="curve" smooth="yes"/>
+      <point x="-17" y="-259"/>
+      <point x="-81" y="-153"/>
+    </contour>
+    <contour>
+      <point x="-215" y="-224" type="curve" smooth="yes"/>
+      <point x="-215" y="-192"/>
+      <point x="-158" y="-164"/>
+      <point x="-147" y="-164" type="curve" smooth="yes"/>
+      <point x="-136" y="-164"/>
+      <point x="-131" y="-172"/>
+      <point x="-131" y="-189" type="curve" smooth="yes"/>
+      <point x="-131" y="-199"/>
+      <point x="-133" y="-212"/>
+      <point x="-137" y="-228" type="curve" smooth="yes"/>
+      <point x="-142" y="-250"/>
+      <point x="-153" y="-263"/>
+      <point x="-173" y="-263" type="curve" smooth="yes"/>
+      <point x="-195" y="-263"/>
+      <point x="-215" y="-244"/>
+    </contour>
+  </outline>
+</glyph>

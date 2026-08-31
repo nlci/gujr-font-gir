@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sha_virama_va" format="2">
+  <advance width="488"/>
+  <anchor x="447" y="546" name="A"/>
+  <anchor x="380" y="-50" name="B"/>
+  <outline>
+    <component base="sha_virama_va.half"/>
+    <component base="aamatra" xOffset="288"/>
+  </outline>
+</glyph>

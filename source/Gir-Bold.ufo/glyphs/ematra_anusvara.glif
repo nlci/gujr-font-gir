@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ematra_anusvara" format="2">
+  <advance width="10"/>
+  <outline>
+    <contour>
+      <point x="-193" y="660" type="line"/>
+      <point x="-239" y="703" type="line"/>
+      <point x="-282" y="660" type="line"/>
+      <point x="-239" y="618" type="line"/>
+    </contour>
+    <contour>
+      <point x="-510" y="709" type="curve"/>
+      <point x="-445" y="624" type="line"/>
+      <point x="-434" y="643"/>
+      <point x="-411" y="658"/>
+      <point x="-394" y="658" type="curve" smooth="yes"/>
+      <point x="-389" y="658"/>
+      <point x="-384" y="657"/>
+      <point x="-380" y="655" type="curve"/>
+      <point x="-249" y="521" type="line"/>
+      <point x="-205" y="544" type="line"/>
+      <point x="-362" y="708" type="line" smooth="yes"/>
+      <point x="-383" y="729"/>
+      <point x="-409" y="739"/>
+      <point x="-442" y="739" type="curve" smooth="yes"/>
+      <point x="-475" y="739"/>
+      <point x="-497" y="728"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vattu_umatra" format="2">
+  <advance width="10"/>
+  <outline>
+    <contour>
+      <point x="-198" y="-151" type="curve" smooth="yes"/>
+      <point x="-235" y="-151"/>
+      <point x="-270" y="-191"/>
+      <point x="-270" y="-226" type="curve" smooth="yes"/>
+      <point x="-270" y="-249"/>
+      <point x="-260" y="-269"/>
+      <point x="-239" y="-288" type="curve"/>
+      <point x="-302" y="-288"/>
+      <point x="-357" y="-245"/>
+      <point x="-376" y="-202" type="curve"/>
+      <point x="-383" y="-207"/>
+      <point x="-389" y="-210"/>
+      <point x="-393" y="-213" type="curve"/>
+      <point x="-372" y="-279"/>
+      <point x="-323" y="-330"/>
+      <point x="-256" y="-330" type="curve" smooth="yes"/>
+      <point x="-194" y="-330"/>
+      <point x="-139" y="-293"/>
+      <point x="-139" y="-220" type="curve" smooth="yes"/>
+      <point x="-139" y="-161"/>
+      <point x="-181" y="-151"/>
+    </contour>
+    <contour>
+      <point x="-242" y="-237" type="curve" smooth="yes"/>
+      <point x="-242" y="-211"/>
+      <point x="-212" y="-192"/>
+      <point x="-190" y="-192" type="curve" smooth="yes"/>
+      <point x="-171" y="-192"/>
+      <point x="-162" y="-202"/>
+      <point x="-162" y="-222" type="curve" smooth="yes"/>
+      <point x="-162" y="-268"/>
+      <point x="-170" y="-291"/>
+      <point x="-186" y="-291" type="curve" smooth="yes"/>
+      <point x="-198" y="-291"/>
+      <point x="-242" y="-264"/>
+    </contour>
+    <contour>
+      <point x="-198" y="-34" type="line"/>
+      <point x="-351" y="-154" type="line"/>
+      <point x="-316" y="-200" type="line"/>
+      <point x="-191" y="-102" type="line"/>
+      <point x="-93" y="-204" type="line"/>
+      <point x="-67" y="-178" type="line"/>
+    </contour>
+  </outline>
+</glyph>

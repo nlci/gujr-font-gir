@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta_virama_ta.half" format="2">
+  <advance width="386"/>
+  <anchor x="345" y="546" name="A"/>
+  <anchor x="278" y="-50" name="B"/>
+  <outline>
+    <contour>
+      <point x="163" y="221" type="curve" smooth="yes"/>
+      <point x="163" y="144"/>
+      <point x="196" y="92"/>
+      <point x="253" y="5" type="curve"/>
+      <point x="272" y="21" type="line"/>
+      <point x="224" y="109"/>
+      <point x="201" y="152"/>
+      <point x="201" y="205" type="curve" smooth="yes"/>
+      <point x="201" y="267"/>
+      <point x="242" y="298"/>
+      <point x="256" y="308" type="curve"/>
+      <point x="456" y="308" type="line"/>
+      <point x="468" y="362" type="line"/>
+      <point x="77" y="362" type="line"/>
+      <point x="104" y="308" type="line"/>
+      <point x="184" y="308" type="line"/>
+      <point x="174" y="291"/>
+      <point x="163" y="274"/>
+    </contour>
+  </outline>
+</glyph>

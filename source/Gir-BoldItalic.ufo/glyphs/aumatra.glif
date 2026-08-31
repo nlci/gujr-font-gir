@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aumatra" format="2">
+  <advance width="210"/>
+  <unicode hex="0ACC"/>
+  <outline>
+    <component base="aamatra"/>
+    <component base="aimatra" xOffset="200"/>
+  </outline>
+</glyph>

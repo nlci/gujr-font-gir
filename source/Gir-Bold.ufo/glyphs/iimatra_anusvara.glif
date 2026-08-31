@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iimatra_anusvara" format="2">
+  <advance width="254"/>
+  <outline>
+    <contour>
+      <point x="147" y="730" type="line"/>
+      <point x="102" y="775" type="line"/>
+      <point x="59" y="730" type="line"/>
+      <point x="102" y="686" type="line"/>
+    </contour>
+    <contour>
+      <point x="-100" y="751" type="curve" smooth="yes"/>
+      <point x="-167" y="751"/>
+      <point x="-253" y="727"/>
+      <point x="-253" y="672" type="curve" smooth="yes"/>
+      <point x="-253" y="585" type="line"/>
+      <point x="-184" y="527" type="line"/>
+      <point x="-185" y="638" type="line"/>
+      <point x="-181" y="671"/>
+      <point x="-167" y="679"/>
+      <point x="-98" y="679" type="curve" smooth="yes"/>
+      <point x="-20" y="679"/>
+      <point x="6" y="649"/>
+      <point x="6" y="621" type="curve" smooth="yes"/>
+      <point x="6" y="85" type="line" smooth="yes"/>
+      <point x="6" y="4"/>
+      <point x="79" y="-1"/>
+      <point x="97" y="-1" type="curve" smooth="yes"/>
+      <point x="140" y="-1"/>
+      <point x="162" y="16"/>
+      <point x="173" y="31" type="curve"/>
+      <point x="109" y="100" type="line"/>
+      <point x="102" y="74"/>
+      <point x="93" y="57"/>
+      <point x="82" y="50" type="curve"/>
+      <point x="79" y="52"/>
+      <point x="77" y="54"/>
+      <point x="75" y="56" type="curve"/>
+      <point x="75" y="575" type="line" smooth="yes"/>
+      <point x="75" y="577"/>
+      <point x="76" y="586"/>
+      <point x="77" y="601" type="curve" smooth="yes"/>
+      <point x="77" y="744"/>
+      <point x="-52" y="751"/>
+    </contour>
+  </outline>
+</glyph>

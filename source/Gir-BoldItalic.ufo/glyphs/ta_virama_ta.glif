@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta_virama_ta" format="2">
+  <advance width="586"/>
+  <anchor x="545" y="546" name="A"/>
+  <anchor x="478" y="-50" name="B"/>
+  <outline>
+    <component base="ta_virama_ta.half"/>
+    <component base="aamatra" xOffset="386"/>
+  </outline>
+</glyph>

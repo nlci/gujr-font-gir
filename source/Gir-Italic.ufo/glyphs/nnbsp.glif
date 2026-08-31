@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nnbsp" format="2">
+  <advance width="200"/>
+  <unicode hex="202F"/>
+  <anchor x="93" y="0" name="H"/>
+  <anchor x="194" y="567" name="U"/>
+  <outline/>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

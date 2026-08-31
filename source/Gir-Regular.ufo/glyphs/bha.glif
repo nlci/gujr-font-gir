@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bha" format="2">
+  <advance width="587"/>
+  <unicode hex="0AAD"/>
+  <anchor x="430" y="546" name="A"/>
+  <anchor x="490" y="-50" name="B"/>
+  <outline>
+    <component base="bha.half"/>
+    <component base="aamatra" xOffset="387"/>
+  </outline>
+</glyph>

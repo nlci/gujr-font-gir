@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sha" format="2">
+  <advance width="588"/>
+  <unicode hex="0AB6"/>
+  <anchor x="547" y="546" name="A"/>
+  <anchor x="480" y="-50" name="B"/>
+  <outline>
+    <component base="sha.half"/>
+    <component base="aamatra" xOffset="388"/>
+  </outline>
+</glyph>

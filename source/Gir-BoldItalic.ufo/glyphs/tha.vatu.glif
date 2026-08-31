@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tha.vatu" format="2">
+  <advance width="506"/>
+  <anchor x="465" y="546" name="A"/>
+  <anchor x="398" y="-50" name="B"/>
+  <outline>
+    <component base="tha.half.vatu"/>
+    <component base="aamatra" xOffset="306"/>
+  </outline>
+</glyph>

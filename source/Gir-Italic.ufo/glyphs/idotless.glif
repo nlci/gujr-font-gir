@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idotless" format="2">
+  <advance width="206"/>
+  <unicode hex="0131"/>
+  <anchor x="73" y="0" name="H"/>
+  <anchor x="143" y="416" name="U"/>
+  <outline>
+    <contour>
+      <point x="203" y="22" type="curve"/>
+      <point x="203" y="51" type="line"/>
+      <point x="193" y="48"/>
+      <point x="158" y="33"/>
+      <point x="140" y="33" type="curve" smooth="yes"/>
+      <point x="119" y="33"/>
+      <point x="106" y="51"/>
+      <point x="110" y="73" type="curve" smooth="yes"/>
+      <point x="168" y="382" type="line"/>
+      <point x="136" y="382" type="line"/>
+      <point x="20" y="358" type="line"/>
+      <point x="20" y="336" type="line"/>
+      <point x="86" y="329" type="line"/>
+      <point x="37" y="66" type="line" smooth="yes"/>
+      <point x="30" y="31"/>
+      <point x="37" y="-9"/>
+      <point x="90" y="-9" type="curve" smooth="yes"/>
+      <point x="133" y="-9"/>
+      <point x="192" y="17"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

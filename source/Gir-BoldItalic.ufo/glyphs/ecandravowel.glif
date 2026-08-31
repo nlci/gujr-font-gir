@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecandravowel" format="2">
+  <advance width="724"/>
+  <unicode hex="0A8D"/>
+  <anchor x="683" y="546" name="A"/>
+  <anchor x="616" y="-50" name="B"/>
+  <outline>
+    <component base="avowel"/>
+    <component base="ecandramatra" xOffset="714"/>
+  </outline>
+</glyph>

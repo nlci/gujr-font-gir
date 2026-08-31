@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.latn" format="2">
+  <advance width="431"/>
+  <anchor x="274" y="567" name="U"/>
+  <outline>
+    <contour>
+      <point x="404" y="210" type="line"/>
+      <point x="334" y="210" type="line"/>
+      <point x="396" y="532" type="line"/>
+      <point x="338" y="532" type="line"/>
+      <point x="26" y="208" type="line"/>
+      <point x="16" y="156" type="line"/>
+      <point x="250" y="156" type="line"/>
+      <point x="215" y="-20" type="line"/>
+      <point x="288" y="-20" type="line"/>
+      <point x="322" y="156" type="line"/>
+      <point x="394" y="156" type="line"/>
+    </contour>
+    <contour>
+      <point x="308" y="446" type="line"/>
+      <point x="261" y="210" type="line"/>
+      <point x="71" y="210" type="line"/>
+      <point x="80" y="187" type="line"/>
+      <point x="324" y="437" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

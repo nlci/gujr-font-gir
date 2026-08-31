@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kha" format="2">
+  <advance width="595"/>
+  <unicode hex="0A96"/>
+  <anchor x="438" y="546" name="A"/>
+  <anchor x="498" y="-50" name="B"/>
+  <outline>
+    <component base="kha.half"/>
+    <component base="aamatra" xOffset="395"/>
+  </outline>
+</glyph>

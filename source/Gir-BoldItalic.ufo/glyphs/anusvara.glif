@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="anusvara" format="2">
+  <unicode hex="0A82"/>
+  <anchor x="-32" y="546" name="_A"/>
+  <outline>
+    <contour>
+      <point x="-22" y="645" type="line"/>
+      <point x="-85" y="591" type="line"/>
+      <point x="-43" y="535" type="line"/>
+      <point x="21" y="589" type="line"/>
+    </contour>
+  </outline>
+</glyph>

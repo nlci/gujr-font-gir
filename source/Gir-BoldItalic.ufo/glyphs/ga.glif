@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ga" format="2">
+  <advance width="580"/>
+  <unicode hex="0A97"/>
+  <anchor x="539" y="546" name="A"/>
+  <anchor x="472" y="-50" name="B"/>
+  <outline>
+    <component base="ga.half"/>
+    <component base="aamatra" xOffset="380"/>
+  </outline>
+</glyph>
